@@ -1,0 +1,402 @@
+$(function () {
+    'use strict';
+    swiperActivation();
+
+    function swiperActivation($scope) {
+        var swiper = new Swiper(".swiper-container-h", {
+            direction: "horizontal",
+            effect: "slide",
+            autoplay: !0,
+            parallax: !0,
+            speed: 3e3,
+            rtl: !0,
+            loop: !0,
+            loopFillGroupWithBlank: !0,
+            disableOnInteraction: !1,
+            keyboard: {
+                enabled: !0,
+                onlyInViewport: !0
+            },
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: !1,
+                draggable: !0
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: !0
+            }
+        });
+
+        var swiper = new Swiper(".mySwiper01", {
+            slidesPerView: "auto",
+            spaceBetween: 100,
+            slidesPerView: 2,
+            autoplay: !0,
+            speed: 1600,
+            loop: !0,
+            center: !0,
+            centeredSlides: !0,
+            roundLengths: !0,
+            loopAdditionalSlides: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            loop: !1,
+            spaceBetween: 0,
+            slidesPerView: 4,
+            freeMode: !0,
+            autoplay: {
+                delay: 900
+            },
+            speed: 1200,
+            watchSlidesProgress: !0
+        });
+
+
+        var swiper = new Swiper(".swiper-container_Top", {
+            slidesPerView: "auto",
+            spaceBetween: 10,
+            direction: "vertical",
+            slidesPerView: 2,
+            autoplay: !0,
+            speed: 1400,
+            loop: !0,
+            centeredSlides: !0,
+            roundLengths: !0,
+            loopAdditionalSlides: 40,
+            navigation: !1
+        });
+
+        var swiper = new Swiper(".swiper-container_Bottom", {
+            slidesPerView: "auto",
+            spaceBetween: 10,
+            direction: "vertical",
+            slidesPerView: 2,
+            autoplay: !0,
+            speed: 1300,
+            loop: !0,
+            centeredSlides: !0,
+            roundLengths: !0,
+            loopAdditionalSlides: 40,
+            navigation: !1
+        });
+    }
+    $(function () {
+        let SwiperTop = new Swiper('.swiper--top', {
+            spaceBetween: 20,
+            centeredSlides: true,
+            speed: 6000,
+            autoplay: {
+                delay: 1,
+            },
+            loop: true,
+            loopedSlides: 4,
+            slidesPerView: 'auto',
+            allowTouchMove: false,
+            disableOnInteraction: true
+        });
+        let SwiperBottom = new Swiper('.swiper--bottom', {
+            spaceBetween: 20,
+            centeredSlides: true,
+            speed: 6000,
+            autoplay: {
+                delay: 1,
+                reverseDirection: true
+            },
+            loop: true,
+            loopedSlides: 4,
+            slidesPerView: 'auto',
+            allowTouchMove: false,
+            disableOnInteraction: true
+        });
+
+    });
+
+    $(".single-item-carousel").length && $(".single-item-carousel").owlCarousel({
+        loop: !0,
+        margin: 50,
+        nav: !0,
+        smartSpeed: 500,
+        autoplay: 4e3,
+        navText: ['<span class="icon-arrow-left2"></span>', '<span class="icon-arrow-right2"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            800: {
+                items: 1
+            },
+            1024: {
+                items: 1
+            }
+        }
+    });
+
+    $(".testimonial-carousel").length && $(".testimonial-carousel").owlCarousel({
+        loop: !0,
+        margin: 30,
+        nav: !0,
+        smartSpeed: 500,
+        autoplay: 4e3,
+        navText: ['<span class="icon-arrow-left2"></span>', '<span class="icon-arrow-right2"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            800: {
+                items: 1
+            },
+            1024: {
+                items: 1
+            }
+        }
+    });
+
+    $(".owlbring01").length && $(".owlbring01").owlCarousel({
+        loop: !0,
+        margin: 30,
+        nav: !1,
+        smartSpeed: 500,
+        dots: !0,
+        autoplay: 4e3,
+        navText: ['<span class="icon-arrow-left2"></span>', '<span class="icon-arrow-right2"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            800: {
+                items: 1
+            },
+            1024: {
+                items: 1
+            }
+        }
+    });
+
+    $(".three-item-carousel").length && $(".three-item-carousel").owlCarousel({
+        loop: !0,
+        margin: 20,
+        nav: !0,
+        smartSpeed: 500,
+        autoplay: 4e3,
+        navText: ['<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            800: {
+                items: 3
+            },
+            1024: {
+                items: 4
+            }
+        }
+    });
+
+    $(".testimonial-item").length && $(".testimonial-item").owlCarousel({
+        loop: !0,
+        margin: 25,
+        smartSpeed: 500,
+        autoplay: 4e3,
+        nav: !1,
+        dots: !1,
+        navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            800: {
+                items: 2
+            },
+            1024: {
+                items: 4
+            },
+            1100: {
+                items: 5
+            }
+        }
+    });
+
+    let SwiperTop = new Swiper(".swiper--top", {
+        spaceBetween: 0,
+        centeredSlides: !0,
+        speed: 6e3,
+        autoplay: {
+            delay: 1
+        },
+        loop: !0,
+        loopedSlides: 4,
+        slidesPerView: "auto",
+        allowTouchMove: !0,
+        disableOnInteraction: !0
+    });
+
+    let spekaer = new Swiper(".swiper--speaker", {
+        spaceBetween: 20,
+        slidesPerView: 4,
+        centeredSlides: !1,
+        roundLengths: !0,
+        loop: !0,
+        autoplay: !0,
+        loopAdditionalSlides: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: "auto",
+                slidesPerView: 1,
+                initialSlide: 2
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 4
+            },
+            1280: {
+                slidesPerView: 5
+            },
+            1440: {
+                slidesPerView: 5
+            }
+        }
+    });
+
+    var swipertop = new Swiper(".mediaswiper1", {
+        spaceBetween: 15,
+        slidesPerView: 3,
+        centeredSlides: !1,
+        roundLengths: !0,
+        loop: !0,
+        autoplay: !0,
+        loopAdditionalSlides: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: "auto",
+                slidesPerView: 1,
+                initialSlide: 2
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 2
+            },
+            1280: {
+                slidesPerView: 3
+            },
+            1440: {
+                slidesPerView: 3
+            }
+        }
+    });
+
+    var swiperpress = new Swiper(".newswipersection", {
+        spaceBetween: 15,
+        slidesPerView: 4,
+        centeredSlides: !1,
+        roundLengths: !0,
+        loop: !0,
+        autoplay: !0,
+        loopAdditionalSlides: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: "auto",
+                slidesPerView: 1,
+                initialSlide: 2
+            },
+            768: {
+                slidesPerView: 1
+            },
+            1024: {
+                slidesPerView: 3
+            },
+            1280: {
+                slidesPerView: 4
+            },
+            1440: {
+                slidesPerView: 4
+            }
+        }
+    });
+
+});
+
+$(".utubetestimonial").length && $(".utubetestimonial").owlCarousel({
+    loop: !0,
+    margin: 15,
+    dots: !1,
+    nav: !0,
+    smartSpeed: 1e3,
+    autoplay: !0,
+    mouseDrag: !0,
+    navText: ['<div class="arrow"><span></span><span></span><span></span></div>', '<div class="arrow right-owl"><span></span><span></span><span></span></div>', ],
+    responsive: {
+        0: {
+            items: 1
+        },
+        480: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        800: {
+            items: 2
+        },
+        1024: {
+            items: 3
+        }
+    }
+});
+
+// end

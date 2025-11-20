@@ -1,0 +1,211 @@
+$(".whatsnew").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#whatsnew").offset().top - 70
+    },
+        'slow');
+});
+
+$('.devspeaker').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    nav: false,
+    dots: true,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false,
+            dots: false
+        },
+        600: {
+            items: 1,
+            nav: false,
+            dots: false
+        },
+        1000: {
+            items: 1,
+            nav: false,
+            dots: false,
+            loop: true,
+            autoplay: true,
+            margin: 20
+        }
+    }
+});
+
+$('.MediaPartnerCarousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    nav: false,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true,
+            dots: false
+        },
+        600: {
+            items: 2,
+            nav: true,
+            dots: false
+        },
+        1000: {
+            items: 4,
+            nav: false,
+            dots: true,
+            margin: 20,
+            loop: true,
+        }
+    }
+});
+
+$('.MediaPartnerCarousel2').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    nav: false,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 2,
+            nav: true,
+            dots: false,
+            loop: false,
+        },
+        600: {
+            items: 3,
+            nav: true,
+            dots: false,
+            loop: false,
+        },
+        1000: {
+            items: 6,
+            nav: false,
+            dots: true,
+            margin: 10,
+            loop: false,
+        }
+    }
+});
+$('.exhibitorowl').owlCarousel({
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    nav: false,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            dots: false
+        },
+        600: {
+            items: 1,
+            dots: false
+        },
+        1000: {
+            items: 1,
+            dots: true,
+            margin: 20
+        }
+    }
+});
+
+//$(document).ready(function () {
+//    $(".ShorDescription").click(function () {
+//        $(this).toggleClass('active');
+//        //$(".ShorDescription").toggleClass("active");
+//    });
+//});
+
+
+$('.tooltips').append("<span class='discriptxt'></span>");
+$('.tooltips:not([tooltip-position])').attr('tooltip-position', 'bottom');
+$(".tooltips").mouseenter(function () {
+    $(this).find('span').empty().append($(this).attr('tooltip'));
+});
+
+$(document).ready(function () {
+    $("#Backdropone").modal('show');
+
+
+});
+$('.fivelide').owlCarousel({
+    loop: false,
+    margin: 5,
+    autoplay: true,
+    nav: true,
+    dots: false,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 2,
+        },
+        600: {
+            items: 4,
+        },
+        1000: {
+            items: 4,
+        },
+        1440: {
+            items: 6,
+        }
+    }
+});
+$(".agendaRight .tab-pane:first-child").addClass("active");
+$(".AgendaScrollButtons li:first-child a").addClass("active");
+$('.banneradslide').owlCarousel({
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    nav: false,
+    dots: false,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+        1440: {
+            items: 1,
+        }
+    }
+});
+
+$('.CTO-CenterSlider').owlCarousel({
+    center: true,
+    items: 3,
+    loop: true,
+    autoplay: true,
+    margin: 20,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        1000: {
+            items: 3,
+        },
+        1440: {
+            items: 3,
+        }
+    }
+});

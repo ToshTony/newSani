@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /registration-and-vip
+sitemap: https://www.gitex.com/GITEXGlobal.xml

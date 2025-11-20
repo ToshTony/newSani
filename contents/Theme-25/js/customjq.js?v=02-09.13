@@ -1,0 +1,321 @@
+$(function () {
+    'use strict';
+    function slideMenu() {
+        var activeState = $("#menu-container .menu-list").hasClass("active");
+        $("#menu-container .menu-list").animate({
+            right: activeState ? "0%" : "-100%"
+        }, 400);
+    }
+    $("#menu-wrapper").click(function (event) {
+        event.stopPropagation();
+        $("#hamburger-menu").toggleClass("open");
+        $("#menu-container .menu-list").toggleClass("active");
+        slideMenu();
+        $("body").toggleClass("overflow-hidden");
+    });
+    $(".menu-list").find(".accordion-toggle").click(function () {
+        $(this).next().toggleClass("open").slideToggle("fast");
+        $(this).toggleClass("active-tab").find(".menu-link").toggleClass("active");
+
+        $(".menu-list .accordion-content").not($(this).next()).slideUp("fast")
+            .removeClass("open");
+        $(".menu-list .accordion-toggle").not($(this)).removeClass("active-tab")
+            .find(".menu-link").removeClass("active");
+    });
+    $(document).click(function (event) {
+        if (!$(event.target).closest("#menu-container, #menu-wrapper").length) {
+            if ($("#menu-container .menu-list").hasClass("active")) {
+                $("#hamburger-menu").removeClass("open");
+                $("#menu-container .menu-list").removeClass("active");
+                slideMenu();
+                $("body").removeClass("overflow-hidden");
+            }
+        }
+    });
+    $("#leftside-navigation .parent > a").click(function (e) {
+        e.preventDefault();
+        var toClose = $("#leftside-navigation ul").not($(this).parents("ul"));
+        toClose.slideUp();
+        toClose.parent().removeClass("open");
+        if (!$(this).children().eq(1).parent().next().is(":visible")) {
+            var toOpen = $(this).children().eq(1).parent().next()
+            toOpen.slideDown();
+            toOpen.parent().not(".open").addClass("open");
+        }
+        e.stopPropagation();
+    });
+});
+
+let odometerElements = document.querySelectorAll(".odometer");
+let observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            let odometer = entry.target;
+            let count = odometer.getAttribute("data-count");
+            odometer.innerHTML = "0";
+            setTimeout(() => {
+                odometer.innerHTML = count;
+            }, 200);
+        }
+    });
+}, {
+    threshold: 0.5
+});
+odometerElements.forEach((el) => observer.observe(el));
+
+document.addEventListener("DOMContentLoaded", (function () {
+    for (var e = document.querySelectorAll(".view-all-logos"), o = 0; o < e.length; o++) e[o].addEventListener("click", (function () {
+        var e = this.closest("section");
+        if (e)
+            for (var o = e.querySelectorAll(".hidden-logo"), t = 0; t < o.length; t++) o[t].classList.remove("hidden-logo");
+        this.style.display = "none"
+    }))
+}));
+
+//const slides = Array.from(document.querySelectorAll('.slidedriven0'));
+//let total = slides.length;
+//let current = 2; // starting index for center
+//function updateVisible() {
+//    slides.forEach(s => s.className = 'slidedriven0'); // reset all
+
+//    let indexes = [
+//        (current - 2 + total) % total,
+//        (current - 1 + total) % total,
+//        current,
+//        (current + 1) % total,
+//        (current + 2) % total
+//    ];
+
+//    slides[indexes[0]].classList.add('leftbox2');
+//    slides[indexes[1]].classList.add('leftbox1');
+//    slides[indexes[2]].classList.add('activeAI');
+//    slides[indexes[3]].classList.add('rightbox1');
+//    slides[indexes[4]].classList.add('rightbox2');
+//}
+
+//function moveLeft() {
+//    current = (current - 1 + total) % total;
+//    updateVisible();
+//    resetAuto();
+//}
+
+//function moveRight() {
+//    current = (current + 1) % total;
+//    updateVisible();
+//    resetAuto();
+//}
+//let interval;
+
+//function startAuto() {
+//    interval = setInterval(moveRight, 3000);
+//}
+
+//function resetAuto() {
+//    clearInterval(interval);
+//    startAuto();
+//}
+//updateVisible();
+//startAuto();
+
+//const dotsContainer = document.querySelector('.navdots');
+//// Create dots
+//slides.forEach((_, index) => {
+//    const dot = document.createElement('span');
+//    dot.classList.add('dot');
+//    dot.addEventListener('click', () => {
+//        current = index;
+//        updateVisible();
+//        resetAuto();
+//    });
+//    dotsContainer.appendChild(dot);
+//});
+//updateDots();
+
+//function updateDots() {
+//    const dots = document.querySelectorAll('.dot');
+//    dots.forEach((dot, index) => {
+//        dot.classList.toggle('active-dot', index === current);
+//    });
+//}
+
+//function updateVisible() {
+//    slides.forEach(s => s.className = 'slidedriven0');
+
+//    let indexes = [
+//        (current - 2 + total) % total,
+//        (current - 1 + total) % total,
+//        current,
+//        (current + 1) % total,
+//        (current + 2) % total
+//    ];
+
+//    slides[indexes[0]].classList.add('leftbox2');
+//    slides[indexes[1]].classList.add('leftbox1');
+//    slides[indexes[2]].classList.add('activeAI');
+//    slides[indexes[3]].classList.add('rightbox1');
+//    slides[indexes[4]].classList.add('rightbox2');
+//    updateDots(); // update dot status
+//}
+
+const slides = Array.from(document.querySelectorAll('.slidedriven0'));
+let total = slides.length;
+let current = 2; // starting index for center
+
+function updateVisible() {
+    slides.forEach(s => s.className = 'slidedriven0'); // reset all
+
+    let indexes = [
+        (current - 2 + total) % total,
+        (current - 1 + total) % total,
+        current,
+        (current + 1) % total,
+        (current + 2) % total
+    ];
+
+    slides[indexes[0]].classList.add('leftbox2');
+    slides[indexes[1]].classList.add('leftbox1');
+    slides[indexes[2]].classList.add('activeAI');
+    slides[indexes[3]].classList.add('rightbox1');
+    slides[indexes[4]].classList.add('rightbox2');
+    updateDots(); // update dot status
+}
+
+function moveLeft() {
+    current = (current - 1 + total) % total;
+    updateVisible();
+}
+
+function moveRight() {
+    current = (current + 1) % total;
+    updateVisible();
+}
+
+// Dots Navigation
+const dotsContainer = document.querySelector('.navdots');
+slides.forEach((_, index) => {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    dot.addEventListener('click', () => {
+        current = index;
+        updateVisible();
+    });
+    dotsContainer.appendChild(dot);
+});
+
+function updateDots() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active-dot', index === current);
+    });
+}
+
+updateVisible();
+
+
+$(function () {
+    var h = 30,
+        i = 1,
+        $in = $('.vertmarqueeinner'),
+        $it = $('.marquee-item'),
+        l = $it.length;
+    $in.prepend($it.last().clone()).append($it.first().clone());
+    $it = $('.marquee-item');
+
+    function go() {
+        $in.css({
+            'transition': 'transform .5s',
+            'transform': 'translateY(-' + (i * h) + 'px)'
+        });
+        $it.removeClass('active').eq(i).addClass('active');
+    }
+    $in.on('transitionend', function () {
+        if (i === 0) {
+            i = l;
+            $in.css({
+                'transition': 'none',
+                'transform': 'translateY(-' + (i * h) + 'px)'
+            });
+        }
+        if (i === l + 1) {
+            i = 1;
+            $in.css({
+                'transition': 'none',
+                'transform': 'translateY(-' + (i * h) + 'px)'
+            });
+        }
+    });
+    setInterval(function () {
+        i++;
+        go();
+    }, 1500);
+    go();
+});
+
+$(".testimonialItem0").length && $(".testimonialItem0").owlCarousel({
+    loop: !0,
+    margin: 25,
+    smartSpeed: 500,
+    autoplay: 4e3,
+    nav: !1,
+    dots: !1,
+    navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+    responsive: {
+        0: {
+            items: 1
+        },
+        480: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        800: {
+            items: 2
+        },
+        1024: {
+            items: 3
+        },
+        1199: {
+            items: 4
+        }
+    }
+});
+
+if ($('.showspeakersOwl').length) {
+    $('.showspeakersOwl').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: false,
+        dots: true,
+        smartSpeed: 500,
+        autoplay: 4000,
+        autoplay: false,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        responsive: {
+            0: {
+                items: 2
+            },
+            480: {
+                items: 2
+            },
+            600: {
+                items: 2
+            },
+            800: {
+                items: 3
+            },
+            1024: {
+                items: 3
+            },
+            1199: {
+                items: 4
+            }
+        }
+    });
+}
+
+
+
+
+// end

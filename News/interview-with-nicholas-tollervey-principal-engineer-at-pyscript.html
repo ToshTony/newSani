@@ -1,0 +1,1382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate" href="../ai.html" hreflang="x-default" /><link rel="alternate" href="../ai.html" hreflang="en" /><link rel="icon" sizes="any" href="../favicon.ico" /><link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png" /><link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" /><link rel="icon" type="image/png" sizes="192x192" href="../favicon-192.png" /><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" /><title>
+	Interview with Nicholas Tollervey, Principal Engineer at PyScript
+</title><link rel='canonical' href='interview-with-nicholas-tollervey-principal-engineer-at-pyscript.html' /><meta name='title' content='GITEX GLOBAL | 7–11 December 2026'>
+<!-- Open Graph / Facebook --><meta property='og:type' content='website'>
+<meta property='og:site_name' content='GITEX GLOBAL' />
+<meta property='og:image' content='https://www.gitex.com/images/GitexGlobalDubaiNew.png'/>
+<meta property='og:image:alt' content='GITEX GLOBAL 2026, Dubai World Trade Centre' />
+<meta property='og:url' content='https://www.gitex.com/'>
+<meta property='og:title' content='GITEX GLOBAL | 7–11 December 2026'>
+<meta property='og:description' content='GITEX GLOBAL 2026 in Dubai — the world’s largest tech & AI show.'>
+<meta name='twitter:site' content='@gitexglobal' />
+<meta property='twitter:card' content='summary_large_image'>
+<meta property='twitter:url' content='https://www.gitex.com/'>
+<meta property='twitter:title' content='GITEX GLOBAL | 7–11 December 2026'>
+<meta property='twitter:description' content='GITEX GLOBAL 2026 in Dubai — the world’s largest tech & AI show.'>
+<meta property='twitter:image' content='https://www.gitex.com/images/GitexGlobalDubaiNew.png'/>
+<meta name='twitter:image:alt' content='GITEX GLOBAL 2026, Dubai World Trade Centre' />
+<meta name='author' content='GITEX GLOBAL | 7–11 December 2026'>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /><link rel="stylesheet" href="../contents/Theme-25/css/plugin2025.css" /><link rel="stylesheet" href="../contents/Theme-25/css/styleG025.css%3Fv=11-05.10.css" /><link rel="stylesheet" href="../contents/Theme-25/css/responsiveG025.css%3Fv=11-01.12.css" />
+       <meta property="og:title" content="Interview with Nicholas Tollervey, Principal Engineer at PyScript" /><meta name="og:type" content="post" /><meta property="og:image" content="https://backoffice.showmanonline.com/uploads/cdn-gitex/Posts/news/nicholasengineer.png?v=638992166323668463" /><meta name="og:site_name" /><meta name="og:image:width" content="800" /><meta name="og:image:height" content="600" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image:alt" content="Interview with Nicholas Tollervey, Principal Engineer at PyScript" /><meta name="twitter:image" content="https://backoffice.showmanonline.com/uploads/cdn-gitex/Posts/news/nicholasengineer.png?v=638992166323668463" /><meta name="twitter:title" content="Interview with Nicholas Tollervey, Principal Engineer at PyScript" /><meta name="og:description" content="Interview with Nicholas Tollervey, Principal Engineer at PyScript" />
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript" src='https://platform-api.sharethis.com/js/sharethis.js#property=6033a5f2a0614500138d94b0&product=inline-share-buttons' async='async'></script>
+
+    <style type="text/css">
+        .media_kit_box {
+            background-color: #eee;
+            padding: 20px;
+        }
+
+        .speader_innner {
+            background-color: #eee;
+            padding: 20px 30px 30px;
+        }
+
+        .media_kit_box ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 15px -10px;
+            flex-wrap: wrap;
+        }
+
+            .media_kit_box ul li {
+                width: 20%;
+                padding: 10px 0;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+        .logo_media {
+            max-width: 150px;
+        }
+
+        .download_icon {
+            background-color: #fff;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .media_kit h4 {
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        .speader_innner .post5 {
+            font-size: 14px;
+            line-height: 16px !important;
+        }
+
+        .speakerModal .modal-content {
+            border: #aaa8a787 solid 8px !important;
+            overflow: auto;
+            background: #fff;
+            border-radius: 5px;
+            overflow-x: hidden;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
+        .speakerModal .close {
+            float: right;
+            width: 11px !important;
+            font-weight: 500 !important;
+            line-height: 9px !important;
+            font-size: 40px;
+            background: #efefef;
+            opacity: .8;
+            z-index: 999;
+            padding: 0.5rem 1rem;
+            margin: 0;
+            right: 0;
+            border: 0;
+            height: 45px !important;
+            padding-right: 2.125rem !important;
+            position: absolute !important;
+            color: #1e2357 !important;
+            border-radius: 0 !important;
+            background-color: #efefef !important;
+            -webkit-border-radius: 0 !important;
+            -moz-border-radius: 0 !important;
+            -ms-border-radius: 0 !important;
+            -o-border-radius: 0 !important;
+        }
+
+        .speakerModal {
+            z-index: 999999 !important;
+        }
+
+        .clscountry {
+            color: #c5c1c1 !important;
+            font-weight: 400 !important;
+            font-size: 16px !important;
+        }
+
+        .speader_innner .owl-prev {
+            left: -33px !important;
+        }
+
+        .speader_innner .owl-next {
+            right: -33px !important;
+        }
+
+        .media_kit_box h5 a {
+            text-decoration: underline;
+            color: #df1e3b;
+            font-weight: 400;
+        }
+
+            .media_kit_box h5 a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+        .newsContent {
+            width: 100%;
+        }
+
+        .press_box figure {
+            height: 180px;
+        }
+
+
+        #template {
+            visibility: hidden;
+        }
+
+        .inner_header {
+            justify-content: space-between;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .inner_header .section-title {
+            margin: 0 !important;
+            width: auto !important;
+        }
+
+        .press-release-section {
+            padding: 50px 50px;
+        }
+
+            .press-release-section .owl-prev {
+                filter: none !important;
+                -webkit-filter: none !important;
+                left: -45px;
+            }
+
+            .press-release-section .owl-next {
+                right: -45px;
+            }
+
+        .view_button {
+            color: #000;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+            .view_button:hover {
+                color: #df1e3b;
+            }
+
+        .c_name {
+            background-color: #eee;
+            padding: 5px 10px;
+            color: #000;
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .gitex_media {
+            background-color: #f5f5f5;
+        }
+
+        .media_logo {
+            height: 70px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .press_box figure {
+            border-radius: 0px !important;
+        }
+
+        .media_logo img {
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        .gallery_box figure {
+            height: 200px;
+        }
+
+        .gallery_box figure {
+            margin: 0;
+            border-radius: 6px 6px 0 0;
+            background: top/cover no-repeat #dddbdb;
+            width: 100%;
+            -webkit-border-radius: 6px 6px 0 0;
+            -moz-border-radius: 6px 6px 0 0;
+            -ms-border-radius: 6px 6px 0 0;
+            -o-border-radius: 6px 6px 0 0;
+        }
+
+        .gallery_box {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .img_gallery_section .owl-dots {
+            display: none !important;
+        }
+
+        .owl-nav {
+            top: 40% !important;
+        }
+    </style>
+
+<!-- GITEX GLOBAL: Structured Data (Event + Organization + FAQ) -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "Organization",
+"@id": "https://www.gitex.com/#org",
+"name": "GITEX GLOBAL",
+"url": "https://www.gitex.com/",
+"logo": "https://www.gitex.com/apple-touch-icon.png",
+"sameAs": [
+"https://www.facebook.com/GitexGlobal/",
+"https://www.instagram.com/gitex_global/",
+"https://twitter.com/GITEX_GLOBAL",
+"https://www.youtube.com/user/GitexTechWeek",
+"https://www.linkedin.com/company/gitexglobal"
+]},
+{
+"@type": ["Event","ExhibitionEvent"],
+"@id": "https://www.gitex.com/#event",
+"name": "GITEX GLOBAL 2026",
+"description": "The world’s largest tech & AI show in Dubai.",
+"url": "https://www.gitex.com/",
+"startDate": "2026-12-7",
+"endDate": "2026-12-11",
+"eventStatus": "https://schema.org/EventScheduled",
+"eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+"location": {
+"@type": "Place",
+"name": "Dubai World Trade Centre",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Dubai",
+"addressCountry": "AE"
+}},
+"organizer": {
+"@id": "https://www.gitex.com/#org"
+}},
+{
+"@type": "FAQPage",
+"@id": "https://www.gitex.com/#faq",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is GITEX GLOBAL?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "GITEX GLOBAL is the world’s largest tech and startup show, covering AI, data,
+cybersecurity, semiconductors, and more."
+}},
+{
+"@type": "Question",
+"name": "When is GITEX GLOBAL 2026?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "7–11 December 2026 in Dubai, United Arab Emirates."
+}},
+{
+"@type": "Question",
+"name": "Where is the event held?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Dubai World Trade Centre, Dubai, United Arab Emirates."
+}},
+{
+"@type": "Question",
+"name": "How can I register or exhibit?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Use the Tickets page for registration. For exhibiting, see the Exhibitors page or
+contact our sales team via the website."
+}}]}]}
+</script>
+<script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+<meta name="facebook-domain-verification" content="lodz0ie7qfpmjk9ueb4o6hi1a0ykrk" />
+<!-- Google Tag Manager -->
+<script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TQGCN3F');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Twitter -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-57CKB5FSGW" type="4bb85b42c02f31e0d5fbffb6-text/javascript"></script>
+<script type="4bb85b42c02f31e0d5fbffb6-text/javascript"> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-57CKB5FSGW'); </script>
+   
+</head>
+
+<body><a href="../cdn-cgi/content%3Fid=_cjrwb03B2__HChIZVwDAnkoeJuuHrihx.bbcqFbkvc-1763619832.283481-1.0.1.1-z9YmiWGd0ADzVNGVSIrwtpdMZ2Mo4J6xMfS.mUhEve8.html" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQGCN3F"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="GitexMainConatiner">
+        <form method="post" action="interview-with-nicholas-tollervey-principal-engineer-at-pyscript.html" id="form1">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="38" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="5bz4Rd5/XI1NugUbLvqvFIlGZ32NLrAdmMCKJwj+u9g76GvJu6YhsnsFrgsbHKLWu2YzJu5m162ZnU8ICSkjmt3hDGnRJS5ZE4ulMgiS1VbN2TvQDWIKtxr/YILd/54TTh7jkYtosExHPQuEMxkuIqVRFf5OZ9V21EMCKOBproLePPn40gOAyP+wsMRPQwFHy579qjxTJW8YXwLazPoJ5yGtDfPJs/xItyKgNfHog4ZjzCduKam3su0wRttpE2lMauOtnDJg08njsZzYfBGpeQT0g8P08oC24lEeUag9MjUtb6Ho1UMn32lI4cQ9j8+7gNsddtdyYeqCyo+aXARwpd9BeB5Z3EdYELThQDtkDsMA2KwKWTY8nSrH4M4B5ULvef2eiI+frALI916etWrsqIgSQlIN6H6yaWE3jNzWHJXaqlyL5EBOGXZTTByqkh5hI7sPz1KWHKa8iXCCUYypXhIJlHhpROUnxZD80GZ1Ukl7V4RYmRv8" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="6NGYZZvyCs/v/rmrerbyMMrIf1CgskkcEclfiSznQT6kCpwznY/4/kQjZVhMaU8b/XHi55BqfJcw+zLGnfXtIqrib5q2s9uHtOkc+85GJvS7N3TrSywoufKvUXKEUGBLzRT5UJtQ+upr7veC/CraGMXlfG9MvmBUmOdE9exe4kS8lt6edcgPBJ80b8Vm36tjrkwHG4taAhOAHpN7mBs3Sd6wRmbMQtA9zYZmq3GRXMfEHYCsIKuPNb6QyQS7SuxZl0IRinC7A2vrJFMf9+PHxGfQz57miXGniKWDZVhP5+U+6CHnPVKoEwdY4rDCSXBQskmt8//FDfFtdFCztnnWaQO4WioYOtqoXZz9Zt65HIvSjF15l4bcDVb2sDE5ir12jXukU9z6wA+rgVmoIRhj6rIA7j8MfA4vpKpTp77eROrv3hJytq1ykdTk0Gj1mFRRwhn7F0bJWsj8rG/+QVBY4iqeIH6izgGftQ80f7NBbYspcw6nu6qh" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="l/RD+AjOheUCB2wkudBKEyQVpJxGHdDFTdf08u1FcW+MP63qe2ZDrHAbmkq059Nb1EkmIfXEqUddjW3vWEDYqcV5o8TkI/6fsH97D78EjlvvZRmQop+wjdFt/8HCMYGBJ4tiAGKOHNVO+13N54np+bQAWOS69efEpTMAxSPS+IxgXLslUwOAK1+PHu9k3j99zvJDy4KxvqTFSkPsY1tkNczsf3pTj7kuc/ScM0p83J5S4fvOc1rRTmbviaQc46WC8VSmwR/JR0hwwFV+1ik0zRjVbcFCkkEc20v1SFXYqlE4GMMZfZ6BlFVE9wK2DisqAwn5HQffDI9AOzl2o1H98x4dOt1O/LN3eKlfv5lO1WoCtFDoeXqM0BFSpqygOgiV/8uRKmdqXLvHRl/w9vh6sd7nWTvIuWVp9nDxsPYZ5S3f1Fu3f/OQa5F1P66BqGVxnX7NMWdX3quqiX9HsxFOOaujejr8VnffhR3BOnXXB80XbDIJEcll" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="ClOUEYq1vqaDroDH3F34VR1J45S1Gj0Du92F9c95z+bCe/ePPBgbFySovp9Gc4UL5ibwo+HNK4LFNM4ov56d4dju9yHcF72Leur0vb6alCZI0NaYxZ8qNmZU+7hHDcb7MYW6HogVS73ckH1Tr+kA9TDneNtBMA3tmWDzbd1VJh2rqmfwZboN2YSjRVHWI7cQH9K0/9ZYjW/PTZkwh0SQsmIcjTBiLyZuqk8BfaCI3nNLnZtmUiebn0L11TtvVdOyMaEGYk7ov2hG+FTWReZ/Hcg/Wb2W6mjwRvPlcUgfbuYIILUY6b1HVfCXbr2PYWMyU7UaPLobKFf3V0jCcLoCXeT3MCP1GCXCUBBfqTH2sUvktZoQ+ENDC21lvZ/2Y0ZdpacwYrmkAxJrBNySopAvg0B4TzBKyrZZMb9VHoA26udZCaZNChjWIyvNFMbKrGOkfwwCjbq7QTHEqimKB1vANynnI4ja2uST32EZCTqt+YGhYmdDzm/t" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="qozq4voQO1PWwgBrPW82aUJ7/ePSAcRTgQ4IWL7s2KaT27wRYExHIfs0HpmHHkvguSFWW1KiDv+r6Oq2jnD5nOXCb2XCV002u4g0hhzu669KwfIEILBkxhrXKSFhAZESPR10FJq4ysn+8By+aDLmBCdq3FsGy1CJkiy6njDiJlxHKmVepF5zyJ3fnQVlIcVE/9DjmcU0CemvsUTn1lHDcqms5LgH42Y9ephsbrSblN4gmyVFxJ4DKHO9Vjj+f1lld77zc3ALXUDT5y1TjnBZzW/8vZGsiU3BJ5QZy1bhEXFV5VOICiyF3C+3FDkzQFzsbml8IS8G+OGWfIJbJHFMCgUdAjELktCZ2hUFRBkRhnWjIf7o28DyyKrtJS6QQOD+0e3EdqMe3gJqumMQUZBOsK7vHjAdDV970boPSx6AXsuDqo77Y4H9OwDwsZ74zIflznopjTZfoVq7Fr7MwyC6pMk48DCO/iAaVI6B78rhpSnycd6sZWuP" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="xycgIxv8stqhI4LMRJ1GETqodsvTKv3G9sLacPMIhcgsT1PCZwI1hfkTbVBnIR0tcm/j8a40VBpmZpyVIhIgmqgsfk/FyEiuQCFRDnj4oTahKCq/AMdVBNmK4rWv/mimWYEH3spqUW/KelP6zTo+I0ODfXYrPebF42x3YLznWadYzO0lCONkiiEHQG0vZDocaXEQSOrjd7/UX7LgbANAMRz9jvn2QzB0uW0CSg4PadvG1o6eEPs9Cv5vvazme4h+i3EP3mQxDJRdOWRBqEEtMQ28vH4CZjwdW0ST9X1oW4iXsLEYYLorKJRL6p7nZTbw2fsj1D84lhCfkeZ1eiY7Qq3Ymm69xDN4hXPolH0JglgnKkLynuBRV0MS3vGB/0C9rELXGEcce38DNBSgUaTOz4dKTr3NK6szMaegi0Q6gE9qj9MCDmbaFBgTENcftCfuO4JXMGwT80briE0PFwZgCZ9E9JMmciVoyLXYUNKMLhdZ2ntQ49y5" />
+<input type="hidden" name="__VIEWSTATE6" id="__VIEWSTATE6" value="DUemv28zeMuUVcKEOpLPUPU3FyZotqc+QJuho/PXAdQt1LbwWwyhqCylF0v6DJbtBw8JjYkA+xvBIXNekJSxuQvxShOlasyeDvszYYOq6bfXkicWvyLYG3KOMV1MKxBERU8ZZc7EnhQaHlFR3s6v9cXqHRmL3xHYxQ6NInArWF90KU8IrLSkKX5klWA5R18J49o+z0G0BiLif9zFIg5j5UOEYlN882JS6Qi3cfn3UjGgjSCGcQOOdki64c4/IlTUJnpi6vT7o2DvrXn5N1Ckfg+dlJIcGPzhUAXhGDD+SMnO7599/ThP4JG5qldEw7FVQbWHWuzmiDAmGlTH4+uyEa9a6LJ36RQFlQn329cwfNA3N0J1pytcTNIjft4HidJ2niRovDtgYRj0RTnHx4TeFIOcOS71+FV5XukYMUIn9W/eAtOc5yiHKu6tai0ZgImeSAICoCKuqkEVyzflTTRK0jVTlQqpCGglH3pwGMxD9v8x8WCDiYqL" />
+<input type="hidden" name="__VIEWSTATE7" id="__VIEWSTATE7" value="j44M2uXYyKcrG8akCtYcfbUHMGx2MFemgi1mhkzTUV/gKab3wqHMUcqZUv9FhyJZNp23iDwMCB5CnR8eoAAIVXW5ibG9AIHFGTvCCw3yeJYC2KlOeBtl4IZWbLS0UbOVFCI81hs+2CUwQKNzUY2YBLDVFQr8hO9CBXentKwZpx8+yO3oynhF/8NJMVtaZ9QLkB3Ab8347ZnaqFUj1ER1kUTO2RWDnIp2xwmSvRZKcuJffJU2+fgnrXwibH87l2YjJIkiUFQpEkGf6YRIL13gntrEgicvYyyrbfpm2elBEBPrPFH9DzRN0niw8kBDFqMZpRusAYR8J97ud6qxCpy0EpLVIuJamz85dRsmHbRq6G+BG12pBP2zswir+iM4BqiEuudipOktWhpmbq4+1dt0n6UzFnlMbxlluK5Fo52+tAwfHAgfx7ZC2A/77qLU+B8eH8MZrSak2pFN9t/XeZv+IM6SB/rupp/2CdDj+8JHpT7rl1jZxtcC" />
+<input type="hidden" name="__VIEWSTATE8" id="__VIEWSTATE8" value="hYiHvEI60JndRMXwsGkWB26bO4DcV3xgmY0b775861lO+WyXdXU/10GlBCIz86Tv8bBaDFO8odI6lTzpR7i4aFB65L7STvlSWAvjqb2IrHExrO36ym2WEiYH53CTkP8KX7mHeMwZIV0ESNKLAUrZ4A4BAAZC/lhajMK1tYRKpFaxsPUOIE4CuaNskJyHSwP5t588mDzbESRCkHMpsGpNar7JTtiWb7nxVcy2sQOxR5EbmTPR0WzVqn4btgFvu86EbQRqUvp3P1r47tWsS2yu1306sGWRBh9mC88EIEZF+/Ku3y5nrEY0MTurtQSB5+JIdlFZJPEIbqXwIN4KT+ceoT4rv2CIr4y5YxTj9UaK6nOByBb+DAg9V+OnXCRPRIT3PC8lEMDGaZVvS/X+bBqozSMijmZeKcJ0/byC3T1jEBmTKdIYk8BStgOQA004+rMZUcvAIhctNhGzcY4H8InrNoGYgTvNpouCbnq3COdMcrZmTYiogIkE" />
+<input type="hidden" name="__VIEWSTATE9" id="__VIEWSTATE9" value="2QGA8X6UA37J/NGma760VSqzUeS8Wzl2TXVjMe8l5qFd7+e5kA3EdFjGDRiQZs4X2jer7WaTRY00m/Ptdtle5/K5s755jEh3S5cxBt8fJd6GGGm8vbmzhMLYWx27/OVz/wWmOhZwwuitVS0Dkc0fqFeMOibRPZbs9phndJ+UMDVVRKcjbAeL/+WwYK2jyVyc0cU/B1GjI8n/SQW9oni3Tu9F7cPc2qx2y12v3HgAVc/T2uTWLIdHROt9gVQnOUq98LjWFgBCYycSCgYE4vclpz9A+kJlu3ESRmxs3m2HF39aCPx8ATLLXai8AI2RPLjqC9xIKaXFpJ7kDYhvVTaVJC4G4kyQHsa15lhLuT+YNwDBpqft+153gf9xw+bmXrDJ+/6RwNMjPUO774HWvIInyGTzEItUIEx6Z2/1R+CDYFwDcOVCO5+cb5XJMh4N5amsONb/s3yiLazXXouhrpfJO/ReM4Y6EenNgyN18XsPh0QRZLfmYt4V" />
+<input type="hidden" name="__VIEWSTATE10" id="__VIEWSTATE10" value="SJeXMqK61qwVifYKmnY44x9MgvRye4DjNTEUQJTUAkpaWV/RhGqM8BSxD22lQFY7ZEMpCNCzcNq2jtZBLDpDx/FntmHXknxgVBiR995zLpyHwNMG5BPZQ2HmTUwiwk6TtcBv9FQruxpkIyqGzfuho4WiarzIe13z7dLY8CG1Vk/FWLo0lxdWZnTTE1eNtUl8aW+kjSk4tu7hnh/99a9snDU3Jk21ofFGFlRlnTvHd3Bekd42Ua+FVdVx1RmE8A16vZjaI/ydTGAZCgGQbeTNj46ar+E6FpCXgyUZLqO41NCoent5Peiyso6lkqxRu8g98k+4UkDKbP6MHNBOZ+rk92k9s2A9lzY/eYXLPmSFeu4FYq7u37N6MM+aThKnn6x2dkHle+xv88tFxxIysqh2oNnPLiE2gmi8ozy5gK2YpA/oN9L8BqwGAb2t1Xb78IYV27NjZ8nb/kIgYOQOTxra77feT7YCj20yGoYKUi6YXFdG/kU12VLz" />
+<input type="hidden" name="__VIEWSTATE11" id="__VIEWSTATE11" value="sFhE+2loyh2MRez5lkQsDVwcU7yWHf15UWKiPRlhSwWeZu+tAnphjtpoX7zKtgpfWZRJbntJUeZQZ3k1HYwb3ZYGw2j/XP+sDsRwctQiagY07hMBFZ2nWRZtPT/jp1lkqlhlRaWk5AxbzU7MJwYA4VUwEYThZlyFoBJ6Ng0iW9JhceRnAiWmU0Tib54A4GjxKFa8hkdGmqcNy92WsXRXZo8FbcKuQ91LFqbvz0Or6O0g5DqD8RJLpPXNYdemQKn6vOSKaPp7EsuRLJ+ZFtouzKzEryrZHZFp7QUOvXrPTEO3LB0OBRrjSKTf6oGgTuM3ISZJlP5GGQek/79MoYQMEUo5k5gQpFzMfqkHS2KWJl0t0QXKFAG5PapHLm6ePcy8W/04PSW1+VYIBT/IZfQBpGFKU+bLvWxz/MZKZpDl/THNT6H0z7+P6LCjfSGp92pMiacYuhDUT11Xu36H+xGYst0Jpc0wjwRxpmdxdieQDxuJ1pvIT1hX" />
+<input type="hidden" name="__VIEWSTATE12" id="__VIEWSTATE12" value="n4xPX1S62VM6AZTdTH+bkmkJng+4VuYzZ5++CuYRkz3NjQlAnTAb5hSW73KlIGcRcge4mgaPsSd0CxpexHhIFEwfk0Rr9ZyvIEmhDaGF88SksNuO8Q1K7VJ92IsLuELFqH+VCJoYdbp0LYT9M+mnE+AgXqj1s1gjdSCGw92GuLolhssYYW5oJWTO57UdMWGpOIGggMapGvLBJwdjyvlGM5YquuRbvJJe7sdARXsT2D3Johx7btKPzMad8YszdK4c3mGp6DvxsguNR74ILy5qQ4WMm1llB6x0SQ/NS2pFt9wpEdcGZAg/jGuVPyUh3OjamUWFjNXOxPcxDmgyQZOdMuqgLiyUjkm+YH1m7PCPlEZ+YXdAcwrN6ycSZal38f2WHNqMv3kNkxL4InluliMz77QP2ZilaONSWCoCSoOqywakBLfoHmMdP6O3UGeABnjG0QhVfwXzvzYsslhY1QJ2wcgYw13b7Gkhn8Pa2RQSORnzmpuTSmlV" />
+<input type="hidden" name="__VIEWSTATE13" id="__VIEWSTATE13" value="X1aTworx4STucJAW6sd4zQ6knWDUsHarnOjvIWPifleWWw4QsY1rVp8h2NNoRyuQ4elJwwxItjvoNLuqldbPVqcPQ3eLSIiuNqRPvSpf/SF3C1iVTGfvsMZ4v/PT6zlVrv6a3YolrdinUpnxTaDAzxPwETx4tBI8Q/D2oQ9xTIuZgf9Dgbz+mgb6XI6HSI4fcpHveXvUVZbjumgWkT2Sd0f/cwIzju1vwOZYn/eML/uBv5EAb3uM9LRw0ndU7hH+2U8rwoej5mjNA0AuLXuxRBBNJdzaoqL/u/NoB85uXVo3sD/ojt/bpKQBaVee0NxqXDI7CMuBbEZitLT7rtavrfqb1Dk6ZUQBgGi1C9hToYWKfj6BSIf9+a6mCD2ngXUDg340uqZdyi7sukslauUeI3EF/4+ejICSOFtOchaMtV3eqilsU5UL7UYEICKrMVFksvSWsCGVbUf9E5IjVHmFsHIPuDn1jgYlQf8IAz5zPc0G5qKfYuEu" />
+<input type="hidden" name="__VIEWSTATE14" id="__VIEWSTATE14" value="2zK2pyruE6BXfAIHsA5ItZhxa1FJMdskZyYVckR8QyIiLyz5yQxcrFWjIEvPihNjIsTB+W3+ZAEb1vawb0zkiMt667nZaZ0nNeEX4y2lB0I4fB+f7F5WXz5FRfJIlfG5uZg+JLrMizJlZTHTnkbZzgVjj7PIdcm3uDX7xUB9NfqTPtOFp3MZeKDC0Lu5MbIEuPauZuGlowzSCRQ2LPQxm3Cs6fkMytIjAf9cNfigpDJ/smv8kE2Kgo9QGH78HeJMkgvC+Q/cApypbm/2UnbTaD6OY9Ysq8kXyPNn8GhYXFEfCebqjq8wCcCYPnnnNxBar5g28z4alPq6HSdgCsCOED1KQnRI9/rQSeyug7QnhYbZ069oE/djTY3VfJkWhxQxZ61oANnuLNAv+Omvd4HrTIhlCIOHkb8T6Sjqi1pSXXDhecqDvmB14pgPOtLgHlS4Bb5t3AXAkHp0+TZNXK15Xxas0BjZJKLwMvluZ7WOi5JXSoRlh4B0" />
+<input type="hidden" name="__VIEWSTATE15" id="__VIEWSTATE15" value="0xl0tifEgKgyq+/ez3Nh/Hoi9w1wZxpvrBv8LN/87zlsDcGTIF7JXuk1DUkJlJnGNoaGI2RPnVMeo2fkJU9kVCVNKOkgDFDTgYZ8SAin1UwhU8OSYiSZ5xols20fQKn/736fQ4mPyz7tCP3vxGC0c4+YZZHLnn95gjqL1Jy9xVNZe8TePlpoX5IFzvm4S/+TIxdfIOXs/3adqqYiBinpCJ/twrmOwCDGKQNiqf1Q253wMU276cmTwcpXcDHZen46Ll++26DEqgVHK37kUd8wydYDFPXlCdG9nh0mU1W8a1cQFdrPMwjdcO9Vt5UQDnt0z3PrA4QcZzdLikgHbd7fngvxOSWRp+rHxqVr3uWxdCz5pDKsh1uc8BOokbtbJSgEFA0F/TCWQ7t9kg7HpXx24YjazLnJwafkGq9gmzg9T1tXBiSQzrxbx4dts1x5zEz27xhWUFdxjg3w9jkZbLaACOJ9njPUAmJlm6Oemf1yiJpQ59r6u6vX" />
+<input type="hidden" name="__VIEWSTATE16" id="__VIEWSTATE16" value="s3vrFE3vqrSQI71VdGta0p/WeVfMfajsRmQFN116UUJuh2LNTASNw+G9OKNRbSYK62R7chSwp9XhToEcROTC6gfoZHzs+Fl+BgqB47UlMUSsP+HAGbxaQU7QO+d3RJtGtNLNySrIcA0JugDyqO/ps725s49gY45C8AHvpI+ofUav+MQ4tcPJeNVnhFQ6G4xeNIMioBoCZV32dec9CUATiqWVWAsZ2uvmAtli8dAouGpMu03sOh2sJAqazXSCVBcKNNMLvmd2nvFiDLJ43bHeAnAMjPPRYsKM+rtVdvzs04xKbjq7KtV6eizMtdYQcqySPGson0RdZrGYkKQpj3mrP08DiwEXm5K6j44NFmKR2eHlZ1g+L0uEp2lpElyuMA+2vX9ljM+3iI/HpcCGykWGK/awqKS0BvunSqau5ohY8lBN7eHRSUMZ7TR99O4M+ODB5LjvBMrOCTSBpKMWTYqav3bnzHnMGsKxaBsSV1nUfTGrVGpuiD2/" />
+<input type="hidden" name="__VIEWSTATE17" id="__VIEWSTATE17" value="6EKwS638V06kN6dWgfk83sGSJaml8FsDzcGh/M0tX2TonUFaao82Q7bs5ARKgS4f5QWJBW3vFWf/qFVnz20DcKQZ/OX4AU84+gMRmFHCnBdFszva2Y2LRQrmScPQ2+INO7VY1gxsdmRU6aOnpHoA1M8ZMk9oYW3eDlGzIvifWcYRhnKmTwhXpr/QJgEJFeyBOobrFIpAtt0ok2SOAuVkbfprekmmR6hrexVSzmDwaZPGEcttdXbfpt+9IL0NkYrWQzLPPM8hqJVCd4BbgKkSH1dN4BKmOkOij/KJvLGZunwZeOf4M2/uklhaU6ZsAaPQ6H2LW9gRdKAOzS9QqaZqGA1ueOqz+iqwWKmPVU8tPekASTB7dmUE2RmedkrhJZRk+cv/EaOeUcsfkf8TU2fD0KYDLs1nQnUlmrGysluzn5RbppdICSSQO9JPx4yqGZ6kT0qn+EDTp5sG6CGfFGJKqhTPFdN/msJCJpw98Ce5/O+91ltEpGjC" />
+<input type="hidden" name="__VIEWSTATE18" id="__VIEWSTATE18" value="Brah7s7RQL5Lek0in9oP6dCkCMiZ9y/wm8qyq98QyPQzyZa3VLoVxvtw0Hass4XBwnajKEmf93iGrs2i4AUTv5xChvIwqoMvK1eFwIMoC11VgznCKjO70LUnIK8IFZ0ez+gfrMWzv04oGJYl2DH/yu/AW4OFmwvbk7cEUeUBFiG3U7XvwFnG6Cd9Y7fGPlzEPL77zMgdH/PktA5fYTNlW+cMlJTMBlL4B4zdAU2vPQBv4KHpgWbWGIdswcsgCBiL/jkGvESNgSBEi/tIFf9bLTnm3lCr04lkteqY70fAhfbe5hT2FL2r15Czr3zBxzg+0CJDQKqhtxDY4Ulswnem599fjD8CetquAUNQpVhVqQ5NWqqdDEx0nJPoCKfQw5Pj6pT0FUvIHtWPKLHKFRgyOu2ZYkw3J7eylzF4Mx70ygW9uj4yYyFrhOc9BcNXRzEKQMlJvOAuU1s0yYg+EhuwgJKjQTtWTQjK+vsE/oZNRc4AkzWdDm7c" />
+<input type="hidden" name="__VIEWSTATE19" id="__VIEWSTATE19" value="/UuIAhVCbnICbo6VcWgiwDMyh6A+D8BFAD5eGKSe/dBqtzOXOBOxBJftdTa5DIwNPUVWKRpFZjq0WpUv68nBkq3O21vYUhUgfFBlto4zBngIo8SJ6GwIaLwHaWmj5Wh4rDYO3HouC3VPVRGnu3bR8un2fJYDwlSCY/qd5+N0Msu1TLLPlnoAX4d8Itjbee2HcBTP6fYxHa+b2rDYa17qBEm+yXmlKGyZ2ozW62jdSK6pgnMZA/yrL0U6XaWQTUJvJkLDMpR+a/U/ZVZn9kth6b/7dUG83kvDrXs4tOWtL2cL/qHy1I3kEwyO6tBniho1sMHvBwr7ITURavpl5hqlHMKUASFotZQq89qebECQLwEbidCjJmoxPoi6/alaDJC1RKiy8U+5GdGjnCkd4LZAmAS7qb32D8M6x4wQ2el7nbXA8vuqeYdjmOQBpO3NPn2VJD5gUQtham2s4M+aT7KH15oVJYj6SVBya/ZM6Y/lxM55FUYECzUi" />
+<input type="hidden" name="__VIEWSTATE20" id="__VIEWSTATE20" value="nId0XOVNs+3VSQcKUBkV1kJMmR2qaygTuYd9OvbYSrtGrclmzqARQRjh3Hpjrc8KJvuNvv9lbGj9xJgc2HGuUid5HJZIwpps73YORuNGp5PMKfrBe0o0xTgw/dy5TxsYJ7N3wPuJ10XJjT+BEXqAWhA+o128AgDmNnBRxqF5bNFbf5DOncRW7eOdEfg0ar1Qw51DeEX7Jp2f330YbPjhz0vF9C5itcvOglkgk5kLEvApKPlver6nHlLShgSpS9EbbBYUv2xCma9gpsMr+XnPTxGBjZcsq/9FxoM/ZLFqoKutnjInK7Xk3eW4ko6OXLucCgxRjk5C9jZhuAZflpNSqjWWd5EpK3UWzvAi4PFJql1r23+Hy5qsEdFAowifbXTU/L9rzCYf8CGmUfFbwHILRUnv8FaO6UnClorEBjjY2Csmgk35qpa+kbIdjYm+aJ2W/GJwfv/LZKrcqg8rdfAMxHZIB963kEAfKGZKw5WhOB7RLnh2me8x" />
+<input type="hidden" name="__VIEWSTATE21" id="__VIEWSTATE21" value="KOgR70Fhf5myODHQKcRfvEfhw+DJVJ5u1Lmk8WAk++zwVL6DnkPSvXGstIyMa5BAwVdTfUStUeJXaGucjj8BcCQf3kEGHvEXJlz2OxfHoFghh1DnGESAH7NbjRpM5tllcifHe1NORsokjY8kX4TSi3r86zStPhyrUrgJ1+e69GKCPjpG/hQR/m+Aq0Eq81Ci7IOg7dus4YjQe3LNiXWlw+6QsSm9KBb+3Am9yzf2VpZVK1mQ1LdZdm5Np65JJ6N2k7uCDxehIBD70qGRqMjMXIa6EQLxVGlwDYmwjIljk9rvot1x9Tll1aW9jxxjceZ9pvTWZSHsfkUQdq5xwXC+uQDDU3uwk2yFi1rVMRv3C+bvhHz9zf9+mxNb8m2DlqLBlU6axRdP40Kwe1LH4rv+WIk1uKq5EhBkyTvioybEfsVEjy/pg5ChORJoHZztYI7r0rAN0i31P+c0B5OhKV8nMJou0RdqKHpmNdnJJfMRFVXfJWC4nIUM" />
+<input type="hidden" name="__VIEWSTATE22" id="__VIEWSTATE22" value="+NyCG+hF7W4lcMyM9wAnk2QG9bZa1YwboFE3DeCv3HpxpFgCaU8q0Gk9tdBZri0JpyHl5N03NfoLzhauGNGautJ+nGmYTAdWA6ZxHDfJ6UJ1f8XgL4uTV+THXywavLyJYmxdcsF6O/N8K7cB0rOx1PjqujfNthTaa4q7tiSeQOkEPoitin2LjpsvK3THaVc93+9SS+SUmLqjVyG1nXGJNB6kTywM6Voj6XlTLh6hoZTNPu8gHFT4ktOufi7RZ9GFJjufVorPtuNiJpmWMbB4pnlGoZdjQ6l3tAdOU8AkYdy8kK0TvYmTHsiyped/H9BZ2tMh4Wwy+lzxkWAvpWzzHACqONDeGelesufTqEjJKdQEVyrTUDj+X2C/+1p5iTL+VT+5Pv7D/GTnkb/+f5Xxdm47PyykeGjAJjgVNbASbaYflJsB9Dxaf53LoNHcJbKumJVKSCWvtGZoaPtfz2a/HQSF0TyNGdT0P6YBBW8ysWc3rnNR7un/" />
+<input type="hidden" name="__VIEWSTATE23" id="__VIEWSTATE23" value="dg1/KM3tfZ4EjSQGhhkhSAMrZJ7282J5j2rggOHk4c0R9QYVH46/108DzHz4Psl38u3AZ2m9FKYZqsM6JWEMbHi0bYykUzcskBzV+ixjMMTlqK8vKgmuv8tTAZxB4HkKm7YMH/wz+y3TReQdQGcYwMujuid5ZHa36qckM8aoLF8BEhgUbM3jbrYv1QoftfrkvSjwWu3qRthLUOi5kN1juweJ3SjSUWzaDL9CQcRza7uM0foiNNH3q155i2z8wZQiQP1CSjByqavc6cxUvzYSuFIwu9kOkhv1v9f+bbKWlUA5huuMrfyfei7pavJ2jLAcG46ngG7F/axwgbEhe2EziBrkXfMI0ijTif8Qx6NqSA0WK/5HlxJmveTVGD5DyJ+tWqdK0aXlTYFR6jg/pb8tNULYYN914GXOsvrN1kYhxeKILS4T/DHT+CvLZyT3n5PoTVCqmwCsB7epe4lJjvstJhJ3wBM5VnLdKmZkg2fA4Amki/A0jtsR" />
+<input type="hidden" name="__VIEWSTATE24" id="__VIEWSTATE24" value="wsQGI340Dl8rN0lMDaTYrRcrkBDltgUpwKVDtMbflLfHGnsW09z0r8IqcoNGCecMnIo7LIJw6r/91SsgC2rA6oaBs6KXXD6ysuu9d1tP62h7fbRm/qmRSMSNTRIyjhu4rhEW9/l3BjQG2zDtXFFibkX16Mu+SFWh5jZxryVX+ZlWxXWZq6icOq3XI4bxT1G0f6n2qDNdIENk8GOMisoUVJuNSBkOUQauxiMeE/YCWTmbxwnd8H3Nsr64yxbedzlkLaZW6dKEtqmS/xkO0NEWcifd1ixN3Um9G//IK+Aiw5yhZZii3zBajDzs0uouYBRcDdz7vFZ8l7Z3HMS/gJQSwisL6wot8MJBP01jf0KPjUCrRnYYDf2IURH9s5YTBDgg9Htp6jiLUSCa2gtJIS4iAhvXOfL2KjSg42tbu/KduMr6C1gEoQRRBNzJ+AaptJDRuc427JnzQ0Ruyhfh/7JvMenOBXR5gsSu4NVGk7gABXpBt/qsPp9W" />
+<input type="hidden" name="__VIEWSTATE25" id="__VIEWSTATE25" value="d0/XxYrYtDRYm4MR7bwPYGKKR7kigBFjaAKuu2N3ZWWDNYlw1bLqqY6e9jCzK1ynDClNXLtGZ03Pnk7BD0sdPmFDi0BFdcLn3G2gzmMfb1nctbq9KNqGjtws/jQ9T8R0ZWEquvsJYcP7ZqN7oHQ/3jkHTfy/NoPGndZ6BeOEdakj/uyCBd5yUrcgeUv6sdnsaqWEJDzwiJvy4ndt7ZYxZgy4pqQg6YaAqH2TPRX3gvATQRu8e0+ByO4p5bZxe8/nfFBYs8GxV8SvDoErAwxwWHKW6MZbj3Xp4lvU54UEulOKmehRwVeaEat123fraWuatBjtAPzVDHqRpoE2c8Xy3zHYPp7eoUghCGU1ah0v+e13njNqlW/gDOHJqY2C4ecOkT8/icbFYBPE+JKavbSkwWUfaT/kVO86/JME8plRSLUqDUVIRAYzEPQfzfvq52GvBl+BaugpCI0yLg8zMzQHLPJLNxx53iLUZAKBIlLC2p/Q4s3cjey4" />
+<input type="hidden" name="__VIEWSTATE26" id="__VIEWSTATE26" value="DZMCIjOLs3SnQmeDM7po/TG5JDG++xYcn7YXneEwzI2hZ9kDPpxa3lMsAGr7aCiFbq4kmqIywRRtZBscS5sdgpiKOIPaq4MJOJpETHb3xY1i+q8nVa9Ey3DlQHp6ZLElctg1kkx3wsE0v/Ii9fo4M3iZjtzuCS2SkG5QuMAup8wYE0IQN/9oBt1o5SY+KTskAl2V6RYLsuFXTiMnJHXVHVQZYB5eyQ6JVl2RgrYcGElYum+NXttoVX2UVA20n6TlmIfahlE7RRhuXjtiCuMZyTAwH1Mdk/pwKXjE3nHM5uxmwlwIsczfcJ3t0/NW9UvJFzwHBmsYDEpWNo72hl40jBtRTfYsMh6FoHCGlAlZcp4TH+xMOdPD3ckvZ62H8cnAyZImEZTvE+74gZDBGEJdIqU/URhbLryk+j9fFidQoYBgFpPgfguabnVXBxAranztNRvckugP1LJkeyZXdnwWdaCiGOo5LirJmAV2lAF53V1AWzahbZX7" />
+<input type="hidden" name="__VIEWSTATE27" id="__VIEWSTATE27" value="tjROtOQqN7tqLg/xIMbyZFeA3WpHd2tRkN7l6mDaGwRI1FZ+GUq5oUJ7Jo720ZKTWLKaa1bBOe7Y2av/H9VhzIm9I8g61DkR126AeZAPriQKZTSJPg24t4HZ5KMLBMWP9g9yI4PRDuhaO8wMKktviIOU/5+yoRL7unuWzi7uZhnyeYX80q6rOok5s/mzn71kWBYx527F0dRmpJIVhUkYoCQpdTPtNbtBD+1Rwb8h/YjlBWImF3m+8XNv+E9nmn4+p+JD445w6swTRfA/dBvlogfJl5Egj4rNEVxQGexYl6JfdDUIERVlV43V4QnBYbb6bCgFZ7/6YAXIyBCxnpBs56U0CKvt+EEBdOzfeJIddlw5R+sFQkt0WIfH4eNSKrIZgQRmJeXZKXgZJr1K1KvKqhlTYzGLLx2HY1LU9ifaSV8XS07cnyWG/cuCFe73ePjpJFH87kuqFMv8F6+SNXysll34uc32r4oApsKLFyR4gHO2sC3M5yxd" />
+<input type="hidden" name="__VIEWSTATE28" id="__VIEWSTATE28" value="9wkJ1wMp3UacOrniSrx4qdIJ53rrf9gjcumQmNMDMheJLZLQfnhYRlKanSgDxonDwPPKCYcAPBLMCl+dsU+Yk2xpDbwzl2WDT7pt/1UG7m1aFbsr6bbd/PxfQIm8SIIEQfwE6rR73Z9vxH9TW3wIzZoMnZrzUhqt3yiudwcUGYcxJodtfkU2V1LVflIusEuRRD560Za5yiDLgpVcSKMHdzcNCqcxbfnGhYX2qt8Rt+gUB6X5eUGvvU/yuBCAVfuEUV5agl6xnyL6LYNdlRVwZcwEc+GM1x1ODjsCIwsmr2MWXTSZu8uazKaXVxVAaJ6JJpPzdMD6piYDk5gp2+H3jpcm/ERcQgAknscDg3RwIVZ8A2hOCsqX4yxKNff+r44jpE2hElUzO437vDrAcS66La8q8KItevtnhxRlfnMED4MMPhMrPVQWOmmqLs5qBTW2QNnk1s6zw4/l0slQ+w5rwt6uXR2dI8CJZ4YfPwgzgBXECFVBDnVi" />
+<input type="hidden" name="__VIEWSTATE29" id="__VIEWSTATE29" value="Z0qm3FlbIK+4BQxyEMeVLNqAUzsP9YXLEQXYJ39G6tkihvP6Z81XraRA9gibLn/4Q9qeeXt+LBNmHxAFNQPSgTHu3fcGaGr5QFjbB/qTvyyGcZA5CpwzUFYLDWZfjWVVbswncTaaQ3tamA/qsYuRlTyqX+LIWDs/O4hJ4eoKTs0m/F9UV7mnVECU7dRYk57EPUyWJ25fvJd3ZZBOY6EeGhPwML3twu+mGciq3kbXR0Cg9+1MMqaR4oDg05sGIenCXvrCvlrEQ5+hLS6PCGNRNuMjAsbpHG+SHXcmtxy+C9yw8PHHQjua+QaTAC+Nt5aBilZNNkQ4GpXm+u4PBBgHnu7qd13EZKVAps7uxE0eUPGGf/1Vpw8Axixpcp5WQM/nHmwlZTlAq+uYDKc2Sr02wrJke8ZDSSv2ukxCAfUJ3ZOHwpVyHPjRrHCwl2yfWq6G2dz3+XL43FrI9Rg1UvmhVdPuJc1nI4zswZUV41WzPpv34rTJemmV" />
+<input type="hidden" name="__VIEWSTATE30" id="__VIEWSTATE30" value="6R3Oa49YeJ7S0MEbP/sdmpfPSwy2zjzSlf4TBP5TtC5q32R96i/KZNKYcHHMbEmdl9t2TJpJKwSMj5ICvre43s/ERFawkpsjE/ZpT37z0oHrxAs0gPR6l68wEPcAnfX8BbV505iXApV30RJ7JBttM2BAPckpdJrIXpE5LkxTxaUukNhm3Ethelqok5/bKZrf8SGZ3OBBsmDdGhMtb0UaLOyWZMbweI46aH+LtTMrjBTgT3HIInaNq9pV6w+qQEEkULARleuhtpgG8YTkMteLrGpg/ZyQ9r/IDRiVP1S/nUuVvkwYwOJGPgkS0Eig5YDc8Tq4Qv2+tzjqHl2MrdjJ07Av5CHGhc5gkqZedC9S7yghdKy+7WBx6ERC6yY62zS5qRa5uCGIcAC0BIE0Bgs3Rw74Gity7LhNX60Tr8oyh4qPITPhUut9OkXWRJcd9pufFPm/3VJT0P9lyp9b4cMNBQdxPI+2BnNe+9NAU9AbgN+G3ynkQvrG" />
+<input type="hidden" name="__VIEWSTATE31" id="__VIEWSTATE31" value="QGIz6MRmvk7lQrrWXi8y4XbdbzENkZFbAZd6qIYGdG7BwesfL9YVvPYkYA/tEd3H2AuZb0GR4gTy7lg8vOEbSYdzv1wYsVqZK7WpGF75blva6SDsv1iu05j/rbF17/b4QQdrUjPkEinpRjK/zmNsx7FTW44eVhjyuUwmFKinmuX90goxobv75wHlqOWxzrWI1S1ao/ygyl1I1Bu/072gDIwnmXDZEWKXZe6WeZYQEvlulNnNg8KLDV/ck6zicmx6cHH8kbKAWKv69xrn9bouWC7tKxPEJg9J0436P/Z9ogPbD6erCK4ALjUsl5cRdkWx39hVWVstEXmMlYAJpcbenJmmPhvS82s2/tGLCMFlE+WFYpEvlVk/AeY9+pjz/7nJMaMF5vcjGFF9NAFJZffSufHgAk9320OYZd7TJXkQLBz66H8herNa7KYvN0B4naFH3E5mmoVZxkEbU2Y3dFfaGDS1elaAoap6THtAOXuoMlnccPM6sXEG" />
+<input type="hidden" name="__VIEWSTATE32" id="__VIEWSTATE32" value="yeZj74bKkM6ikdu3B28gouHOBjLTIZYxLmHYKACaS+2synM85EdMvOuJ2U9++8YhwX+fiMF8loh6qEWjEOjSxxs7Ck2cXQYqETKTGk4ki1nNrSMx7dM7aZpKbl5wUMRYrNaodoYMNdxcEiFCkGhKgbllDmAQj/+fHa0HIiDEDA+UVWJ8EnRDj4JhEBizSP22bMVm60pAL3fzw75WW5xxMaZzTLiwnzq+OCqLOAj//FoIyzTS4nXWBt+EVPMp8hwbKUZmU7HheRljz+9TYAN6K3/7/XWXSCoeIIgryRwhAs1Iq3IzRiiuBSvLFnCaS3bZ8Yt+9LWlNGbA1Md9Jdlk5LZ/zy98plNA4HfFxAoSoH5th2/TD7X3NhZjrWzWuffd90UPWDoz2npW8yU9SnA2rPQOYSsotDRY8b9+d8Z7OP6lzD0xZEQuQJ12ggEehaF4l/HBgTO3bs8b/vAffGeANeuNIryzuJudNGZ4vXjcmOjTUlyM1oVj" />
+<input type="hidden" name="__VIEWSTATE33" id="__VIEWSTATE33" value="eAB+y1nWnjGhyx7fv/r0LqmGRsamp+E769jlAssSIRDZACK0c10PJHnozPZorh56D1rEQaZFQfoPeiB3hXAfUP50KXTDja3vRwLZw0oeEQZGxXWnPsqLIUwlYboFjxYPVpVpGtlvuAYgiqcQSb4sF1u9VSfd7+svW7rea2LOvSkMM5aNrMNHqnITjwGG+KyNYpMScrjNhx2DRwqSKw2wmQ5VuU9/F6pf3X5ZlJxLZBxRtCfjPS2Oi4rI/ioKaK5U24r0Vyj9a+wbDGWjliDNmJ9hlj3oCuawbMzpiKjM3hYCrIcDUi597DWQZBvzgs0TcUIcmSEpQkL2IdGnfUHeaVlb5cDNhzNMDWRyAEQ4Ci/77L5Gd2u5xt9tUHt5ihltZYM6hsWTjn2Wpqk81MR7D6uQynSIwUUqbO0wl6RK6Yys4vay2XX8KP7fcMOt9qfAsONpQXGxRDVlnrxrRMYc9QlBu6Zg8MjEEvodD2A8XJm4R1qHMGq0" />
+<input type="hidden" name="__VIEWSTATE34" id="__VIEWSTATE34" value="UoKF/0itBNTnzHinx3mLFOY0ID1cFzvL3jyTr3aWSL7UE9v8gO6HSsPEIqmpNHJIMopQpKaOOIJbCHIMv4yo3238u9QQvAHScIU0nWbmV9+Q59uSLpDd0Fg06sbmCxP+pWc9XRyjYDpHPGG5lh/oM+7n1EBzsgeS9elkNJAy9JreTe6U9RLsrPE2fd1s8aHyg0NRtfmuW6w72n9/+gLbHzKmZte8UTvLQwrN4fEajDtT/OAC8j9bmKcPVEsiaT/hAve0XjwPh1Mb2GNZNs2Ox5v8Qmnl2Bjzo/HHaD9kBZ1h0dqpryqKxUHpnJycDKE5rA3F7oCN1C9x8QoD/dWhwBo+wO+UXT0vonZPZVjQ42D2bwi4+LMLaX+44/A6vct3LpwRa8ataLaVHiF5bT6WSTFSkKjQLjHhhg2BE6EO10rh8+4y6hi6XH9uzohMgelZvP6mpiCOiwVqrKBpUHG7wqUfP1E3hXQWpbrwMiysj2pTow1EEA+s" />
+<input type="hidden" name="__VIEWSTATE35" id="__VIEWSTATE35" value="aCOwXtddlk+qybjREWM6Yy5dCs/KQKPCihNqTqHV+WS2k48NebuoCvBJkacbZEyKqSV9fOyFxMtIuQePXQtIr8jQ+om9LzFnOXyTWJ1LYz2kygt9qBv725KnxAexFzDjjUen8IHTCnd1Iut5I6SL8f3/GlV0aT8jp4yR5ZuX7vOInNIgyok1fETeNfxwrBYpRFVCnU5K0xAynRwQ5BGlnFwbzMgwOUOXB68fRUaN1Y01ULvdOapEOZkpnqZMeCfXtgECOf+elUa7uprMWOF8mGwXAmqdxSJVY3Dx1wn/KUtyKCj5FfFmD9fv7FrOk/+nKHvoAifiF9vVr1IwFfSEUjg4Nj8rZ88byUPDvykgO59yxUoSW6cYnqDKcvnhbp/9ABx0ozRrFmdqDgBiUTBpnzjTBto0Z15hs0mAAKSVjui8vjya3H+fTtcRqjBcxWtmbKRcOzmt7lQz25izB2Oz5fB0glpdN31YOksXfVGrTj/pExAnHXuX" />
+<input type="hidden" name="__VIEWSTATE36" id="__VIEWSTATE36" value="AfLELxi3b+4+i2L5Ka77UruBiyhPSkoBUCxYHPRPYBbE85ABwg6hJIa2dGWJ45LBB04Ir08FQuWvYTHjwAzAum9Un7Zf9vRdTNv/NPTfq55vYqBbObSqH8kSzrTmY6dAHGCv4wAE1d+yV7LRIY6PgfpRW0Xb7qbkSjObH+stknL2s5IouEXyIk6nnXWOU70K/AW06BPY5QkNTcIxyqfwKJ/G6yaLoC4eqtdltqlqQb4fP4MhaCoRrvTxeIWuYy+Ib35krQ2JDIDfmS+b1H584b0sR/1lMMywuIcD13uPVXmmzF35ibmwHMZEyySzw+NFJAM351b+Uny6zb96oQZC3siBMBpsOV5Ql6cCywoJ1c2OvS3yTjaZN4VwAmoQoNLhrZAjAVNuBPUNSax8b5lyJSLvMu2d4FQ0kkb+K5OzxQraEj5lFM8kj5NW/gOFjp8xjBuMrYuF4WFO46mkoxpkxThFp+WBSmLOcJYNw/Eya5UlncdP4hQA" />
+<input type="hidden" name="__VIEWSTATE37" id="__VIEWSTATE37" value="1FG79A9TGzDDGijXKoC2u56Ou0n3W3mY4OCskI1tZqUECJ0CZjM4/jglddvU+yzt1ushy02FzQfTq3cv/I1qEY2GFFD9fB9dE83OjZg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D32BB407" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="K5hxQ/PA+RhLTZyuJrqHs7zGICVvqPEQTKr2AW1bOTio845fvsWv+l4PR0rimIHQJGh/UXOOGYmYs4k6otitSpU24RymlYqERzXeoMQxNhpTnaa8/2u+VKKisWZMEfrk" />
+            
+            
+            
+            <div id="divTicker">
+                <div id="lblNews"></div>
+            </div>
+           
+            
+            <div id="MwoeHeader">
+                <div class="socialStickybox">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/GitexGlobal/" target="_blank">
+                                <span class="fab fa-facebook-f"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/gitex_global/" target="_blank">
+                                <span class="fab fa-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/GITEX_GLOBAL" target="_blank">
+                                <svg class="twitter" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" version="1.1">
+                                    <path
+                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/showcase/gitex./?viewAsMember=true" target="_blank">
+                                <span class="fab fa-linkedin-in"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/GitexTechWeek" target="_blank">
+                                <span class="fab fa-youtube"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/url?q=https://www.tiktok.com/%40gitex_global&sa=U&sqi=2&ved=2ahUKEwjH6Mrg8rSQAxWKIRAIHa0tNn0QFnoECCUQAQ&usg=AOvVaw2PPPuEGobSQC1CLfgY5o4o" target="_blank">
+                                <span class="fa-brands fa-tiktok"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Header -->
+                <div class="position-relative">
+                    <header class="headerboxn0 headerboxclr0">
+                        <div class="auto-container">
+                            <div class="headerBtnMobile d-none">
+                                <div class="headerBtn">
+                                    <a class="whitecirclebtn" href="https://mktg.gitex.com/BookAStand2026?_gl=1*1gj9sgy*_ga*MTE2MzcyNDQ0NC4xNzQwMDM2MjIz*_ga_R07Z5EC23D*czE3NjA3MDExMzckbzIwOSRnMSR0MTc2MDcwMjE5OSRqNjAkbDAkaDA.&_ga=2.100756229.586183583.1759727035-1163724444.1740036223" target="_blank">Book a Stand
+                                    <span class="iconcircle">
+                                        <img alt="" src="../contents/Theme-25/images/checkicon0.png" />
+                                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="headertoprow pb-1">
+                                <div class="logoboxn0">
+                                    <figure>
+                                        <a href="https://www.gitex.com/home">
+                                            <img alt="" loading="lazy" src="../contents/Theme-25/images/gg26lockupnew01.png" class="img-fluid" />
+                                            
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="nav-menu">
+                                    <div class="headerBtn">
+                                        <a class="whitecirclebtn" href="https://mktg.gitex.com/BookAStand2026?_gl=1*1gj9sgy*_ga*MTE2MzcyNDQ0NC4xNzQwMDM2MjIz*_ga_R07Z5EC23D*czE3NjA3MDExMzckbzIwOSRnMSR0MTc2MDcwMjE5OSRqNjAkbDAkaDA.&_ga=2.100756229.586183583.1759727035-1163724444.1740036223" target="_blank">Book a Stand
+                                        <span class="iconcircle">
+                                            <img alt="" src="../contents/Theme-25/images/checkicon0.png" />
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div id="menu-container">
+                                        <div id="menu-wrapper">
+                                            <div id="hamburger-menu" class="burger">
+                                                Menu <em class="fa-solid fa-caret-down"></em>
+                                            </div>
+                                            <!-- hamburger-menu -->
+                                        </div>
+                                        <!-- menu-wrapper -->
+                                        <div class="menu-list accordion" style="right: -100%;">
+                                            <div id="leftside-navigation">
+                                                <ul class="level-0">
+                                                    <!-- <li><a href="https://online.fliphtml5.com/ecetg/hdkg/#p=1" target="_blank">EVENT
+                                                PREVIEW</a></li>
+                                        <li><a href="https://www.gitex.com/speakers-2025">SPEAKERS</a></li>
+                                        <li><a class="pe-3" href="https://www.gitex.com/plan-your-visit">PLAN YOUR
+                                                VISIT</a> </li>
+                                        <li><a
+                                                href="https://visit.gitex.com/registration?eventId=252175&amp;commerceCatalogId=244339&amp;entryClassPK=507446">MEDIA
+                                                REGISTRATION</a></li>
+                                        <li><a href="https://www.gitex.com/gitex-global-2026" target="_blank">GITEX
+                                                GLOBAL 2026</a></li>
+                                        <li><a href="https://expandnorthstar.com/" target="_blank">EXPAND NORTH STAR
+                                                2025</a></li> -->
+                                                    <li>
+                                                        <a href="https://www.gitex.com/gitex-global-2026">About GITEX GLOBAL 2026</a>
+                                                    </li>
+                                                    <li class="parent">
+                                                        <a href="javascript:void(0)">
+                                                            <span>GET INVOLVED</span><em class="arrow fa fa-angle-right"></em>
+                                                        </a>
+                                                        <ul class="level-1">
+                                                            <li><a href="https://mktg.gitex.com/visitor_interest_2026" target="_blank">
+                                                                
+                                                                Register Visitor Interest
+                                                                </a></li>
+                                                            <li><a href="https://mktg.gitex.com/GITEX2026SpeakerInterest"
+                                                                target="_blank">Become a Speaker</a></li>
+                                                            
+                                                            <li><a href="https://mktg.gitex.com/GITEXGLOBAL2026DelegateRegistrationForm"
+                                                                target="_blank">Become a Delegate</a></li>
+                                                            <li><a href="https://mktg.gitex.com/GITEX2026MediaPartnerApplication" target="_blank">
+                                                                Become a Media Partner
+                                                                </a></li>
+                                                            <li><a href="https://mktg.gitex.com/GITEX2026EcosystemPartnerApplication" target="_blank">
+                                                                Become an Ecosystem Partner
+                                                                </a></li>
+                                                            <li><a href="https://exhibitors.gitex.com/gitex-global-2025/Exhibitor"
+                                                                target="_blank">Exhibitor List 2025</a></li>
+                                                            
+                                                            <li><a href="https://mktg.gitex.com/BookAStand2026?_gl=1*1gj9sgy*_ga*MTE2MzcyNDQ0NC4xNzQwMDM2MjIz*_ga_R07Z5EC23D*czE3NjA3MDExMzckbzIwOSRnMSR0MTc2MDcwMjE5OSRqNjAkbDAkaDA.&_ga=2.100756229.586183583.1759727035-1163724444.1740036223" target="_blank">Book a Stand</a> </li>
+                                                            
+                                                            <li><a href="https://www.gitex.com/media-partners">Media Partners</a>
+                                                            </li>
+                                                            <li><a class="pe-3" href="https://www.gitex.com/ecosystem-partners">
+                                                                Ecosystem Partners</a></li>
+                                                           
+                                                            
+                                                            
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li class="parent">                                                 
+                                                        <a href="javascript:void(0)">
+                                                            <span>LEARN</span>
+                                                            <em class="arrow fa fa-angle-right"></em>
+                                                        </a>
+                                                        <ul class="level-1">
+                                                            <li><a href="https://www.gitex.com/about">About GITEX</a></li>
+                                                            <li><a href="https://www.gitex.com/all-news">Latest News</a></li>
+                                                            <!-- <li><a href="https://www.gitex.com/gallery">Gallery 2025</a></li> -->
+                                                            <!-- <li><a href="https://www.gitex.com/Media-Highlights">Media Highlights</a></li> -->
+                                                            
+                                                            <li><a href="../media/home.html" target="_blank">Media Hub</a> </li>
+
+                                                            
+
+                                                            
+
+                                                            <li><a href="https://www.gitex.com/gitex-cyber-valley">Gitex Cyber Valley</a></li>
+                                                            <li><a href="https://www.gitex.com/gitex-quantum-expo">Gitex Quantum Expo</a></li>
+                                                            <li><a href="https://www.gitex.com/gitex-data-centres">Super Data Centres</a></li>
+                                                            <li><a href="https://www.gitex.com/physical-ai">Physical AI</a></li>
+                                                            
+                                                            <li><a href="../ai-semicon.html">Semicon</a></li>
+
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    
+                                                    <li class="parent">                                                   
+                                                        <a href="javascript:void(0)">
+                                                            <span>GITEX UNIVERSE</span>
+                                                            <em class="arrow fa fa-angle-right"></em>
+                                                        </a>
+                                                        <ul class="level-1">
+                                                            <li><a href="https://aieverythingglobal.com/" target="_blank">AI Everything GLOBAL</a></li>
+                                                            <li><a href="https://www.aieverythingkenya.com/" target="_blank">AI EVERYTHING KENYA x GITEX KENYA</a></li>
+                                                            <li><a href="https://www.aieverythingegypt.com/" target="_blank">Ai Everything MEA Egypt</a></li>   
+                                                            <li><a href="https://expandnorthstar.com/" target="_blank">Expand North Star 2025</a></li>   
+                                                            <li><a href="https://www.gitexafrica.com/?utm_source=website&amp;utm_medium=awareness&amp;utm_campaign=gas-website"
+                                                                target="_blank">GITEX AFRICA MOROCCO</a></li>
+                                                            <li><a href="https://gitexasia.com/" target="_blank">GITEX AI ASIA</a></li>
+                                                            <li><a href="https://www.gitexcac.com/?utm_source=homepage&amp;utm_medium=website&amp;utm_campaign=20250821-gitexcentralasia&amp;caucasus26-all-gitexglobal"
+                                                                target="_blank">GITEX AI CENTRAL ASIA &AMP; CAUCASUS</a></li>
+                                                            <li><a href="https://www.gitex-europe.com/?utm_source=website&amp;utm_medium=awareness&amp;utm_campaign=gas-website"
+                                                                target="_blank">GITEX AI EUROPE</a></li>
+                                                            <li><a href="https://gitexfuturehealth.com/" target="_blank">GITEX FUTURE HEALTH AFRICA MOROCCO</a></li>
+                                                            <li><a href="https://www.gitex-india.com/" target="_blank">GITEX AI INDIA</a></li>
+                                                            <li><a href="https://www.gitexlatam.com" target="_blank">GITEX AI LATAM</a></li>
+                                                            <li><a href="https://gitexnigeria.ng/home" target="_blank">GITEX AI NIGERIA</a></li>
+                                                            <li><a href="https://www.gitexserbia.com/" target="_blank">GITEX AI SERBIA</a></li>
+                                                            <li><a href="https://www.gitexturkiye.com/" target="_blank">GITEX AI TURKIYE</a></li>
+                                                            <li><a href="https://gitexvietnam.com/" target="_blank">GITEX AI VIETNAM</a></li>
+
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li class="parent d-none">
+                                                    
+                                                        <a href="javascript:void(0)">
+                                                            <span>SIDE EVENTS</span>
+                                                            <em class="arrow fa fa-angle-right"></em>
+                                                        </a>
+                                                        <ul class="level-1">
+                                                            <li><a href="https://luma.com/23192ekf" target="_blank">Decoding Data
+                                                        Science</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <!-- <li>
+                                            <a class="pe-2" href="https://gitex.exhibitly.ai/en?button_type=menu"
+                                                target="_blank">
+                                                <span class="me-1">
+                                                    <img src="https://www.gitex.com/contents/Theme-25/images/Sparkleicon2101.svg"
+                                                        alt="Spark Icon" /></span>
+                                                YOUR EVENT JOURNEY
+                                            </a>
+                                        </li> -->
+                                                </ul>
+                                            </div>
+                                            <div class="navfooter">
+                                                <ul class="soc-media">
+                                                    <li>
+                                                        <a href="https://www.facebook.com/GitexGlobal/" target="_blank">
+                                                            <span class="fab fa-facebook-f"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.instagram.com/gitex_global/" target="_blank">
+                                                            <span class="fab fa-instagram"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com/GITEX_GLOBAL" target="_blank">
+                                                            <svg class="twitter" xmlns="http://www.w3.org/2000/svg"
+                                                                viewbox="0 0 24 24" version="1.1">
+                                                                <path
+                                                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                                                </path>
+                                                            </svg>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.linkedin.com/showcase/gitex./?viewAsMember=true"
+                                                            target="_blank">
+                                                            <span class="fab fa-linkedin-in"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.youtube.com/user/GitexTechWeek" target="_blank">
+                                                            <span class="fab fa-youtube"></span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- menu-list accordion-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <!-- End Main Header -->
+            </div>
+
+            
+
+            <div class="d-none" style="display: none!important;">
+                <div class="newsBlock" id="newsonload">
+                    
+                </div>
+            </div>
+
+            <div class="maincontainer">
+                <div class="row m-0  p-0">
+                    <div class="col-md-12 col-sm-12 col-xs-12 m-0 p-0">
+                        <!-- home slider-->
+                        
+
+                        <div id="homeslider">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    
+                                </div>
+                                <!-- Controls -->
+                            </div>
+                        </div>
+                        <div id="dvBannerother">
+                            <style>
+                                .header-style-two {
+                                    width: 100%;
+                                }
+                            </style>
+                            <section class='innerBanner'style='background-image: url(contents/Theme-25/images/Newinnerbanner07.jpg.html);'>  <div class='auto-container'> <div class='bannerheading'> <h1></h1></div> </div>  </section>
+                        </div>
+                        <!-- home slider other-->
+                        <!-- subnavigation part-->
+                        <div id="divsabnavpart" class="sabnavpart hide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div id="divBredCrumTrail" class="crumtrail"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- main content part-->
+                        <div class="row m-0 p-0">
+                            <div id="Divleftside" class="col-md-12 col-sm-12 col-xs-12 m-0 p-0">
+                                <div id="MainContant" class="innerwrapper">
+                                    <div id="DivMiddle">
+                                        
+
+    <style>
+        #dvBannerother {
+            display: none;
+        }
+
+        .new-detail figure {
+            margin: 0 auto;
+            text-align: center;
+            /*max-width:500px;*/
+        }
+
+        .new-detail img {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .new-detail {
+            margin: 20px 0px;
+        }
+    </style>
+
+    <div id="cphContents_divContents">
+        
+    </div>
+
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">               function DownloadImage(elm)
+        {
+            var id = $("#downloadbutton_" + elm);
+            var firsturl = "https://" + window.location.host;
+            var last = id.parent().eq(0).find('img').attr('src');
+            var new1 = last.replace('..', '')
+            var url = firsturl + new1;
+            downloadImage1(url);
+
+        }        function downloadImage1(url) {
+            fetch(url, {
+                mode: 'no-cors',
+            })              .then(response => response.blob())              .then(blob => {
+                  let blobUrl = window.URL.createObjectURL(blob);                  let a = document.createElement('a');                  a.download = url.replace(/^.*[\\\/]/, '');                  a.href = blobUrl;                  document.body.appendChild(a);                  a.click();                  a.remove();
+              })
+        }
+    </script>
+
+    <section class="innerBanner" style="background-image: url(../uploads/Innerbanner/315e3806-5189-4b70-836e-6ec35eaf67d5.jpg);">
+        <div class="auto-container">
+            <div class="bannerheading">
+                <div class="banner-marker"></div>
+                
+                
+                <h1>LATEST NEWS</h1>
+            </div>
+        </div>
+    </section>
+
+     <div id="cphContents_newssections">
+         
+       
+         <section class='newsThumb'>
+             <div class='auto-container'>
+                 <div class='new-detail'>
+                     <div class="d-none">
+                         <div class='sharethis-inline-share-buttons' style='text-align: right; margin-bottom: 20px;'></div>
+                         <label id="cphContents_lbldate">03/10/2023</label>
+                     </div>
+                     <h2 id="cphContents_hdtitle" class="d-none" style="display: none;"></h2>
+                     <h2>
+                         Interview with Nicholas Tollervey, Principal Engineer at PyScript
+                     </h2>
+                     <h5>
+                         
+                     </h5>
+                     <figure>
+                         
+                         <img src="../Uploads/Posts/news/nicholasengineer.png" id="cphContents_imgbanner" class="img-fluid" />
+                     </figure>
+                     <br />
+                     <p style="text-align: left;"><a href="https://ntoll.org/"><strong>Nicholas Tollervey</strong></a>, a classically trained
+musician, philosophy graduate, teacher, author, and software engineer, founded
+the London Python Code Dojo, created the education track at PyCon UK,
+coordinated the Python aspects of the BBC micro:bit project, authored four
+technical books for O'Reilly, and has worked across many diverse sectors as a
+software engineer. He is currently cultivating a community based project called
+CodeGrades, and is employed by Anaconda as a principal engineer on the PyScript
+team. He regularly speaks about Python at technical events all over the world.</p>
+<p style="text-align: left;">Nicholas will be joining us at GITEX on the <strong>18th October in Hall 26, DevSlam Stage at 2pm</strong> covering the topic of&nbsp;Creating a Coding Culture.</p>
+<p style="text-align: left;">In the build up to the event, we interviewed Nicholas on his education in the coding industry, influencing the new generation of coders, and AI's effect on coding best-practise.</p>
+<h2 style="text-align: left;">&nbsp;</h2>
+<h2 style="text-align: left;">Why should we care about coding education?</h2>
+<p style="text-align: left;">Because asking what sort of education we want is the same
+as asking what sort of society we want to become. Education is the process
+through which we interact with our future colleagues, collaborators and
+customers. It's easy to find <a href="https://gradestack.com/">online education courses</a>.</p>
+<p style="text-align: left;">If we don't cultivate effective, creative and
+innovative coding education <strong>we risk living in a technically illiterate society</strong>.
+If so much of our culture, commerce and collaborations are experienced through
+technology, then such a society will have a weak, disengaged and disempowered
+place in the world. Would you want to live in such a place?</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2 style="text-align: left;">What makes a thriving coding culture tick, and how do you
+sustain it?</h2>
+<p style="text-align: left;">I think the answer is in your question: the thing that
+makes a thriving coding culture tick is that it is self sustaining. What's the
+process by which a culture sustains itself? You'll be entirely unsurprised to
+hear that it's education!</p>
+<p style="text-align: left;">Look at the amount of effort the open source Python
+programming community has put into learning, education and engaging with
+teachers. From the
+very beginning, <strong>Python has been designed to be easy to learn and teach</strong> (the
+language's creator, Guido van Rossum, evolved Python from his work on a
+teaching language called "ABC"). Unsurprisingly, the IEEE recently
+reported that Python is currently the world's most popular programming language
+and we all know that Python is powering most of the innovations in AI, data
+science and in many other fields.</p>
+<p style="text-align: left;">Folks looking to get into coding will be drawn
+to those communities and technologies that make it easy for beginners to
+engage, are welcoming spaces, and empower you to build cool stuff. It sounds
+obvious when you write it down like this, but <strong>it takes a rare visionary</strong> (such
+as Guido) to embed these educational perspectives into a technology such as a
+programming language. But I'm glad Guido did manage to do this because we get
+Python and everything it enables.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2 style="text-align: left;">In the new age of AI, how can technology and education be
+positively
+brought together?</h2>
+<p style="text-align: left;">This is a great question.</p>
+<p style="text-align: left;">The obvious answer would be a vague assertion that AI
+provides lots of opportunities to revolutionize education.</p>
+<p style="text-align: left;">But I'd like to focus on a more subtle way to answer this
+question.</p>
+<p style="text-align: left;">Every few years something becomes the "hot"
+topic in computing.
+Currently it seems to be AI, and has been data
+science, the metaverse, blockchain, virtual reality, augmented reality, and so
+the list goes on of many other "world changing" technologies (so the
+hype tells us).</p>
+<p style="text-align: left;">In each case, within the hype is a serious kernel that,
+if used innovatively, effectively and in the right context, is indeed powerful
+and of huge value. But our world is littered with failed "Uber for cats
+but on the blockchain" type startups <strong>who lacked the skill of spotting the
+opportunity while attempting to ride a bandwagon</strong>. Clearly it's important to
+learn how to discern the truly valuable inflection points and potential uses of
+a technology.</p>
+<p style="text-align: left;">So how can technology and education be positively brought
+together? In such a way that folks <strong>learn a sophisticated discernment of the
+core value and uses of whatever the next technical innovation may be</strong> (as AI is
+now), along with the acquisition of both technical and commercial skills to
+bring the benefits of such opportunities to the wider world.</p>
+<p style="text-align: left;">You can learn this stuff. If you can learn it,
+it's within the realm of education. Did I mention how important education is to
+our technical endeavors?</p>
+<h2 style="text-align: left;">&nbsp;</h2>
+<h2 style="text-align: left;">What would your suggestions be to someone
+looking to get into coding?</h2>
+<p style="text-align: left;"><strong>1. Manage your expectations</strong>: learning to code is not a
+quick process, so be prepared to put in the time and effort, pick yourself up
+from failures and cultivate the humbleness to be able to say, "I don't
+know"
+and thus find new learning opportunities.</p>
+<p style="text-align: left;"><strong>2. Choose the right language</strong>: this is an easy
+one... choose Python. It's literally everywhere, used in everything, and is one
+of the easier languages for beginners to learn.</p>
+<p style="text-align: left;"><strong>3. Step up</strong>: in the same way musicians eventually
+have to give a first performance, or martial artists eventually have to spar
+with others, coders have to contribute code to a project or product. Be brave,
+get stuck in, respect your peers, learn from them, contribute and grow.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2 style="text-align: left;">In 20 years' time, we know we've succeeded as a
+technological culture because..?</h2>
+<p style="text-align: left;">Let's exercise our imaginations shall we..?</p>
+<p style="text-align: left;">We know we've succeeded because GITEX 2043 will
+bring together folks from across the <em>solar system</em> in a crucible of creative
+coding that enlarges and improves our world[s] for all humanity. I know I'll
+try to attend as an old "grey beard" engineer who is proud of their
+small part in making such a thing possible. </p>
+<p style="text-align: left;">Finally, I'll be delighted to see
+how Dubai is a center for creative, innovative and humane technical research
+and learning that reflects the precious "can do" culture of the UAE.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2 style="text-align: left;">What are you most looking forward to at GITEX
+this year?</h2>
+<p style="text-align: left;">Apart from giving my talk, I'm looking forward
+to stimulating conversation, challenging debate and learning about interesting
+technology with the new friends I will have made while participating in GITEX.</p>
+<p style="text-align: left;">And yes, all the things I mentioned in the bio above are
+going to be aspects of my talk - even the classical music bit... come
+along to the talk and see how!</p>
+                     <br />
+                     <p>
+                         
+                     </p>
+                 </div>
+                 <div class="text-center mt-4 pt-4 pb-5" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 500; repeat: true">
+                     <a class="redbutton01" href="https://www.gitex.com/all-news">
+                         <span class="demotext0">VIEW ALL NEWS</span>
+                         <span class="arrowicon0"><i class="fa-solid fa-arrow-right-long"></i></span>
+                     </a>
+                 </div>
+             </div>
+         </section>
+    </div>
+ 
+
+                                        <div id="DivTheEvent" class="row hide">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main content part-->
+                    <!-- right control -->
+                   
+                    <!-- right control -->
+                </div>
+            </div>
+            <!-- footer -->
+            <div id="MwoeFooter">
+                <footer>
+                    <div><section class="exhibitly-banner2 positiion-relative pt-0 pb-0 d-none">
+<div class="container-fluid p-0">
+<iframe id="exhibitly-banner-button" src="https://entry.exhibitly.ai/en/gitex/banner/input" frameborder="0"></iframe>
+</div>
+</section></div><div><footer class="footerBG">
+<div class="auto-container">
+<div class="row">
+<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+<div class="footerLogoOuter">
+<div class="footerTimeText">
+<h2>#GITEXGLOBAL </h2>
+</div>
+<div class="text-start mt-0">
+<a class="redbutton01" href="https://mktg.gitex.com/GITEXGLOBAL2026NewsletterRegistration" target="_blank">
+<span class="demotext0">Sign up for newsletter</span>
+</a>
+</div>
+<div class="footer-social">
+<ul>
+    <li><a href="https://www.facebook.com/GitexGlobal/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+    <li>
+    <a href="https://twitter.com/GITEX_GLOBAL" target="_blank">
+    <img alt="" src="../contents/Theme-24/images/twitter-icon.png" style="width: 18px;" />
+    </a>
+    </li>
+    <li><a href="https://www.youtube.com/user/GitexTechWeek" target="_blank"><span class="fab fa-youtube"></span></a></li>
+    <li><a href="https://www.linkedin.com/showcase/gitex./?viewAsMember=true" target="_blank"><span class="fab fa-linkedin-in"></span></a></li>
+    <li><a href="https://www.instagram.com/gitex_global/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+    <li><a href="https://shorturl.at/Oy0yL" target="_blank"><span class="fab fa-whatsapp"></span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-5 col-md-5 col-lg-5 col-xl-6 col-xxl-6">
+<div class="row">
+<div class="col-sm-6">
+<div class="footer-Links">
+<div class="accordion" id="accordionExample">
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingOne">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+Get Involved
+</button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<ul>
+    <li>
+    <!-- <a href="https://mktg.gitex.com/partnership-enquiry-2025" -->
+    <a href="https://mktg.gitex.com/GITEX2026MediaPartnerApplication" target="_blank">
+    Become a Media Partner
+    </a>
+    </li>
+    <li>
+    <!-- <a href="https://mktg.gitex.com/2025-ecosystem-partners" -->
+    <a href="https://mktg.gitex.com/GITEX2026EcosystemPartnerApplication" target="_blank">Become an Ecosystem Partner</a>
+    </li>
+    <!-- <li>
+                                                    <a href="https://www.gitex.com/media-registration">Media
+                                                        Registration</a>
+                                                </li> -->
+    <li>
+    <!-- <a href="https://mktg.gitex.com/speaker-interest?_gl=1*1t38lkd*_ga*MTE0NzAyMTI5MC4xNzUwMzE2OTAz*_ga_R07Z5EC23D*czE3NTIyMTI1MzMkbzcyJGcxJHQxNzUyMjE2OTgzJGo2MCRsMCRoMA..&amp;_ga=2.262623948.1592204283.1751862146-1147021290.1750316903" -->
+    <a href="https://mktg.gitex.com/GITEX2026SpeakerInterest" target="_blank">
+    Become a Speaker
+    </a>
+    </li>
+    <li>
+    <a href="https://mktg.gitex.com/visitor_interest_2026" target="_blank">Register Visitor Interest</a>
+    </li>
+    <li>
+    <a href="https://mktg.gitex.com/GITEXGLOBAL2026DelegateRegistrationForm" target="_blank">Become a Delegate</a>
+    </li>
+    <!-- <li><a href="https://mktg.gitex.com/delegate-interest?_gl=1*vknmaa*_ga*MTE0NzAyMTI5MC4xNzUwMzE2OTAz*_ga_R07Z5EC23D*czE3NTIxMjU5MzYkbzY3JGcxJHQxNzUyMTI1OTk1JGoxJGwwJGgw&amp;_ga=2.262642252.1592204283.1751862146-1147021290.1750316903"
+                                                        target="_blank">Become a Delegate</a> </li> -->
+</ul>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingTwo">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+Learn
+</button>
+</h2>
+<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<ul>
+    <li><a href="https://www.gitex.com/about">About GITEX</a></li>
+    <li><a href="https://www.gitex.com/all-news">Latest News</a></li>
+    <!-- <li><a href="https://www.gitex.com/gallery">Gallery 2025</a></li>
+    <li>
+    <a href="https://www.gitex.com/Media-Highlights">
+    Media Highlights
+    </a>
+    </li> -->
+    <li>
+    <a href="../media/home.html" target="_blank">Media Hub</a>
+    </li>
+    <!-- <li>
+    <a href="https://www.gitex.com/gitex-tech-waves-podcast">
+    GITEX Tech
+    Waves Podcast
+    </a>
+    </li> -->
+</ul>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingFive">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+<!-- All Shows -->
+GITEX Universe
+</button>
+</h2>
+<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<ul>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://www.youtube.com/watch?v=oZOnbMVp4Ts','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Universe Video
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://www.northstardubai.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Expand
+    North Star
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://aieverythingglobal.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Ai
+    Everything GLOBAL
+    </a>
+    </li>
+    <li>
+    <a href="https://www.aieverythingkenya.com/" target="_blank">
+    AI EVERYTHING KENYA x GITEX KENYA
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://globaldevslam.com','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Global
+    DevSlam
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://giteximpact.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    GITEX
+    Impact
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://www.fintechsurge.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Fintech
+    Surge
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://www.futureblockchainsummit.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Future
+    Blockchain Summit
+    </a>
+    </li>
+    <li>
+    <a onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; window.open('https://www.marketingmaniashow.com/','_blank')" data-cf-modified-4bb85b42c02f31e0d5fbffb6-="">
+    Marketing
+    Mania
+    </a>
+    </li>
+    <li>
+    <a href="https://www.gitexafrica.com/?utm_source=website&amp;utm_medium=awareness&amp;utm_campaign=gas-website" target="_blank">GITEX Africa Morocco</a>
+    </li>
+    <li>
+    <a href="https://www.gitexcac.com/?utm_source=homepage&amp;utm_medium=website&amp;utm_campaign=20250821-gitexcentralasia&amp;caucasus26-all-gitexglobal" target="_blank">GITEX CENTRAL ASIA &amp; CAUCASUS</a>
+    </li>
+    <li><a href="https://gitexasia.com/" target="_blank">GITEX ASIA</a></li>
+    <li><a href="https://www.gitexeurope.com/" target="_blank">GITEX
+    Europe</a></li>
+    <li><a href="https://gitexnigeria.ng/home" target="_blank">GITEX
+    Nigeria</a></li>
+    <li><a href="https://www.gitexlatam.com/" target="_blank">GITEX AI
+    LATAM</a></li>
+    <li><a href="https://gitexvietnam.com/" target="_blank">GITEX VIETNAM
+    </a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="footer-info">
+<h2>Let&rsquo;s Talk</h2>
+<p>
+<strong>Sales Inquiry </strong><br />
+<a href="mailto:GitexSales@dwtc.com"> GitexSales@dwtc.com</a>
+</p>
+<p>
+<strong>Marketing Inquiry</strong><br />
+<a href="mailto:gitexmarketing@dwtc.com"> gitexmarketing@dwtc.com</a>
+</p>
+<p>
+<strong>Conferences</strong><br />
+<a href="mailto:conferences@dwtc.com">conferences@dwtc.com</a>
+</p>
+<p>
+<strong>Partnership Inquiry</strong><br />
+<a href="mailto:gitexpartnerships@dwtc.com"> gitexpartnerships@dwtc.com</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+<div class="text-end">
+<div class="ctabutton01 text-end">
+<!-- <a class="redbutton01" href="https://mktg.gitex.com/speaker-interest" target="_blank"> -->
+<a class="redbutton01" href="https://mktg.gitex.com/GITEX2026SpeakerInterest" target="_blank">
+<span class="demotext0">Speaker Enquiry</span>
+</a>
+</div>
+<div class="ctabutton01 text-end">
+<!-- <a class="redbutton01" href="https://mktg.gitex.com/delegate-interest" target="_blank"> -->
+<a class="redbutton01" href="https://mktg.gitex.com/GITEXGLOBAL2026DelegateRegistrationForm" target="_blank">
+<span class="demotext0">Delegate Enquiry</span>
+</a>
+</div>
+<div class="ctabutton01 text-end">
+<a class="redbutton01" href="../media/home.html" target="_blank">
+<span class="demotext0">Media Hub</span>
+</a>
+</div>
+<!-- <div class="ctabutton01 text-end">
+                        <a class="redbutton01"
+                            href="https://visit.gitex.com/registration?eventId=252175&amp;commerceCatalogId=244339&amp;entryClassPK=507446"
+                            target="_blank">
+                            <span class="demotext0">Register For A Media Pass</span>
+                        </a>
+                    </div> -->
+<!-- <div class="ctabutton01 text-end">
+                        <a class="redbutton01" href="https://www.gitex.com/media-registration">
+                            <span class="demotext0">Media Registration</span>
+                        </a>
+                    </div> -->
+</div>
+</div>
+</div>
+<div class="fotter-bottom">
+<div class="row">
+<div class="col-sm-4 ">
+<div class="websiteby-text">
+<p>
+Event Website By: <img alt="" src="../contents/Theme-24/images/MwoeLogo.png" class="pe-1" />
+<a href="https://myworldofexpo.com/" target="_blank">MY WORLD OF EXPO</a>
+</p>
+</div>
+</div>
+<div class="col-sm-8 order-first order-md-last">
+<ul class="quiklinks">
+    <li><a class="cmp-revoke-consent" href="javascript:void(0);">Manage Cookie Preferences</a></li>
+    <li><a href="https://www.gitex.com/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.gitex.com/terms-and-conditions">Terms &amp; Conditions</a></li>
+    <li>&copy; Copyright 2025</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<style>
+    .gspeakersbox01 .gspeakerstext01 h4 span {
+    display: block;
+    width: 100%;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 82%;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-family: 'NexaBook';
+    text-transform: capitalize;
+    }
+</style></div>
+                    <input type="hidden" name="ctl00$hdDivIdRight" id="hdDivIdRight" />
+                </footer>
+            </div>
+        </form>
+    </div>
+
+    <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer.  -->
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+        (function () {
+            var s = document.createElement('script');
+            s.src = 'https://cdn-app5.securiti.ai/consent/cookie-consent-sdk-loader.js';
+            s.setAttribute('data-tenant-uuid', 'afd75cd2-cbaa-4d9b-8b84-37598fb2e16f');
+            s.setAttribute('data-domain-uuid', 'edacc90b-e304-4949-9d85-c83e3cc4efe0');
+            s.setAttribute('data-backend-url', 'https://app5.securiti.ai');
+            s.setAttribute('data-skip-css', 'false');
+            s.defer = true;
+            var parent_node = document.head || document.body;
+            parent_node.appendChild(s);
+        })()
+    </script>
+
+    <script src="../contents/Theme-25/js/plugins2025.js" type="4bb85b42c02f31e0d5fbffb6-text/javascript"></script>
+    <script src="../contents/Theme-25/js/customjq.js%3Fv=02-09.13" type="4bb85b42c02f31e0d5fbffb6-text/javascript"></script>
+    <script src="../contents/Theme-25/js/customswiperjq.js%3Fv=01-09.2" type="4bb85b42c02f31e0d5fbffb6-text/javascript"></script>
+
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+        $(window).scroll((function () { $(document).scrollTop() > 130 ? $(".headerboxn0").addClass("headfixed") : $(".headerboxn0").removeClass("headfixed") }));
+        $(".image-link").magnificPopup({ type: "image", gallery: { enabled: !0, tCounter: "%curr% of %total%" }, removalDelay: 300, mainClass: "mfp-fade" });
+        $(".newsection").length && $(".newsection").owlCarousel({ loop: !0, margin: 15, nav: !1, dots: !1, smartSpeed: 500, autoplay: 4e3, autoplay: !1, autoplayHoverPause: !0, responsive: { 0: { items: 1 }, 600: { items: 3 }, 1e3: { items: 4 } } });
+        $(".TwoItemCarousel").length && $(".TwoItemCarousel").owlCarousel({ loop: !0, margin: 15, nav: !0, dots: !1, smartSpeed: 500, autoplay: 4e3, autoplay: !1, autoplayHoverPause: !0,navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'], responsive: { 0: { items: 1 }, 600: { items: 2 }, 1e3: { items: 2 } } });
+        $(document).ready((function () { var a = $(".owlnewexpanded1"), s = $(".owlnewexpantop1"); a.owlCarousel({ items: 1, slideSpeed: 100, nav: !0, autoplay: !1, dots: !0, loop: !0, responsiveRefreshRate: 200, navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'] }).on("changed.owl.carousel", (function (a) { var e = a.item.count - 1, n = Math.round(a.item.index - a.item.count / 2 - .5); n < 0 && (n = e); n > e && (n = 0); s.find(".owl-item").removeClass("current").eq(n).addClass("current"); var o = s.find(".owl-item.active").length - 1, t = s.find(".owl-item.active").first().index(), r = s.find(".owl-item.active").last().index(); n > r && s.data("owl.carousel").to(n, 100, !0); n < t && s.data("owl.carousel").to(n - o, 100, !0) })), s.on("initialized.owl.carousel", (function () { s.find(".owl-item").eq(0).addClass("current") })).owlCarousel({ items: 6, dots: !1, nav: !1, margin: 15, smartSpeed: 500, responsive: { 0: { items: 3, nav: !0, navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'] }, 480: { items: 3, nav: !0, navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'] }, 600: { items: 3, nav: !0, navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'] }, 800: { items: 3, nav: !0, navText: ['<span class="arrowsvg0"></span>', '<span class="arrowsvg0"></span>'] }, 1024: { items: 6 } }, slideBy: 6, responsiveRefreshRate: 100 }).on("changed.owl.carousel", (function (s) { var e = s.item.index; a.data("owl.carousel").to(e, 100, !0) })), s.on("click", ".owl-item", (function (s) { s.preventDefault(); var e = $(this).index(); a.data("owl.carousel").to(e, 300, !0) })) }));
+        $((function () { var n = 1, t = $(".vertmarqueeinner"), e = $(".marquee-item"), a = e.length; function r() { t.css({ transition: "transform .5s", transform: "translateY(-" + 30 * n + "px)" }), e.removeClass("active").eq(n).addClass("active") } t.prepend(e.last().clone()).append(e.first().clone()), e = $(".marquee-item"), t.on("transitionend", (function () { 0 === n && (n = a, t.css({ transition: "none", transform: "translateY(-" + 30 * n + "px)" })), n === a + 1 && (n = 1, t.css({ transition: "none", transform: "translateY(-" + 30 * n + "px)" })) })), setInterval((function () { n++, r() }), 1500), r() }));
+
+        let SwiperTop = new Swiper(".swiper--top01", { spaceBetween: 0, centeredSlides: !0, speed: 6e3, autoplay: { delay: 1 }, loop: !0, loopedSlides: 4, slidesPerView: "auto", allowTouchMove: !0, disableOnInteraction: !0 });
+        var swiperbottom = new Swiper(".swiper--bottom01", { spaceBetween: 0, centeredSlides: !0, speed: 6e3, autoplay: { delay: 1 }, loop: !0, loopedSlides: 4, slidesPerView: "auto", allowTouchMove: !0, disableOnInteraction: !0 });
+
+        $(".quote-slide").owlCarousel({ loop: !0, margin: 15, nav: !1, autoplay: !0, autoplayHoverPause: !0, responsive: { 0: { items: 1 }, 600: { items: 1 }, 1e3: { items: 1 } } });
+        $(".CTFSlider_").owlCarousel({ loop: !0, margin: 0, nav: !1, autoplay: !0, responsive: { 0: { items: 1 }, 600: { items: 1 }, 1e3: { items: 1 } } });
+
+    </script>
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+        const swiper = new Swiper('.swiper-gallery', {
+            centeredSlides: true,
+            loop: true,
+            speed: 500,
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 3000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+
+                640: {
+                    slidesPerView: 2.5,
+                },
+                768: {
+                    slidesPerView: 2.75,
+                },
+                1080: {
+                    slidesPerView: 2.25,
+                },
+                1280: {
+                    slidesPerView: 2.55,
+                },
+            },
+        });
+    </script>
+    <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+        $(document).ready(function () {
+            // Apply both lazy loading and async decoding to all images
+            function applyLazyAndAsync(imgs) {
+                $(imgs).each(function () {
+                    this.setAttribute('loading', 'lazy');
+                    this.setAttribute('decoding', 'async');
+                });
+            }
+
+            // 1️⃣ Apply to all images currently in the DOM
+            applyLazyAndAsync($('img'));
+
+            // 2️⃣ Observe dynamically added images
+            const observer = new MutationObserver(() => {
+                applyLazyAndAsync($('img'));
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+
+            $('img').each(function () {
+                const img = this;
+
+                // Skip if already has width/height attributes
+                if (img.hasAttribute('width') && img.hasAttribute('height')) return;
+
+                // Wait until the image is fully loaded to get rendered size
+                if (img.complete) {
+                    img.setAttribute('width', img.clientWidth);
+                    img.setAttribute('height', img.clientHeight);
+                } else {
+                    img.onload = function () {
+                        img.setAttribute('width', img.clientWidth);
+                        img.setAttribute('height', img.clientHeight);
+                    };
+                }
+
+                // Ensure lazy-loading and async decoding
+                img.setAttribute('loading', 'lazy');
+                img.setAttribute('decoding', 'async');
+            });
+
+        });
+    </script>
+
+    
+
+    
+    
+
+
+      <script type="4bb85b42c02f31e0d5fbffb6-text/javascript">
+$(document).ready(function() {
+  var el = $('.mediaSlide');
+
+  var carouselOptions = {
+    margin: 20,
+    items: 4,
+    nav: true,
+    dots: true,
+    slideBy: 'page',
+    autoplay:true,
+    navText: [
+      "<span class='icon-arrow-left2'></span>",
+      "<span class='icon-arrow-right2'></span>"
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        rows: 2
+      },
+      768: {
+        items: 2,
+        rows: 3
+      },
+      991: {
+        items: 4,
+        rows: 2
+      },
+    },
+  };
+
+  // ✅ Initialize Owl Carousel
+  el.owlCarousel(carouselOptions);
+});
+</script>
+
+
+<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4bb85b42c02f31e0d5fbffb6-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a15dc6fc8817930',t:'MTc2MzYxOTgzMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

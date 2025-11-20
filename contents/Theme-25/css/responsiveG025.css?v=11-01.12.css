@@ -1,0 +1,4352 @@
+@media screen and (max-width:768px) {
+    .converCol0 {
+        transform: rotate(0) !important;
+    }
+    .VisibleOnMobile_as {
+        display: block !important;
+        margin-top: 20%;
+    }
+
+    .HideOnMobile_as {
+        display: none !important;
+    }
+
+    .pt-5.pt-20rem {
+        padding-top: 3rem !important;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .speakersmainbox01::before {
+        display: none
+    }
+
+    .netelement0 img {
+        right: 0
+    }
+
+    .statsroundmain0 .aidrivenslider0 {
+        padding-bottom: 130vw;
+    }
+
+    .statsroundmain0 .aidrivenslider0.mb-5 {
+        margin-bottom: 1rem !important;
+    }
+
+    .largestmainbox0 .converbox0 {
+        padding-bottom: 6vw;
+    }
+
+    /* .ShowLogoWrapper .InnerShowLogoBox1 figure.samesize01,
+    .ShowLogoWrapper .InnerShowLogoBox1 figure {
+        width: 150px
+    } */
+
+    .gitexfindbox01 .findthumb0 {
+        margin-top: -80px;
+    }
+
+    .auto-container {
+        width: 100%;
+    }
+
+    .headerboxn0 .auto-container {
+        padding: 0 1rem;
+    }
+
+    .headerboxn0 .headertoprow {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .headerboxn0.headfixed .headertoprow {
+        padding-bottom: 0rem;
+    }
+
+    .headerboxn0 .logoboxn0 figure {
+        /*width: 90%;*/
+        width: 100%;
+    }
+
+    /*.headerboxclr0.headerboxn0 .logoboxn0 {
+        width: 60%;
+    }*/
+    .headerboxclr0.headerboxn0 .logoboxn0 {
+        width: 65%;
+    }
+
+    .redbutton01 {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+
+    .whitenormlbtn0 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 1.225rem 2rem 1rem;
+    }
+
+    .redbutton01 span.demotext0 {
+        padding: 0.625rem 1.625rem 0.425rem;
+    }
+
+    .redbutton01 span.arrowicon0 {
+        font-size: 16px;
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .mt-n50 {
+        margin-top: -40px !important;
+    }
+
+    .pb-6 {
+        padding-bottom: 5rem !important;
+    }
+
+    .navigatopn0,
+    .headerboxn0 .headerBtn {
+        display: none;
+    }
+
+    .headerBtnMobile,
+    .headerBtnMobile .headerBtn {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .headerboxn0 .headerBtnMobile {
+        padding-top: 0.625rem;
+        justify-content: end;
+    }
+
+    .headerboxclr0 .headerBtn .whitecirclebtn {
+        font-size: 10px;
+        line-height: 22px;
+        height: 35px;
+        padding: 14px 10px 10px 14px;
+        padding-right: 10px;
+        padding-right: 9.2vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 {
+        font-size: 16px;
+        padding: 14px 10px 10px 1.875rem;
+        padding-right: 10px;
+        padding-right: 10.65vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 .iconcircle {
+        top: 2.2vw;
+        right: 2vw;
+        width: 1.525rem;
+        height: 1.525rem;
+    }
+
+    .whitecirclebtn .iconcircle {
+        width: 1.425rem;
+        height: 1.425rem;
+    }
+
+
+    .headerboxclr0 .headerBtn .whitecirclebtn .iconcircle {
+        top: 1.4vw;
+        right: 1.4vw;
+    }
+
+    .headerboxclr0 #menu-wrapper #hamburger-menu {
+        padding: 5px 12px 5px;
+    }
+
+    #menu-wrapper #hamburger-menu {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #menu-wrapper #hamburger-menu i {
+        margin-left: 2px;
+        font-size: 1.15rem;
+    }
+
+    .ggmainbannerbox0 .ggbannercontent0 {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: blur(0.625rem);
+        backdrop-filter: blur(0.625rem);
+        padding: 1rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+    }
+
+    .ggmainbannerbox0 .ggbannercontent0 h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        max-width: 15ch;
+    }
+
+    .ggmainbannerbox0 .ggbannercontent0 p,
+    .ggmainbannerbox0 .ggbannercontent0 h2 {
+        color: #FFF;
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .videoplaysection0 .videoiconplay0 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .videoplaysection0 .videoiconplay0 .videoiconbanner0 {
+        font-size: 2.625rem;
+        line-height: 2.625rem;
+    }
+
+    .videoplaysection0 .videotext0 h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.1vw;
+    }
+
+    .newsquote0 {
+        margin-top: -5px;
+    }
+
+    .newsquote0 h2 {
+        font-size: 1.425rem;
+        line-height: 1.625rem;
+    }
+
+    .vertmarquee0 .marquee-item {
+        height: 48px;
+    }
+
+    .vertmarquee0 .marquee-item h4 {
+        font-size: 1rem;
+        line-height: 1.425rem;
+    }
+
+    .headingsection01 h2,
+    .sectionheading03 h2 {
+        font-size: 7.3vw;
+        line-height: 7.5vw;
+    }
+
+    .headingsection01 h4,
+    .sectionheading03 h4 {
+        font-size: 5vw;
+        line-height: 5.1vw;
+    }
+
+    .intropara0.pe-5 {
+        padding-right: 1.625rem !important;
+    }
+
+    .intropara0.pe-5 .w-80 {
+        width: 100% !important;
+    }
+
+    .intropara0 p {
+        font-size: 3.4vw;
+        line-height: 4.8vw;
+    }
+
+    .headingsection01.mb-4.pb-5,
+    .sectionheading03.mb-4.pb-5 {
+        padding-bottom: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .statsroundmain0 {
+        padding-top: 6vw !important;
+    }
+
+    .statsroundmain0 .circlebr01 {
+        top: 17.5vw;
+    }
+
+    .statsroundmain0 .circlebr01::before,
+    .statsroundmain0 .circlebr01::after,
+    .statsroundmain0 .circlebr01 span {
+        top: 2vw;
+        width: 140vw;
+        height: 40vh;
+    }
+
+    .statsroundmain0 .circlebr01::after {
+        top: 36vw;
+    }
+
+    .statsroundmain0 .circlebr01 span {
+        top: 70vw;
+    }
+
+    .statsItemround0.statsn01 {
+        margin-top: -33.8vw !important;
+    }
+
+    .statsItemround0.statsn02 {
+        margin-top: -33.9vw !important;
+    }
+
+    .statsItemround0.statsn05 {
+        margin-top: 12.8vw !important;
+    }
+
+    .statsItemround0 h4 {
+        font-size: 6.2vw;
+        line-height: 6.2vw;
+    }
+
+    .statsItemround0 p {
+        font-size: 2.912vw;
+        line-height: 3.25vw;
+    }
+
+    .statsItemround0 .dotrow0 span {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .statsItemround0 .dotrow0 span::before {
+        width: 2.9vw;
+        height: 2.9vw;
+    }
+
+    .slidertrack0 .slidedriven0 {
+        width: 290px;
+        height: 380px;
+        margin-left: -145px;
+    }
+
+    .drivencard0 .drivetag0 h5 {
+        font-size: 2.8vw;
+        line-height: 2.8vw;
+    }
+
+    .drivencard0 .drivecontent0 h2 {
+        font-size: 3.1vw;
+        line-height: 4.4vw;
+    }
+
+    .drivencard0 .drivecontent0 p {
+        font-size: 2.8vw;
+        line-height: 4.2vw;
+    }
+
+    .drivencard0 .drivecontent0 .drivehall0 h4 {
+        font-size: 2.84vw;
+        line-height: 2.9vw;
+    }
+
+    .aidrivenslider0 {
+        overflow: inherit;
+    }
+
+    .aidrivenslider0 .navdriven0 {
+        gap: 0.225rem;
+        width: 100%;
+        top: -4rem;
+    }
+
+    .aidrivenslider0 .navdots .dot.active-dot {
+        width: 2.4vw;
+        height: 2.4vw;
+    }
+
+    .aidrivenslider0 .navdots .dot.active-dot::before {
+        width: 1.70vw;
+        height: 1.70vw;
+    }
+
+    .newexpandleft01 .newexpandtop01 {
+        padding: 1.25rem 1.625rem 1.25rem;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 85% 100%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 85% 100%, 0 100%);
+    }
+
+    .newexpandleft01 .newexpandmid01 {
+        padding: 1.625rem 1.625rem 1.625rem;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 85% 100%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 85% 100%, 0 100%);
+        height:auto !important;
+    }
+
+    .newexpandleft01 .newexpandtop01 h2 {
+        font-size: 5.1vw;
+        line-height: 6.4vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 h3 {
+        font-size: 4.4vw;
+        line-height: 5.8vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 p {
+        font-size: 3.5vw;
+        line-height: 4.8vw;
+    }
+
+    .owlnewexpanded1 .owl-nav .owl-prev {
+        left: -2%;
+    }
+
+    .owlnewexpanded1 .owl-nav .owl-next {
+        right: -2%;
+    }
+
+    .expandedlogo01 {
+        height: 80px;
+        min-height: 80px;
+    }
+
+    .expamdlogomain0 {
+        padding: 0 0;
+    }
+
+    .newexpandright01 {
+        margin-top: 1.625rem;
+        padding: 1.625rem 1rem;
+    }
+
+    .newexpandright01 .accordion .accordion-item .accordion-button {
+        font-size: 4.2vw;
+        line-height: 5.5vw;
+        padding: 0.625rem 0.625rem 0.625rem 2rem;
+    }
+
+    .newexpandright01 .accordion .accordion-body p {
+        font-size: 4.1vw;
+        line-height: 5.6vw;
+    }
+
+    .owlnewexpanded1 .row.justify-content-between.mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    .owlnewexpanded1 .owl-dots .owl-dot.active {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .owlnewexpanded1 .owl-dots .owl-dot.active span {
+        width: 0.525rem;
+        height: 0.525rem;
+    }
+
+    .techmainbg0 {
+        padding-top: 10vw;
+        padding-bottom: 45vw;
+    }
+
+    .techmainbg0 .intropara0 p {
+        font-size: 3.8vw;
+        line-height: 4.9vw;
+    }
+
+    .techmainbox0 .techmainbg0 .row.gx-2 {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 1rem;
+    }
+
+    .techmainbox0 .headingsection01.pb-5,
+    .techmainbox0 .sectionheading03.pb-5 {
+        padding-bottom: 1.625rem !important;
+    }
+
+    .sectorbox1 .sectorinner1 h2 {
+        font-size: 5vw;
+        line-height: 7vw;
+        margin-bottom: 1rem;
+    }
+
+    .techcarbox01 {
+        right: -10px;
+        width: 70vw;
+    }
+
+    .tideslftcontet01 {
+        padding-right: 2rem;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 h2 {
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 .redbutton01 span.demotext0 {
+        padding: 1rem 1.825rem 0.625rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 {
+        padding: 2.425rem 6rem 2.425rem 1.245rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 h2 {
+        font-size: 4.4vw;
+        line-height: 5.4vw
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 p {
+        font-size: 4.2vw;
+        line-height: 5.8vw;
+    }
+
+    .tidesrightcontet01 {
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .wavethumb0 {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .tidesrightcontet01 .wavecontent0 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .tidesrightcontet01 .wavecontent0::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tidesrightcontet01::before {
+        display: none;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 {
+        padding: 3rem 1rem 1.625rem;
+        text-align: center;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 h2 {
+        font-size: 7.5vw;
+        line-height: 8.5vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 p {
+        font-size: 4.4vw;
+        line-height: 6vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 .text-start {
+        text-align: center !important;
+    }
+
+    .converbox0 {
+        width: 100%;
+        height: auto;
+        padding: 0 1rem;
+    }
+
+    .converbox0 .convercard0 {
+        padding: 0.25rem !important;
+    }
+
+    .convercard0 .concardinner0 {
+        padding: calc(100vw * 0.02);
+    }
+
+    .converbox0 .converCol0 {
+        position: relative;
+        left: unset;
+        width: 100%;
+        height: 330px;
+        padding: 0;
+        margin: 0 0 1rem;
+        margin-left: 0;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .converbox0 .conleft1,
+    .converbox0 .conleft2,
+    .converbox0 .conleft3,
+    .converbox0 .conleft4 {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .concardinner0 .numbercard0 {
+        margin-bottom: 0.625rem;
+        padding-top: 0.625rem;
+    }
+
+    .concardinner0 .numbercard0 figure img {
+        width: 60%;
+    }
+
+    .convercard0 .concardinner0 .cardtag0 h4 {
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2px;
+    }
+
+    .concardinner0 .numbercard0 h5 {
+        font-size: 4.8vw;
+        line-height: 5.8vw;
+    }
+
+    .concardinner0 .contentcard0 {
+        padding: 0.625rem 0.25rem 0;
+    }
+
+    .concardinner0 .contentcard0 h2 {
+        font-size: 3.2vw;
+        line-height: 4.5vw;
+    }
+
+    .concardinner0 .contentcard0 p {
+        font-size: 4vw;
+        line-height: 5.3vw;
+    }
+
+    .largestmainbox0 .mt-n110 {
+        margin-top: 1.5rem !important;
+    }
+
+    .speakersmainbox01 .headingsection01.mb-4 {
+        margin-bottom: 1rem !important;
+    }
+
+    .gspeakersbox01 {
+        padding: 0.25rem 0.25rem;
+    }
+
+    .gspeakersbox01 .gspeakerpck01::before {
+        width: 100%;
+        height: 95%;
+    }
+
+    .col-box-5 .gspeakersbox01 .gspeakerpck01::before {
+        height: 95%
+    }
+
+    .gspeakersbox01 figure {
+        /*height: 200px;*/
+        height: auto;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 {
+        padding: 0.625rem 0.625rem 1rem;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h2 {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 p {
+        font-size: 3.6vw;
+        line-height: 4.6vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h4 {
+        font-size: 3.2vw;
+        line-height: 4.2vw;
+        font-weight: 500;
+    }
+
+    .gspeakersbox01 .gspeakerstag h5 {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .voicesmain01 .headingsection01.text-start h2,
+    .voicesmain01 .sectionheading03.text-start h2 {
+        font-size: 6.9vw;
+        line-height: 7.9vw;
+    }
+
+    .voicesmain01 {
+        padding: 4rem 2rem 2.625rem;
+    }
+
+    .impactcard0 .topquote0 img {
+        width: 2.5rem;
+    }
+
+    .impactcard0 .impactlogo0 img {
+        width: 30vw;
+    }
+
+    .impactcard0 .impactlogo0 .vw-5 {
+        width: 20vw !important;
+    }
+
+    .impactcard0 .impactinnerbg0 {
+        height: 12rem;
+    }
+
+    .impactcard0 .topquote0 {
+        top: -12.2vw;
+    }
+
+    .impactcard0 .impacttext0 p {
+        font-size: 3.94vw;
+        line-height: 4.7vw
+    }
+
+    .tideslftcontet01 .tidestopcontent0 {
+        padding: 1.625rem 1.625rem;
+    }
+
+    .findgitexlogo0 .findlogoboxbg0 {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .findgitexlogo0::before {
+        background-position: 0 95%;
+    }
+
+    .gitexfindbox01 {
+        padding: 3rem 0 3rem;
+    }
+
+    .findgitexlogo0 {
+        height: auto;
+        padding: 0 0 1rem;
+    }
+
+    .findgitexlogo0::after {
+        height: 60%;
+    }
+
+    .footerBG::before {
+        display: none;
+    }
+
+    .fotter-bottom .quiklinks {
+        text-align: left;
+        margin-bottom: 0.825rem;
+    }
+
+    .websiteby-text {
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    .ctabutton01:first-child {
+        margin-top: 1rem;
+    }
+
+    .footer-social {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .footerTimeText {
+        margin-top: 0;
+    }
+
+    .statsroundmain0 .z-9 .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .dubaithumbbox0 {
+        margin-top: 2.625rem;
+    }
+
+    .showspeakersOwl .owl-dots .owl-dot span {
+        display: none;
+    }
+
+    .showspeakersOwl .owl-dots .owl-dot.active span,
+    .showspeakersOwl .owl-dots .owl-dot.active+.owl-dot span,
+    .showspeakersOwl .owl-dots .owl-dot.active+.owl-dot:nth-child(1n)+.owl-dot span {
+        display: inline-block
+    }
+
+    .bannerInfov3 .bannerlogo {
+        width: 40%
+    }
+
+    .bannerInfov3 h4.stagelocationv3 {
+        padding: 1.26vw 2.823vw;
+        font-size: 4.238vw
+    }
+
+    .digiBGBoardInner {
+        padding: 1.25rem 1.25rem
+    }
+
+    .datacenterRgt {
+        min-height: 320px;
+    }
+
+    .digiBGBoardInner p {
+        font-size: 16px;
+        line-height: 1.625rem
+    }
+
+    .datacenterBGBoard .coreSectorsWrap h3 {
+        font-size: 1.25rem
+    }
+
+    .datacenterBGBoard .digiBGBoardInner .coreSectorsWrap li p {
+        padding: 15px 1.875rem;
+        line-height: 1.25rem
+    }
+
+    .coreSectorsWrap ul {
+        padding-bottom: 1.25rem
+    }
+
+    .andmanymore {
+        font-size: 4.738vw
+    }
+
+    .datacenterfeatITem .datafethead {
+        padding: 4.563vw 5.963vw
+    }
+
+    .datacenterfeatITem .datafethead h3 {
+        font-size: 1.25rem;
+        line-height: 25px
+    }
+
+    .datacenterfeatITem .datafethead p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .datacenterfeatITem {
+        background: -o-linear-gradient(left, rgb(69 4 149 / 82%) 0, rgb(77 30 170) 50%, rgb(128 0 159 / 95%) 100%) !important;
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgb(69 4 149 / 82%)), color-stop(50%, rgb(77 30 170)), to(rgb(128 0 159 / 95%))) !important;
+        background: linear-gradient(90deg, rgb(69 4 149 / 82%) 0, rgb(77 30 170) 50%, rgb(128 0 159 / 95%) 100%) !important
+    }
+
+    .headingsection01 h2.smallheading,
+    .sectionheading03 h2.smallheading {
+        font-size: 1.875rem;
+        line-height: 33px
+    }
+
+    .speakerItem25New h2 {
+        font-size: 16px;
+        line-height: 18px
+    }
+
+    .speakerItem25New p {
+        font-size: 12px;
+        line-height: 14px
+    }
+
+    .quantumBGBoard .bannerInfov3 .bannerlogo {
+        width: 40%
+    }
+
+    .cyberbanner .bannerheading,
+    .digibanner .bannerheading,
+    .greenimpactbanner .bannerheading {
+        padding-top: 3.125rem
+    }
+
+    .quantumBGBoard .digiBGBoardInner {
+        padding: 1.875rem 1.25rem
+    }
+
+    .coreSectorsWrap h3 {
+        font-size: 16px
+    }
+
+    .digiBGBoardInner .coreSectorsWrap li p {
+        padding: 15px 1.875rem;
+        line-height: 22px
+    }
+
+    .quantumfeatITem .qutfethead h3 {
+        font-size: 18px;
+        line-height: 22px;
+        height: auto
+    }
+
+    .quantumfeatITem .qutfethead {
+        padding: 10px 1.25rem
+    }
+
+    .quantumfeatITem .qutfethead p {
+        font-size: 16px;
+        line-height: 1.25rem
+    }
+
+    .greenimtBGBoard .digiBGBoardInner {
+        padding: 1.25rem 1.25rem
+    }
+
+    .greenimtBGBoard .bannerInfov3 .bannerlogo {
+        width: 35%
+    }
+
+    .cyberlogoMain p {
+        font-size: 14px;
+        padding-bottom: 10px
+    }
+
+    .cyberlogoMain figure .ggcyberLogosize {
+        width: 190px
+    }
+
+    .cyberGovtlogosize {
+        width: 196px
+    }
+
+    .cyberlogoMain p {
+        font-size: 14px;
+        padding-bottom: 14px;
+        margin: 0
+    }
+
+    .cyberBGBoardInner {
+        padding: 1.25rem 1.25rem
+    }
+
+    .cyberBGBoardInner p {
+        font-size: 16px;
+        line-height: 1.625rem
+    }
+
+    .cyberBGBoardInner .coreSectorsWrap li p {
+        padding: 10px 2.5rem;
+        line-height: 1.25rem;
+        margin: 0
+    }
+
+    .cyberfeatITem .cyberfethead h3 {
+        font-size: 18px;
+        line-height: 22px;
+        height: auto;
+        padding-bottom: 15px
+    }
+
+    .cyberfeatITem .cyberfethead p {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .cyberfeatITem .cyberfethead {
+        padding: 1.25rem
+    }
+
+    .cyberFeaturesv3 {
+        padding: 3rem 0 3rem;
+    }
+
+    .digifeatITem .digifethead {
+        padding: 1.25rem
+    }
+
+    .digifeatITem .digifethead h3 {
+        font-size: 18px;
+        line-height: 1.25rem;
+        height: auto
+    }
+
+    .digifeatITem .digifethead p {
+        font-size: 16px;
+        line-height: 18px
+    }
+
+    .digifeatITem figure {
+        height: 300px
+    }
+
+    .digifeatITem {
+        height: auto
+    }
+
+    .innerBanner.greenimpactbanner:after {
+        height: 100%
+    }
+
+    .sponosrscyberItem.effect2 {
+        height: auto
+    }
+
+    .sponsorscyberTitle {
+        min-height: auto
+    }
+
+    .startupsection h2 {
+        font-size: 1.25rem;
+        line-height: 22px
+    }
+
+    .pitchTimeline .cornercut h4 {
+        font-size: 1.25rem;
+        line-height: 25px
+    }
+
+    .pitchTimeline .cornercut h4 span {
+        font-size: 14px
+    }
+
+    .pitchTimeline .cornercut {
+        width: 53%
+    }
+
+    .mouITem h2 {
+        font-size: 18px;
+        line-height: 21px
+    }
+
+    .mouITem p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .mousWrap .col-6.col-sm-3 {
+        margin-bottom: 1.25rem
+    }
+
+    .mousWrap .sectionheading03 p {
+        font-size: 1.25rem;
+        line-height: 25px;
+        padding-bottom: 0
+    }
+
+    .quoteTextRight {
+        position: relative;
+        padding-bottom: 1.875rem;
+        height: auto;
+        width: auto;
+        padding-left: 60px
+    }
+
+    .quoteTextRight .quoteIcon {
+        padding: 10px;
+        left: -70px;
+        top: 0;
+        padding-right: 3.125rem
+    }
+
+    .quoteTextRight p {
+        font-size: 1.25rem;
+        line-height: 25px
+    }
+
+    .quoteTextRight h4 {
+        font-size: 18px;
+        line-height: 1.25rem
+    }
+
+    .quoteTextRight p.quotdesig {
+        font-size: 16px;
+        line-height: 1.25rem
+    }
+
+    .cyberquot09 .quoteTextRight p {
+        font-size: 1.15rem;
+        line-height: 1.625rem;
+    }
+
+    .speakimage {
+        margin-top: 0
+    }
+
+    .digibanner02 {
+        padding-top: 3.125rem
+    }
+
+    .digibanner02 .abnnerRightText .bannerlogo {
+        width: 50%
+    }
+
+    .digibanner02 .abnnerRightText h1 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 10px 0
+    }
+
+    .digibanner02 .whiteOutline-btn {
+        margin: 5px 0
+    }
+
+    .digibanner02.overflow-hidden {
+        padding-top: 12rem;
+    }
+
+    .newquote001 {
+        top: 10rem;
+        left: -4rem;
+        width: 12rem;
+        padding: 6px 5rem 4px;
+    }
+
+    .hallnumber03 {
+        font-size: 16px;
+        padding: 6px 10px 2px
+    }
+
+    .aifordevbanner1 .hallnumber03 em,
+    .aifordevbanner1 .hallnumber03 i {
+        margin-top: -4px;
+    }
+
+    .toplogoinnerv2 {
+        width: 100%
+    }
+
+    .toplogoinnerv2 h4 {
+        font-size: 10px;
+        width: 20%
+    }
+
+    .toplogoinnerv2 figure {
+        position: relative;
+        width: 90%;
+        height: 100%
+    }
+
+    .hotTopicsDCFT h4 {
+        font-size: 1.25rem;
+        line-height: 22px;
+        padding-top: 10px
+    }
+
+    .topicsinnerboxDC p {
+        font-size: 18px;
+        line-height: 1.25rem
+    }
+
+    .DCMOUSWrap .sectionheading03 p {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 10px
+    }
+
+    .mouDCItem h2 {
+        font-size: 18px;
+        line-height: 1.25rem
+    }
+
+    .mouDCItem p {
+        font-size: 14px;
+        line-height: 1.25rem;
+        padding: 0 1.25rem
+    }
+
+    .DCMOUSWrap .col-sm-4 {
+        margin-bottom: 1.25rem
+    }
+
+    .buyerProfile figure {
+        height: 300px
+    }
+
+    .buyerProfile ul li {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 35px
+    }
+
+    .datacenterBGBoard .bannerInfov3 .bannerlogo {
+        width: 80% !important
+    }
+
+    .digibanner02 .abnnerRightText .bannerlogo {
+        width: 90%
+    }
+
+    .pitchbginner .listStyle li {
+        font-size: 16px;
+        line-height: 1.25rem
+    }
+
+    .pitchbginner p {
+        font-size: 16px;
+        line-height: 1.25rem
+    }
+
+    .pitchbginner h2 {
+        font-size: 25px;
+        line-height: 1.875rem
+    }
+
+    .pitchbginner {
+        padding: 0 0
+    }
+
+    .digifeatITem figure.risingstrbgimg {
+        height: 200px
+    }
+
+    .startupsection figure {
+        height: 300px;
+        margin-bottom: 1.25rem
+    }
+
+    .innerBanner.vipbannertop .bannerheading h1 {
+        font-size: 1.25rem;
+        line-height: 25px;
+    }
+
+    .vipintrowrap .sectionheading03 h2 {
+        font-size: 16px;
+        line-height: 1.25rem;
+    }
+
+    .vipintrowrap .sectionheading03 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .vipproContentArea h3 {
+        font-size: 18px;
+        line-height: 1.25rem;
+    }
+
+    .vipproContentArea p {
+        font-size: 16px;
+    }
+
+    .vipintrowrap {
+        position: relative;
+        padding: 0 0 1.25rem 0;
+    }
+
+    .whoshouldapplyInner .sectionheading03 h2 {
+        font-size: 1.25rem;
+        line-height: 23px;
+    }
+
+    .whoshouldapplyInner .sectionheading03 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .whoshouldapplyInner {
+        padding: 1.25rem 1.25rem;
+    }
+
+    .whoshouldapplyInner .listStyle li {
+        font-size: 14px;
+        line-height: 1.25rem;
+    }
+
+    .whyattendvip .sectionheading03 h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .whyattendvip .sectionheading03 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .vipattendInner p {
+        padding: 10px 0px;
+        font-size: 16px;
+        line-height: 1.25rem;
+        width: 100%;
+    }
+
+    .vipattendItem h3 {
+        font-size: 18px;
+        line-height: 1.25rem;
+    }
+
+    .vipattendItem p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 1.25rem;
+    }
+
+    .vipattendInner .col-sm-2 {
+        margin: 0;
+        padding: 5px;
+        width: 50%;
+    }
+
+    .commitmentsvip02 .sectionheading03 h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .commitmentsvip02 .sectionheading03 p {
+        font-size: 16px;
+        line-height: 1.25rem;
+    }
+
+    .commitmentsvip02 .col-sm-3 {
+        margin-bottom: 1.25rem;
+    }
+
+    body .innerBanner.vipbannertop {
+        padding-bottom: 6.25rem !important;
+    }
+
+    .vipbenefitswrap .sectionheading03 h2 {
+        font-size: 1.25rem;
+        line-height: 24px;
+    }
+
+    .vipbenefitswrap .trackInfo02 p {
+        font-size: 16px;
+        line-height: 1.25rem;
+    }
+
+    .ggcyberLogosize {
+        width: 50%;
+    }
+
+    .ShowLogoWrapper h4 {
+        font-size: 3.2vw;
+        line-height: 4vw;
+        font-weight: 500;
+    }
+
+    .ShowLogoWrapper h4::before {
+        top: 0.425rem;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 {
+        font-size: 3.2vw;
+        line-height: 4vw;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 span br {
+        display: none;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure .w-60 {
+        width: 68% !important;
+    }
+
+    .ggmainbannerbox0 {
+        height: 90vh;
+        padding-top: 16vw;
+    }
+
+    .expandnewbox0 .owlnewexpanded1 .item .col-sm-7.col-md-7,
+    .expandnewbox0 .owlnewexpanded1 .item .newexpandright01,
+    .trendtidesmain0 .tidesrightcontet01 {
+        display: none !important;
+    }
+
+    .expandnewbox0 .owlnewexpanded1 .owl-nav {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+        margin: 1rem 0 1rem;
+    }
+
+    .expandnewbox0 .owlnewexpanded1 .owl-nav .owl-prev,
+    .expandnewbox0 .owlnewexpanded1 .owl-nav .owl-next {
+        position: relative;
+        border-radius: 5rem;
+        box-shadow: 0 0 10px rgb(0 0 0 / .1);
+        -webkit-box-shadow: 0 0 10px rgb(0 0 0 / .1);
+        width: 45px;
+        height: 45px;
+        background: #FFF !important;
+        -webkit-border-radius: 5rem;
+        -moz-border-radius: 5rem;
+        -ms-border-radius: 5rem;
+        -o-border-radius: 5rem;
+    }
+
+    .expandnewbox0 .owlnewexpanded1 .owl-nav .arrowsvg0 {
+        background-size: 60% 60%;
+    }
+
+    .largestmainbox0 {
+        padding-left: 1rem;
+    }
+
+    .largestmainbox0 .converbox0 {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0 0;
+        margin-right: calc(-.5 * 1rem);
+        margin-left: calc(-.5 * 1rem);
+    }
+
+    .largestmainbox0 .converbox0>* {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+    .largestmainbox0 .converbox0 .col-mob6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .innerBanner .bannerheading {
+        padding-top: 1.625rem;
+    }
+
+    .innerBanner .bannerheading h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .ctaArea0 .ctacontent0 h6 {
+        font-size: 5.5vw;
+        line-height: 6.6vw;
+    }
+
+    .ctaArea0 .ctacontent0 p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .planvisitList figure {
+        min-height: 280px;
+    }
+
+    .planvisitList .contText {
+        padding: 2rem 0.425rem 2.125rem;
+    }
+
+    .datetag h2 {
+        width: 90%;
+        font-size: 1.425rem;
+        line-height: 2rem;
+    }
+
+    .datetag {
+        margin-top: -8%;
+    }
+
+    .codingfeatures P {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .headingsection01 h3,
+    .sectionheading03 h3 {
+        font-size: 5.5vw;
+        line-height: 6.6vw;
+    }
+
+    .headingsection01 p,
+    .sectionheading03 p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .planvisitList .contText h3 {
+        font-size: 1.425rem;
+        line-height: 2.025rem;
+    }
+
+    .planvisitList .outershadow .row {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .planvisitList .outershadow .row:last-child {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .gitexglobal26main .gitexbannertext1 .gitexvenuedate1,
+    .gitexglobal26main .gitexbannertext1 p {
+        padding-left: 2rem !important;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 {
+        width: 280px;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 figure {
+        margin-bottom: 0;
+    }
+
+    .gitexglobal26main .gitexbannertext1 p {
+        font-size: 1.625rem;
+        line-height: 2.125rem;
+        font-weight: 700;
+    }
+
+    .techexpandtxt1 h2 {
+        font-size: 2rem;
+        line-height: 2.425rem;
+    }
+
+    .techexpandtxt1 h5 {
+        margin-bottom: 1rem;
+    }
+
+    .techexpandtxt1 .redbutton01 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .techexpandtxt1 .redbutton01:last-child {
+        padding-bottom: 0.5rem !important;
+    }
+
+    .editionbuilt1 .hub-content {
+        padding: 2rem 0.625rem 2rem;
+    }
+
+    .editionbuilt1 .hub-image figure {
+        min-height: 280px;
+    }
+
+    .editionbuilt1 .hub-content h2 {
+        font-size: 3.625rem;
+    }
+
+    .editionbuilt1 .hub-content h3 {
+        font-size: 1.525rem;
+        line-height: 2.215rem;
+    }
+
+    .newsarticalbox {
+        min-height: 12rem;
+    }
+
+    .thumbmain01 .listthumb01 {
+        padding: 0 0;
+        -webkit-columns: 140 2;
+        -moz-columns: 140 2;
+        columns: 140px 2;
+    }
+
+    .ddqyyvhd .jsdkf {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ddqyyvhd .jsdkf .w-150 {
+        width: 8.375rem;
+    }
+
+    .ddqyyvhd .largestcontent {
+        margin-top: -1rem;
+    }
+
+    .ddqyyvhd .largestcontent h2 {
+        font-size: 1.225rem;
+        line-height: 1.625rem;
+    }
+
+    .innerBanner.cyberbanner .bannerheading {
+        padding: 2rem 0 2rem !important;
+        margin: 0 0 !important;
+        width: 100%;
+    }
+
+    .innerbtnv3 .redbutton01 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .innerbtnv3 .redbutton01:last-child {
+        margin-bottom: 0.225rem !important;
+    }
+
+    .abnnerRightText {
+        padding-top: 3rem;
+    }
+
+    .digiBGBoardInner figure.d-flex,
+    .digiBGBoardInner figure.d-flex img {
+        margin-bottom: 0;
+        border-radius: 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        -moz-border-radius: 2.5rem;
+        -ms-border-radius: 2.5rem;
+        -o-border-radius: 2.5rem;
+    }
+
+    .pitchquotewrapInner {
+        padding: 1.25rem 1rem 1.25rem 1rem;
+    }
+
+    .innerBanner.greenimpactbanner .bannerheading {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quantumBGBoard .bannerInfov3 {
+        padding-bottom: 2rem;
+    }
+
+    .quantumBGBoard,
+    .quantumFeaturesv3,
+    .spekaer25Inner {
+        padding: 2.5rem 0 2.5rem;
+    }
+
+    .gg26new1 .bannermain1 img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .gg26new1 {
+        height: 100vh;
+        padding-top: 68px;
+    }
+
+    .valleybox1 figure.btmspace_04 {
+        margin: 15px 0 0;
+    }
+
+    .valleybox1 figure.btmspace_03 {
+        margin: 25px 0 0;
+    }
+
+    .valleybox1 .sponsorscyber_Title {
+        font-size: 12px;
+    }
+
+    .valleybox1 .sponsor-logo-area figure img {
+        height: 60px;
+    }
+
+    .valleybox1 .conference-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .valleybox1.innerBanner.cyberbanner {
+        padding-top: 130px;
+    }
+
+    .valleybox1 .ultimate-content {
+        line-height: 1.2;
+        font-size: 21px !important;
+    }
+
+    .valleybox1 .g-velly-content h4 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .valleybox1 .hero-sponsor-background {
+        margin: 48px 0 0
+    }
+
+    .valleybox1 .g-velly-content {
+        top: -70px
+    }
+
+    .valleybox1 .hero-sponsor-background .sponsor-logo-area.mb-5 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .valleybox1 .conference-content {
+        padding: 0 0;
+    }
+
+    .valleybox1 .conference-content.mt-5 {
+        margin-top: 2rem !important
+    }
+
+    .cyberstagebox1 {
+        margin-top: -2rem;
+    }
+
+    .paidbox1 h4 {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        padding: 0.625rem 1.225rem 0 3.625rem;
+    }
+
+    .cyberstagebox1 .stagebox01 .px-5 {
+        padding-left: 3rem !important;
+        padding-right: 1.625rem !important;
+    }
+
+    .Aistagebox001 .stagebox01 .px-5 {
+        padding-left: 3rem !important;
+        padding-right: 1.625rem !important;
+    }
+
+    .stagebox01 p {
+        font-size: 1.1rem;
+        line-height: 1.625rem
+    }
+
+    .stagebox01 .px-5 p {
+        text-align: center;
+    }
+
+    .stagebox01 .px-5 p strong.pe-3 {
+        display: block !important;
+    }
+
+    .spotlightbox1 {
+        padding: 4rem 1rem 1rem;
+        margin-top: -4.225rem;
+    }
+
+    .daykey01 .daycontent1 {
+        padding-right: 0;
+        border-right: none;
+        padding-bottom: 2rem;
+        border-bottom: 2px dotted #afafaf;
+        margin-bottom: 1rem;
+    }
+
+    .cyberstagebox1 .spotlightbox1 .col-sm-4:last-child .daykey01 .daycontent1 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        border-bottom: none !important;
+    }
+
+    .daykey01 .daycontent1 h2 {
+        font-size: 1.325rem;
+        line-height: 1.825rem;
+    }
+
+    .cisobox1 {
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .cisobox1 h2 {
+        font-size: 7.4vw;
+        line-height: 12.4vw;
+    }
+
+    .cisobox1 h3 {
+        font-size: 4.4vw;
+        line-height: 5.4vw;
+    }
+
+    .aifordevbanner1.digibanner02 {
+        background-position: 30% 100%;
+        padding-top: 20rem;
+    }
+
+    .collegeai1 {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .spotlightline1 h2 {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+
+    .spotlightline1 h2::before {
+        top: 1.225rem;
+    }
+
+    .spotlightline1 h2 span {
+        padding: 0.525rem 1.625rem 0.425rem;
+    }
+
+    .teammember1 .memberimg1 {
+        -ms-flex: 0 0 9rem;
+        flex: 0 0 9rem;
+    }
+
+    .teammember1 .memberimg1 img {
+        width: 9rem;
+        height: 100%;
+    }
+
+    .teammember1 .memberinfo1 h4 {
+        font-size: 1.1rem;
+        line-height: 1rem;
+    }
+
+    .teammember1 .memberinfo1 h5 {
+        font-size: 1rem;
+        line-height: 1.425rem;
+    }
+
+    .teammember1 .memberinfo1 figure {
+        margin: 0.425rem 0 1rem;
+        width: 6.625rem;
+    }
+
+    .paidtxt1 {
+        padding-left: 1rem
+    }
+
+    .gqexpomain1.innerBanner {
+        padding: 6rem 0 14rem;
+    }
+
+    .securitythumb1.gdcmain01 {
+        padding-bottom: 20rem;
+        height: 115vh;
+    }
+
+    .securitythumb1.gdcmain01 .gqexpocontent1 {
+        left: 1rem;
+        top: 5rem;
+    }
+
+    .securitythumb1.gdcmain01 img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .datacentresbox01 .cyberstagebox1 {
+        margin-top: -22.625rem;
+    }
+
+    .datacentresbox01 .fs-4 {
+        font-size: 1.225rem !important;
+    }
+
+    .gg26new1 .gitexbannertext1 {
+        padding-top: 4rem !important;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1.w-100 {
+        width: 100% !important
+    }
+
+    .news-ticker-container {
+        overflow: unset;
+        flex-wrap: wrap;
+        margin: 0.625rem 0 0 0;
+        padding: 8px 10px 8px;
+    }
+
+    .news-ticker-container .news-heading {
+        position: absolute;
+        top: -1.25rem;
+        font-size: 12px;
+        padding: 4px 6px 2px;
+    }
+
+    .news-ticker-container .news-item {
+        font-size: 15px;
+        border-width: 3px;
+    }
+
+    .faqsMain .accordion {
+        padding: 0 0.625rem
+    }
+
+    .gitexglobal26main.ggnew26 {
+        height: 36vh;
+        margin-top: 7.125rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content {
+        padding-top: 2.125rem;
+        padding-bottom: 2.125rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 {
+        font-size: 6vw;
+        line-height: 6.2vw;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 .number1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content p {
+        font-size: 4.5vw;
+        line-height: 7vw;
+    }
+
+    .techexpandtxt1 .whitecirclebtn,
+    .whygtbox0 .whitecirclebtn {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        padding-right: 3rem !important;
+    }
+
+    .techexpandtxt1 .whitecirclebtn .iconcircle,
+    .whygtbox0 .whitecirclebtn .iconcircle {
+        width: 1.425rem;
+        height: 1.425rem;
+        top: 0.625rem;
+        right: 0.625rem;
+    }
+
+    #exhibitly-banner-input {
+        height: 400px;
+    }
+
+    .exhibitly-banner2 iframe {
+        height: 28rem;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .headerboxclr0 .headerBtn {
+        display: none !important;
+    }
+
+    .navigatopn0 .navbar {
+        display: none;
+    }
+
+    .whitecirclebtn {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 14px 10px 10px 16px;
+        padding-right: 5.2vw !important;
+    }
+
+    .redbutton01 {
+        font-size: 1.8vw;
+        line-height: 1.5vw;
+    }
+
+    .redbutton01 span.demotext0 {
+        padding: 0.625rem 1.625rem 0.425rem;
+    }
+
+    .redbutton01 span.arrowicon0 {
+        font-size: 16px;
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .headerboxclr0 .headerBtn .whitecirclebtn .iconcircle {
+        top: 0.80vw;
+    }
+
+    .headerboxn0 .headertoprow {
+        padding-top: 1.425rem;
+    }
+
+    .headerboxclr0.headerboxn0 .logoboxn0 {
+        width: 40%;
+    }
+
+    .headerboxn0.headfixed .headertoprow {
+        padding-bottom: 0;
+    }
+
+    .ggmainbannerbox0 {
+        background-position: 64% 26%
+    }
+
+    .ggmainbannerbox0 .ggbannercontent0 p {
+        font-size: 2vw;
+        line-height: 2.2vw;
+    }
+
+    .videoplaysection0 .videotext0 h3 {
+        font-size: 2vw;
+    }
+
+    .newsquote0 h2 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    .vertmarquee0 .marquee-item h4 {
+        font-size: 2.1vw;
+        line-height: 2.2vw;
+    }
+
+    .intropara0 p {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .statsroundmain0 .circlebr01::before,
+    .statsroundmain0 .circlebr01::after,
+    .statsroundmain0 .circlebr01 span {
+        top: 7vw;
+        width: 150vw;
+        height: 130vh;
+    }
+
+    .statsroundmain0 .circlebr01::after {
+        top: 13vw;
+    }
+
+    .statsroundmain0 .circlebr01 span {
+        top: 19vw;
+        left: -26vw;
+    }
+
+    .statsItemround0.statsn01 {
+        margin-top: -8.8vw !important;
+    }
+
+    .statsItemround0.statsn02 {
+        margin-top: -12.9vw !important;
+    }
+
+    .statsItemround0.statsn03 {
+        margin-top: -16.5vw !important;
+    }
+
+    .statsItemround0.statsn04 {
+        margin-top: -14.8vw !important;
+    }
+
+    .statsItemround0.statsn05 {
+        margin-top: -7.9vw !important;
+    }
+
+    .statsItemround0 p {
+        font-size: 1.210vw;
+        line-height: 1.625vw;
+    }
+
+    .whitecirclebtn.fsbtn18 {
+        font-size: 16px;
+        padding: 14px 10px 10px 2.5rem;
+        padding-right: 5.85vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 .iconcircle {
+        top: 1vw;
+        right: 0.5vw;
+        width: 1.725rem;
+        height: 1.725rem;
+    }
+
+    .aidrivenslider0 .navdriven0 {
+        width: 98%;
+        top: -3rem;
+    }
+
+    .drivencard0 .drivetag0 h5 {
+        font-size: 1.5vw;
+        line-height: 1.6vw;
+    }
+
+    .drivencard0 .drivecontent0 h2 {
+        font-size: 2.4vw;
+        line-height: 2.4vw;
+    }
+
+    .drivencard0 .drivecontent0 p {
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+
+    .drivencard0 .drivecontent0 .drivehall0 h4 {
+        font-size: 1.5vw;
+        line-height: 1.8vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 {
+        padding: 1.625rem 1.625rem 1.625rem;
+    }
+
+    .newexpandleft01 .newexpandmid01 h3 {
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 p {
+        font-size: 2.04vw;
+        line-height: 2.8vw;
+    }
+
+    .owlnewexpanded1 .row.mt-5 {
+        margin-top: 0 !important;
+    }
+
+    .owlnewexpantop1 .owl-nav button.owl-prev {
+        margin-left: 40%;
+    }
+
+    .owlnewexpantop1 .owl-nav button.owl-next {
+        margin-right: 40%;
+    }
+
+    .newexpandright01 {
+        padding: 1.625rem 1.625rem;
+    }
+
+    .newexpandright01 .accordion .accordion-item .accordion-button {
+        font-size: 2.2vw;
+        line-height: 2.2vw;
+    }
+
+    .newexpandright01 .accordion .accordion-body p {
+        font-size: 2.1vw;
+        line-height: 2.6vw;
+    }
+
+    .intropara0.pe-5 {
+        padding-right: 0.625rem !important;
+    }
+
+    .intropara0.pe-5 .w-80 {
+        width: 100% !important;
+    }
+
+    .techmainbg0 .intropara0 p {
+        line-height: 2.6vw;
+    }
+
+    .sectorbox1 .sectorinner1 h2 {
+        font-size: 2vw;
+        line-height: 3.3vw;
+    }
+
+    .techcarbox01 {
+        right: -10px;
+        width: 40vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .wavethumb0 {
+        width: 30vw;
+        padding: 0;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 h2 {
+        font-size: 2.4vw;
+        line-height: 2.6vw;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 p {
+        font-size: 2.1vw;
+        line-height: 2.4vw;
+    }
+
+    .tideslftcontet01 {
+        padding-right: 0;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 {
+        padding: 1.425rem 1.425rem;
+        margin-right: 1rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 h2 {
+        font-size: 3.6vw;
+        line-height: 4vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 p {
+        font-size: 2.2vw;
+        line-height: 2.8vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 {
+        padding: 2rem 2rem 10rem 0;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 {
+        padding: 2.425rem 15rem 2.425rem 2rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 {
+        margin-top: 2rem;
+    }
+
+    .convercard0 .concardinner0 .cardtag0 h4 {
+        font-size: 2.1vw;
+        line-height: 1.9vw;
+    }
+
+    .concardinner0 .numbercard0 h5 {
+        font-size: 2.8vw;
+        line-height: 2.8vw;
+    }
+
+    .concardinner0 .contentcard0 h2 {
+        font-size: 2.2vw;
+        line-height: 2.5vw;
+    }
+
+    .concardinner0 .contentcard0 p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+
+    .impactcard0 .impacttext0 p {
+        font-size: 2.1vw;
+        line-height: 2.3vw;
+    }
+
+    .impactcard0 .impactinnerbg0 {
+        height: 24vw;
+    }
+
+    .impactcard0 .topquote0 {
+        top: -6.2vw;
+    }
+
+    .impactcard0 .topquote0 img {
+        width: 2.5rem;
+    }
+
+    .gitexfindbox01 {
+        height: auto;
+    }
+
+    .gitexfindbox01 .findthumb0 {
+        position: relative;
+    }
+
+    .gitexfindbox01 .findthumb0 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gspeakersbox01 .gspeakerpck01::before {
+        height: 92%;
+    }
+
+    .col-box-5 .gspeakersbox01 .gspeakerpck01::before {
+        height: 92%
+    }
+
+    .gspeakersbox01 .gspeakerstag h5 {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h2 {
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 p {
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h4 {
+        font-size: 1.5vw;
+        line-height: 1.7vw;
+    }
+
+    .findgitexlogo0 .findlogoboxbg0 {
+        padding: 6rem 2rem 2rem;
+    }
+
+    .footerBG::before {
+        display: none;
+    }
+
+    footer footer.footerBG .col-sm-3.col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    footer footer.footerBG .col-sm-5.col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 66.66666667%;
+        margin-bottom: 1.875rem;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure.samesize01 {
+        width: 220px;
+    }
+
+    .ShowLogoWrapper h4 {
+        font-size: 1.5vw;
+        line-height: 2.1vw;
+        font-weight: 500;
+    }
+
+    .ShowLogoWrapper h4::before {
+        top: 1vw;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 {
+        font-size: 1.5vw;
+        line-height: 1.8vw;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 span br {
+        display: none;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure .w-100 {
+        width: 70% !important;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure .w-60 {
+        width: 40% !important;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure .w-50 {
+        width: 35% !important;
+    }
+
+    .innerBanner .bannerheading {
+        padding-top: 3rem;
+    }
+
+    .innerBanner .bannerheading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .headerboxn0 .headerBtn {
+        display: none !important;
+    }
+
+    .planvisitList .contText {
+        padding: 1rem 1.25rem 1rem
+    }
+
+    .planvisitList .contText h3 {
+        font-size: 1.425rem;
+        line-height: 2.125rem;
+    }
+
+    .planvisitList .contText p {
+        font-size: 1.025rem;
+        line-height: 1.625rem;
+    }
+
+    .planvisitList .contText p:last-child {
+        margin-bottom: 0.5rem;
+    }
+
+    .ctaArea0 .col-md-10 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .ctaArea0 .ctacontent0 h6 {
+        font-size: 3.5vw;
+        line-height: 4.4vw;
+    }
+
+    .ctaArea0 .ctacontent0 p {
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
+
+    .newsmain .newsbox {
+        margin-right: -3rem;
+    }
+
+    .newsmain .inner-box h4 {
+        padding: 0 2px;
+    }
+
+    .newsThumb .new-detail h2 {
+        font-size: 1.425rem;
+        line-height: 2.125rem;
+    }
+
+    .newsThumb .new-detail p {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+
+    .newsarticalbox {
+        min-height: 14rem;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 {
+        width: 400px;
+    }
+
+    .gitexglobal26main .gitexbannertext1 .gitexvenuedate1,
+    .gitexglobal26main .gitexbannertext1 p {
+        padding-left: 90px !important;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 figure {
+        margin-bottom: 0;
+    }
+
+    .gitexglobal26main .gitexbannertext1 p {
+        font-size: 2rem;
+        line-height: 2.225rem;
+        font-weight: 700;
+    }
+
+    .techexpandtxt1 h2 {
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+
+    .techexpandtxt1 h5 {
+        margin-bottom: 1rem;
+    }
+
+    .headingsection01 h2,
+    .sectionheading03 h2 {
+        font-size: 4.5vw;
+        line-height: 5vw;
+    }
+
+    .editionbuilt1 .hub-image figure {
+        min-height: 330px;
+    }
+
+    .editionbuilt1 .hub-content {
+        padding: 1.125rem 1.225rem 1.125rem;
+    }
+
+    .editionbuilt1 .hub-content h2 {
+        font-size: 4rem;
+    }
+
+    .editionbuilt1 .hub-content h3 {
+        font-size: 1.425rem;
+        line-height: 2.025rem;
+    }
+
+    .datetag {
+        margin-top: -5%;
+    }
+
+    .datetag h2 {
+        width: 70%;
+        font-size: 1.625rem;
+        line-height: 2.225rem;
+    }
+
+    .partnerslogo01 {
+        padding: 0.625rem;
+    }
+
+    .headingsection01 h3,
+    .sectionheading03 h3 {
+        font-size: 3.8vw;
+        line-height: 3.8vw;
+    }
+
+    .leftcontentInner .couponcode img.w-25 {
+        width: 50% !important;
+    }
+
+    .planvisitList .outershadow .row.g-sm-0 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .planvisitList .outershadow .row.g-sm-0:last-child {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .thumbmain01 .listthumb01 {
+        padding: 0;
+        -webkit-columns: 220px 3;
+        -moz-columns: 220px 3;
+        columns: 220px 3;
+    }
+
+    .ddqyyvhd .jsdkf .w-150 {
+        width: 8.175rem;
+    }
+
+    .ddqyyvhd .largestcontent h2 {
+        font-size: 1.375rem;
+        line-height: 2.125rem;
+    }
+
+    .innerBanner.cyberbanner .bannerheading.pt-0 {
+        padding-top: 3rem !important;
+        width: 100%;
+    }
+
+    .innerBanner.cyberbanner .bannerheading .partnercyberWrap .col-sm-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .innerBanner.cyberbanner .bannerheading .partnercyberWrap .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .cyberFeaturesv3,
+    .speakerItem25New,
+    .digiFeaturesv3,
+    .spekaer25Inner,
+    .mousWrap,
+    .quantumFeaturesv3,
+    .quantumBGBoard {
+        padding: 3rem 0 3rem;
+    }
+
+    .spce4side {
+        padding: 5px !important;
+    }
+
+    .coreSectorsWrap h3,
+    .datacenterBGBoard .coreSectorsWrap h3 {
+        font-size: 1.125rem;
+        padding-bottom: 1.15rem;
+    }
+
+    .cyberBGBoardInner .coreSectorsWrap li p,
+    .datacenterBGBoard .digiBGBoardInner .coreSectorsWrap li p,
+    .buyerProfile ul li,
+    .digifeatITem .digifethead p {
+        font-size: 1rem;
+        line-height: 1.225rem;
+    }
+
+    .cyberBGBoardInner p,
+    .digiBGBoardInner p {
+        font-size: 1.225rem;
+        line-height: 2.05rem;
+    }
+
+    .headingsection01 h2.smallheading,
+    .sectionheading03 h2.smallheading {
+        font-size: 4.2vw;
+        line-height: 4.5vw;
+    }
+
+    .cyberFeaturesv3 .col-md-3,
+    .datacenterFeaturesv3 .col-sm-3.mt-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .cyberfeatITem .cyberfethead h3,
+    .digifeatITem .digifethead h3 {
+        height: 8.2vw;
+    }
+
+    .cyberfeatITem .cyberfethead h3,
+    .digifeatITem .digifethead h3,
+    .datacenterfeatITem .datafethead h3 {
+        font-size: 2.2vw;
+        line-height: 2.55vw;
+    }
+
+    .cyberfeatITem .cyberfethead p,
+    .datacenterfeatITem .datafethead p {
+        font-size: 1.9vw;
+        line-height: 2.9vw;
+    }
+
+    .newquote001 {
+        top: 8.625rem;
+    }
+
+    .mouDCItem h2 {
+        font-size: 1.60vw;
+        line-height: 2.60vw;
+        padding: 10px 1rem;
+    }
+
+    .mouDCItem p {
+        font-size: 1.80vw;
+        line-height: 2.80vw;
+        padding: 0 1rem;
+    }
+
+    .topicsinnerboxDC p {
+        font-size: 1rem;
+        line-height: 1.425rem;
+    }
+
+    .spekaer25Inner .col-6.col-sm-2,
+    .spekaer25Inner .col-6.col-sm-3,
+    .mousWrap .col-6.col-sm-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        margin-bottom: 1rem;
+    }
+
+    .spekaer25Inner .speakerItem25New {
+        padding: 0 0 2rem;
+    }
+
+    .speakerItem25New h2 {
+        font-size: 2.2vw;
+        line-height: 2.4vw;
+        padding: 0 14px
+    }
+
+    .speakerItem25New p {
+        font-size: 1.8vw;
+        line-height: 2vw;
+    }
+
+    .innerbtnv3 .redbutton01 {
+        margin-bottom: 1rem !important;
+    }
+
+    .innerbtnv3 .redbutton01:last-child {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .toplogoinnerv2 figure {
+        width: 20vw;
+        height: 12vw;
+    }
+
+    .quoteTextRight p {
+        font-size: 2vw;
+        line-height: 2.9vw;
+    }
+
+    .quoteTextRight h4 {
+        font-size: 2vw;
+        line-height: 2.8vw;
+    }
+
+    .quoteTextRight p.quotdesig {
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+    }
+
+    .cyberquot09 .quoteTextRight p {
+        font-size: 2vw;
+        line-height: 2.9vw;
+    }
+
+    .mouITem h2 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .mouITem p {
+        font-size: 2vw;
+        line-height: 2.4vw;
+    }
+
+    .pitchbginner h4 {
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+
+    .pitchbginner .listStyle li,
+    .pitchbginner p {
+        font-size: 1.9vw;
+        line-height: 2.9vw;
+    }
+
+    .quantumfeatITem .qutfethead h3 {
+        font-size: 2vw;
+        line-height: 3vw;
+        height: 10vw;
+    }
+
+    .quantumfeatITem .qutfethead p {
+        font-size: 1.01rem;
+        line-height: 1.425rem;
+    }
+
+    .gg26new1 .bannermain1 img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .speakersmainbox01 .col-md-4.col-box-5 {
+        width: 33.33333333%;
+    }
+
+    .statsroundmain0 .aidrivenslider0,
+    .largestmainbox0 .converbox0 {
+        padding-bottom: 65vw;
+    }
+
+    .valleybox1 .conference-content {
+        padding: 0 1rem;
+    }
+
+    .paidbox1 h4 {
+        font-size: 1.225rem;
+        line-height: 1.625rem;
+    }
+
+    .daykey01 .daycontent1 h2 {
+        font-size: 1.225rem;
+        line-height: 1.625rem;
+    }
+
+    .daykey01 .datetxt h5 {
+        font-size: 0.825rem;
+        line-height: 1.4rem;
+    }
+
+    .cisobox1 h3 {
+        font-size: 2.2vw;
+        line-height: 2.2vw;
+    }
+
+    .cisobox1 h2 {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+
+    .spotlightbox1 {
+        padding: 4rem 1rem 2rem;
+    }
+
+    .valleybox1.innerBanner.cyberbanner {
+        padding-top: 15vw;
+    }
+
+    .valleybox1 img.ggcyberLogosize-60 {
+        max-width: 450px;
+    }
+
+    .digibanner02 .abnnerRightText h1 {
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .hallnumber03 {
+        padding: 1vw 2vw .4vw;
+        font-size: 2.3vw;
+        line-height: 3.3vw;
+        margin-top: 1.521vw;
+    }
+
+    .aifordevbanner1 .hallnumber03 em,
+    .aifordevbanner1 .hallnumber03 i {
+        color: #000000;
+        margin-top: -6px;
+    }
+
+    .stagebox01 p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .collegeai1 {
+        font-size: 1.325rem;
+        line-height: 2.1rem;
+    }
+
+    .teammember1 .memberinfo1 figure {
+        margin: 0.625rem 0 1rem;
+        width: 5.625rem;
+    }
+
+    .digibanner02 .abnnerRightText h1 {
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .hallnumber03 {
+        padding: 1vw 2vw .4vw;
+        font-size: 2.3vw;
+        line-height: 3.3vw;
+        margin-top: 1.521vw;
+    }
+
+    .aifordevbanner1 .hallnumber03 em,
+    .aifordevbanner1 .hallnumber03 i {
+        color: #000000;
+        margin-top: -6px;
+    }
+
+    .Aistagebox001 .spotlightbox1 {
+        padding: 4rem 1.625rem 2rem;
+    }
+
+    .Aistagebox001 .spotlightbox1 .col-md-7.col-lg-6 {
+        width: 58.33333333%;
+    }
+
+    .Aistagebox001 .spotlightbox1 .col-md-5.col-lg-4 {
+        width: 41.66666667%;
+    }
+
+    .paidtxt1 {
+        padding-left: 0rem;
+    }
+
+    .gqexpomain1.innerBanner {
+        padding: 6rem 0 15rem;
+    }
+
+    .securitythumb1.gdcmain01 {
+        padding-bottom: 20rem;
+        height: 115vh;
+    }
+
+    .securitythumb1.gdcmain01 .gqexpocontent1 {
+        left: 1rem;
+        top: 5rem;
+    }
+
+    .securitythumb1.gdcmain01 img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .datacentresbox01 .cyberstagebox1 {
+        margin-top: -22.625rem;
+    }
+
+    .datacentresbox01 .fs-4 {
+        font-size: 1.225rem !important;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1.w-100 {
+        width: 70% !important
+    }
+
+    .gg26new1 {
+        margin-top: 5rem;
+    }
+
+    .gitexglobal26main.ggnew26 {
+        height: 80vh;
+        margin-top: 4.625rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content {
+        padding-top: 2.125rem;
+        padding-bottom: 2.125rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 {
+        font-size: 3.2vw;
+        line-height: 3.2vw;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 .number1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content p {
+        font-size: 2.6vw;
+        line-height: 3.6vw;
+    }
+
+    .techexpandtxt1 .whitecirclebtn,
+    .whygtbox0 .whitecirclebtn {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        padding-right: 3rem !important;
+    }
+
+    .techexpandtxt1 .whitecirclebtn .iconcircle,
+    .whygtbox0 .whitecirclebtn .iconcircle {
+        width: 1.425rem;
+        height: 1.425rem;
+        top: 0.625rem;
+        right: 0.625rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .col-lg-6 {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .peng-img {
+        max-width: 325px !important;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-figure {
+        max-width: 325px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .event-info-box {
+        width: 85%;
+        right: 120px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .person-name br {
+        display: none;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-text-img.po-text {
+        top: 66%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .exhibitly-banner2 iframe {
+        height: 14rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px) {
+    img.BeApartLogo {
+        position: relative;
+        left: 0;
+        margin-top: 80px;
+        width: 270px;
+    }
+
+    .GitexInner_as {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1199px) {
+    .speakersmainbox01 .col-md-4.col-box-5 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+    p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .pt-5.pt-20rem {
+        padding-top: 3rem !important;
+    }
+
+    .navigatopn0 .navbar {
+        display: none;
+    }
+
+    .whitecirclebtn {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 14px 10px 10px 1.25rem;
+        padding-right: 4.2vw !important;
+    }
+
+    .whitecirclebtn .iconcircle {
+        top: 0.80vw;
+        right: 0.5vw;
+        padding: 2px;
+        width: 1.325rem;
+        height: 1.325rem;
+    }
+
+    .redbutton01 {
+        font-size: 1.4vw;
+        line-height: 1.5vw;
+    }
+
+    .headerboxclr0 .headerBtn .whitecirclebtn .iconcircle {
+        top: 0.80vw;
+    }
+
+    .headerboxn0 .headertoprow {
+        padding-top: 1.425rem;
+    }
+
+    .headerboxclr0.headerboxn0 .logoboxn0 {
+        width: 30%;
+    }
+
+    .headerboxn0 .logoboxn0 figure {
+        width: 100%;
+    }
+
+    #menu-wrapper #hamburger-menu {
+        font-size: 16px;
+        padding: 8px 12px 8px;
+    }
+
+    .navigatopn0 .navbar .navbar-nav .nav-item {
+        padding: 0 0.625rem 0;
+    }
+
+    .ggmainbannerbox0 {
+        background-position: 70% 30%
+    }
+
+    .bannercontentn0 .bannertextn0 {
+        padding: 5rem 4rem 1.25rem 1.875rem;
+    }
+
+    .bannercontentn0 .bannertextn0::before {
+        bottom: 3vw;
+    }
+
+    .ggmainbannerbox0 .ggbannercontent0 p {
+        font-size: 1.8vw;
+        line-height: 2.4vw;
+    }
+
+    .videoplaysection0 .videotext0 h3 {
+        font-size: 1.5vw;
+    }
+
+    .newsquote0 h2 {
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+
+    .vertmarquee0 .marquee-item h4 {
+        font-size: 1.6vw;
+        line-height: 2.3vw;
+    }
+
+    .intropara0 p {
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+
+    .statsroundmain0 .circlebr01::before,
+    .statsroundmain0 .circlebr01::after,
+    .statsroundmain0 .circlebr01 span {
+        top: 8.4vw;
+        width: 150vw;
+        height: 130vh;
+    }
+
+    .statsroundmain0 .circlebr01::after {
+        top: 13vw;
+    }
+
+    .statsroundmain0 .circlebr01 span {
+        top: 19vw;
+        left: -26vw;
+    }
+
+    .statsItemround0.statsn01 {
+        margin-top: -4.8vw !important;
+    }
+
+    .statsItemround0.statsn02 {
+        margin-top: -8.9vw !important;
+    }
+
+    .statsItemround0.statsn03 {
+        margin-top: -10.2vw !important;
+    }
+
+    .statsItemround0.statsn04 {
+        margin-top: -8.8vw !important;
+    }
+
+    .statsItemround0.statsn05 {
+        margin-top: -4.8vw !important;
+    }
+
+    .statsItemround0 p {
+        font-size: 1.20vw;
+        line-height: 1.60vw;
+    }
+
+    .whitecirclebtn.fsbtn18 {
+        font-size: 16px;
+        padding: 14px 10px 10px 2.5rem;
+        padding-right: 5.85vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 .iconcircle {
+        top: 0.8vw;
+        right: 0.6vw;
+        width: 1.725rem;
+        height: 1.725rem;
+    }
+
+    .slidertrack0 .leftbox2 {
+        transform: translateX(-740px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -webkit-transform: translateX(-740px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -moz-transform: translateX(-740px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -ms-transform: translateX(-740px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -o-transform: translateX(-740px) translateY(180px) scale(0.75) rotateZ(-20deg);
+    }
+
+    .slidertrack0 .leftbox1 {
+        transform: translateX(-430px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -webkit-transform: translateX(-430px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -moz-transform: translateX(-430px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -ms-transform: translateX(-430px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -o-transform: translateX(-430px) translateY(60px) scale(0.95) rotateZ(-10deg);
+    }
+
+    .converbox0 .converCol0 {
+        width: 240px;
+        height: 365px;
+    }
+
+    .converbox0 .conleft1 {
+        transform: translateX(-460px) translateY(100px) rotateZ(-12deg);
+        -webkit-transform: translateX(-460px) translateY(100px) rotateZ(-12deg);
+        -moz-transform: translateX(-460px) translateY(100px) rotateZ(-12deg);
+        -ms-transform: translateX(-460px) translateY(100px) rotateZ(-12deg);
+        -o-transform: translateX(-460px) translateY(100px) rotateZ(-12deg);
+    }
+
+    .converbox0 .conleft2 {
+        transform: translateX(-160px) translateY(50px) rotateZ(-5deg);
+        -webkit-transform: translateX(-160px) translateY(50px) rotateZ(-5deg);
+        -moz-transform: translateX(-160px) translateY(50px) rotateZ(-5deg);
+        -ms-transform: translateX(-160px) translateY(50px) rotateZ(-5deg);
+        -o-transform: translateX(-160px) translateY(50px) rotateZ(-5deg);
+    }
+
+    .converbox0 .conleft3 {
+        transform: translateX(145px) translateY(50px) rotateZ(4deg);
+        -webkit-transform: translateX(145px) translateY(50px) rotateZ(4deg);
+        -moz-transform: translateX(145px) translateY(50px) rotateZ(4deg);
+        -ms-transform: translateX(145px) translateY(50px) rotateZ(4deg);
+        -o-transform: translateX(145px) translateY(50px) rotateZ(4deg);
+    }
+
+    .converbox0 .conleft4 {
+        transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -webkit-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -moz-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -ms-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -o-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+    }
+
+    .newexpandleft01 .newexpandtop01 {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 85% 100%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 85% 100%, 0 100%);
+        border-radius: 15px 15px 80px 15px;
+        -webkit-border-radius: 15px 15px 80px 15px;
+        -moz-border-radius: 15px 15px 80px 15px;
+        -ms-border-radius: 15px 15px 80px 15px;
+        -o-border-radius: 15px 15px 80px 15px;
+    }
+
+    .aidrivenslider0 .navdriven0 {
+        top: -3rem;
+    }
+
+    .drivencard0 .drivetag0 h5 {
+        font-size: 1.1vw;
+        line-height: 1.2vw;
+    }
+
+    .drivencard0 .drivecontent0 h2 {
+        font-size: 2vw;
+        line-height: 2.2vw;
+    }
+
+    .drivencard0 .drivecontent0 p {
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+    }
+
+    .drivencard0 .drivecontent0 .drivehall0 h4 {
+        font-size: 1.3vw;
+        line-height: 1.6vw;
+    }
+
+    .expamdlogomain0 {
+        padding: 0 3vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 {
+        padding: 2rem 2rem 2rem;
+    }
+
+    .newexpandleft01 .newexpandmid01 h3 {
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 p {
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+
+    .newexpandright01 {
+        padding: 1.625rem 2rem;
+    }
+
+    .newexpandright01 .accordion .accordion-item .accordion-button {
+        font-size: 1.8vw;
+        line-height: 2.1vw;
+    }
+
+    .newexpandright01 .accordion .accordion-body p {
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+
+    .intropara0.pe-5 {
+        padding-right: 2.25rem !important;
+    }
+
+    .intropara0.pe-5 .w-80 {
+        width: 85% !important;
+    }
+
+    .techmainbg0 .intropara0 p {
+        line-height: 2.4vw;
+    }
+
+    .techcarbox01 {
+        width: 42vw;
+    }
+
+    .sectorbox1 .sectorinner1 {
+        padding: 0.625rem 0.625rem 1.425rem;
+    }
+
+    .sectorbox1 .sectorinner1 h2 {
+        font-size: 1.2vw;
+        line-height: 2vw;
+        margin-bottom: 1.425rem;
+    }
+
+    .tideslftcontet01 {
+        padding-right: 2rem;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 {
+        padding: 1.625rem 1.625rem;
+        margin-right: 1rem;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 h2 {
+        font-size: 1.8vw;
+        line-height: 2.8vw;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 .redbutton01 span.demotext0 {
+        padding: 1rem 2rem 0.625rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 {
+        padding: 2rem 4rem 2rem 2rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 h2 {
+        font-size: 2vw;
+        line-height: 2.2vw;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 p {
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+
+    .tidesrightcontet01 {
+        padding-left: 2rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 {
+        margin-top: 2rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .wavethumb0 {
+        width: 18vw;
+        padding: 0;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 {
+        padding: 2rem 2rem 10rem 0;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 h2 {
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 p {
+        font-size: 1.6vw;
+        line-height: 2.2vw;
+    }
+
+    .concardinner0 .numbercard0 figure img {
+        width: 70%;
+    }
+
+    .convercard0 .concardinner0 .cardtag0 h4 {
+        font-size: 1.4vw;
+        line-height: 1.6vw;
+    }
+
+    .concardinner0 .numbercard0 h5 {
+        font-size: 2.4vw;
+        line-height: 2.6vw;
+    }
+
+    .concardinner0 .contentcard0 h2 {
+        font-size: 1.6vw;
+        line-height: 2vw;
+    }
+
+    .concardinner0 .contentcard0 p {
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+
+    .gspeakersbox01 .gspeakerpck01::before {
+        height: 92%;
+    }
+
+    .col-box-5 .gspeakersbox01 .gspeakerpck01::before {
+        height: 94%
+    }
+
+    .gspeakersbox01 .gspeakerstag h5 {
+        font-size: 1.4vw;
+        line-height: 1.4vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h2 {
+        font-size: 1.4vw;
+        line-height: 1.5vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 p {
+        font-size: 1.2vw;
+        line-height: 1.7vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h4 {
+        font-size: 1.2vw;
+        line-height: 1.6vw;
+    }
+
+    .impactcard0 .impactinnerbg0 {
+        height: 20vw;
+        padding: 1.625rem;
+    }
+
+    .impactcard0 .topquote0 {
+        top: -4.5vw;
+    }
+
+    .impactcard0 .topquote0 img {
+        width: 35px;
+    }
+
+    .impactcard0 .impacttext0 p {
+        font-size: 1.4vw;
+        line-height: 1.9vw;
+    }
+
+    .impactcard0 .impactlogo0 .vw-5 {
+        width: 6vw !important;
+    }
+
+    .gitexfindbox01 .findthumb0 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .findgitexlogo0 .findlogoboxbg0 {
+        padding: 4rem 3rem 2rem;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure.samesize01 {
+        width: 220px;
+    }
+
+    .ShowLogoWrapper h4 {
+        font-size: 1.2vw;
+        line-height: 1.8vw;
+        font-weight: 500;
+    }
+
+    .ShowLogoWrapper h4::before {
+        top: 1vw;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 {
+        font-size: 1.2vw;
+        line-height: 1.8vw;
+    }
+
+    .col-lg-box-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .footerBG::before {
+        display: none;
+    }
+
+    .ctaArea0 .col-lg-9 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 80%;
+    }
+
+    .ctaArea0 .ctacontent0 p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    .newsmain .newsbox {
+        margin-right: -6.5rem;
+    }
+
+    .newsThumb .new-detail h2 {
+        font-size: 1.425rem;
+        line-height: 2.125rem;
+    }
+
+    .spekaer25Inner,
+    .quantumFeaturesv3,
+    .digiFeaturesv3,
+    .datacenterFeaturesv3,
+    .cyberFeaturesv3 {
+        padding: 3rem 0 3rem;
+    }
+
+    .spekaer25Inner .col-6.col-sm-2,
+    .spekaer25Inner .col-6.col-sm-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .speakerItem25New figure {
+        padding-bottom: 15px;
+    }
+
+    .speakerItem25New h2 {
+        font-size: 1.6vw;
+        line-height: 1.8vw;
+        padding: 0 1.5vw;
+    }
+
+    .speakerItem25New p {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+
+    .quantumfeatITem .qutfethead h3 {
+        font-size: 1.6vw;
+        line-height: 1.70vw;
+        height: 4.2vw;
+    }
+
+    .quantumfeatITem .qutfethead p {
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+
+    .digiBGBoardInner p {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+    }
+
+    .quantumBGBoard .coreSectorsWrap h3 {
+        padding: 10px 1.25rem 10px;
+    }
+
+    .toplogoinnerv2 figure {
+        width: 18vw;
+        height: 9vw;
+    }
+
+    .coreSectorsWrap h3 {
+        font-size: 2.2vw;
+    }
+
+    .pitchbginner h4 {
+        font-size: 1.9vw;
+        line-height: 2.9vw;
+    }
+
+    .pitchbginner p,
+    .pitchbginner .listStyle li {
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+
+    .startupsection h2 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    .mouITem p {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+    }
+
+    .digifeatITem .digifethead h3 {
+        height: 6.5vw
+    }
+
+    .cyberfeatITem .cyberfethead h3 {
+        height: 7.2vw;
+    }
+
+    .digifeatITem .digifethead h3,
+    .datacenterfeatITem .datafethead h3,
+    .cyberfeatITem .cyberfethead h3 {
+        font-size: 1.8vw;
+        line-height: 2.05vw;
+    }
+
+    .datacenterfeatITem .datafethead p,
+    .digifeatITem .digifethead p,
+    .cyberfeatITem .cyberfethead p {
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+    }
+
+    .topicsinnerboxDC p {
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+
+    .hotTopicsDCFT h4 {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        padding-top: 12px;
+    }
+
+    .mouDCItem h2 {
+        font-size: 1.8vw;
+        line-height: 2.4vw;
+    }
+
+    .mouDCItem p {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+    }
+
+    .cyberFeaturesv3 .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .cyberFeaturesv3 .col-md-3:last-child {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .innerBanner.cyberbanner .bannerheading.pt-0 {
+        width: 100%;
+        padding-top: 1.625rem !important;
+    }
+
+    .ddqyyvhd .largestcontent h2 {
+        font-size: 1.675rem;
+        line-height: 2.225rem;
+    }
+
+    .ddqyyvhd .jsdkf .w-150 {
+        width: 8.375rem;
+    }
+
+    .thumbmain01 .listthumb01 {
+        padding: 0 0;
+    }
+
+    .newsarticalbox {
+        min-height: 14rem;
+    }
+
+    .partnerslogo01 figure img {
+        width: 88%;
+    }
+
+    .planvisitList .contText h3 {
+        font-size: 1.625rem;
+        line-height: 2.125rem;
+    }
+
+    .planvisitList .contText {
+        padding: 2rem 1.425rem 2rem;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 {
+        width: 400px;
+    }
+
+    .gitexglobal26main .gitexbannertext1 p {
+        font-size: 1.625rem;
+        line-height: 2.125rem;
+        font-weight: 700;
+    }
+
+    .editionbuilt1 .hub-content {
+        padding: 2rem 1.425rem 2rem;
+    }
+
+    .editionbuilt1 .hub-content h2 {
+        font-size: 4rem;
+    }
+
+    .editionbuilt1 .hub-content h3 {
+        font-size: 1.625rem;
+        line-height: 2.125rem;
+    }
+
+    .gg26new1 .bannermain1 img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .statsroundmain0 .aidrivenslider0,
+    .largestmainbox0 .converbox0 {
+        padding-bottom: 55vw;
+    }
+
+    .valleybox1.innerBanner.cyberbanner {
+        padding-top: 14vw;
+    }
+
+    .valleybox1 img.ggcyberLogosize-60 {
+        max-width: 500px;
+    }
+
+    .stagebox01 p {
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+    }
+
+    .daykey01 .daycontent1 h2 {
+        font-size: 1.225rem;
+        line-height: 1.625rem;
+    }
+
+    .cisobox1 h2 {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+
+    .cisobox1 h3 {
+        font-size: 2vw;
+        line-height: 2.1vw;
+    }
+
+    .cisobox1 p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .headingsection01 h3,
+    .sectionheading03 h3 {
+        font-size: 2.6vw;
+        line-height: 3.5vw;
+    }
+
+    .digibanner02 .abnnerRightText h1 {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .hallnumber03 {
+        padding: 1vw 2vw .4vw;
+        font-size: 2.3vw;
+        line-height: 3.3vw;
+        margin-top: 1.521vw;
+    }
+
+    .aifordevbanner1 .hallnumber03 em,
+    .aifordevbanner1 .hallnumber03 i {
+        color: #000000;
+        margin-top: -6px;
+    }
+
+    .paidtxt1 {
+        padding-left: 0;
+    }
+
+    .gqexpomain1.innerBanner {
+        padding: 6rem 0 20rem;
+    }
+
+    .paidtxt1 .aidatetxt1 {
+        padding: 1rem 0.625rem;
+    }
+
+    .paidtxt1 .paidbox1 h4 {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+
+    .securitythumb1.gdcmain01 .gqexpocontent1 {
+        left: 3.75rem;
+    }
+
+    .datacentresbox01 .cyberstagebox1 {
+        margin-top: -16rem;
+    }
+
+    .datacentresbox01 .fs-4 {
+        font-size: 1.225rem !important;
+    }
+
+    .newquote001 {
+        top: 8.625rem;
+    }
+
+    .gitexglobal26main.ggnew26 {
+        height: 90vh;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content {
+        padding-top: 2.125rem;
+        padding-bottom: 2.125rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 {
+        font-size: 2.6vw;
+        line-height: 3vw;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 .number1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .techexpandtxt1 .whitecirclebtn,
+    .whygtbox0 .whitecirclebtn {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        padding-right: 3rem !important;
+    }
+
+    .techexpandtxt1 .whitecirclebtn .iconcircle,
+    .whygtbox0 .whitecirclebtn .iconcircle {
+        width: 1.425rem;
+        height: 1.425rem;
+        top: 0.625rem;
+        right: 0.625rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .row.align-items-end.mt-4 {
+        margin-top: 3rem !important;
+    }
+
+    .kpxpcsmr.breakingsmsgs .peng-img {
+        max-width: 310px !important;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-figure {
+        max-width: 310px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .event-info-box {
+        width: 100%;
+        right: 115px;
+        top: -2rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .person-name {
+        font-size: 2rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-text-img.po-text {
+        margin-left: 20px;
+    }
+
+
+}
+
+@media (max-width: 1280px) {
+    #exhibitly-banner-input {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1280px) and (max-width:1365px) {
+    .pt-5.pt-20rem {
+        padding-top: 3rem !important;
+    }
+
+    .navigatopn0 {
+        display: none;
+    }
+
+    .whitecirclebtn {
+        padding: 14px 10px 10px 1.25rem;
+    }
+
+    .redbutton01 {
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+    }
+
+    .headerboxn0 .headertoprow {
+        padding-top: 1.625rem;
+    }
+
+    .headerboxclr0.headerboxn0 .logoboxn0 {
+        width: 25%;
+    }
+
+    .headerboxn0 .logoboxn0 figure {
+        width: 100%;
+    }
+
+    .navigatopn0 .navbar .navbar-nav .nav-item {
+        padding: 0 0.625rem 0;
+    }
+
+    .videoplaysection0 .videotext0 h3 {
+        font-size: 1.4vw;
+    }
+
+    .newsquote0 h2 {
+        font-size: 1.6vw;
+        line-height: 2.6vw;
+    }
+
+    .vertmarquee0 .marquee-item h4 {
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+
+    .intropara0 p {
+        font-size: 1.2vw;
+        line-height: 1.8vw;
+    }
+
+    .statsItemround0 p {
+        font-size: 1vw;
+        line-height: 1.5vw;
+    }
+
+    .statsItemround0.statsn01 {
+        margin-top: -4.8vw !important;
+    }
+
+    .statsItemround0.statsn02 {
+        margin-top: -8.9vw !important;
+    }
+
+    .statsItemround0.statsn03 {
+        margin-top: -10.2vw !important;
+    }
+
+    .statsItemround0.statsn04 {
+        margin-top: -8.8vw !important;
+    }
+
+    .statsItemround0.statsn05 {
+        margin-top: -4.8vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 {
+        font-size: 16px;
+        padding: 14px 10px 10px 2.5rem;
+        padding-right: 5.85vw !important;
+    }
+
+    .whitecirclebtn.fsbtn18 .iconcircle {
+        top: 0.6vw;
+        right: 0.6vw;
+        width: 1.725rem;
+        height: 1.725rem;
+    }
+
+    .aidrivenslider0 .navdriven0 {
+        top: -2rem;
+    }
+
+    .drivencard0 .drivetag0 h5 {
+        font-size: 1vw;
+        line-height: 1vw;
+    }
+
+    .drivencard0 .drivecontent0 h2 {
+        font-size: 1.6vw;
+        line-height: 1.8vw;
+    }
+
+    .drivencard0 .drivecontent0 p {
+        font-size: 1.1vw;
+        line-height: 1.6vw;
+    }
+
+    .drivencard0 .drivecontent0 .drivehall0 h4 {
+        font-size: 1vw;
+        line-height: 1.2vw;
+    }
+
+    .slidertrack0 .leftbox1 {
+        transform: translateX(-410px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -webkit-transform: translateX(-410px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -moz-transform: translateX(-410px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -ms-transform: translateX(-410px) translateY(60px) scale(0.95) rotateZ(-10deg);
+        -o-transform: translateX(-410px) translateY(60px) scale(0.95) rotateZ(-10deg);
+    }
+
+    .slidertrack0 .leftbox2 {
+        transform: translateX(-720px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -webkit-transform: translateX(-720px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -moz-transform: translateX(-720px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -ms-transform: translateX(-720px) translateY(180px) scale(0.75) rotateZ(-20deg);
+        -o-transform: translateX(-720px) translateY(180px) scale(0.75) rotateZ(-20deg);
+    }
+
+    .slidertrack0 .rightbox1 {
+        opacity: 0.85;
+        z-index: 4;
+        transform: translateX(410px) translateY(70px) scale(0.95) rotateZ(10deg);
+        -webkit-transform: translateX(410px) translateY(70px) scale(0.95) rotateZ(10deg);
+        -moz-transform: translateX(410px) translateY(70px) scale(0.95) rotateZ(10deg);
+        -ms-transform: translateX(410px) translateY(70px) scale(0.95) rotateZ(10deg);
+        -o-transform: translateX(410px) translateY(70px) scale(0.95) rotateZ(10deg);
+    }
+
+    .slidertrack0 .rightbox2 {
+        opacity: 0.2;
+        z-index: 3;
+        transform: translateX(710px) translateY(180px) scale(0.75) rotateZ(20deg);
+        -webkit-transform: translateX(710px) translateY(180px) scale(0.75) rotateZ(20deg);
+        -moz-transform: translateX(710px) translateY(180px) scale(0.75) rotateZ(20deg);
+        -ms-transform: translateX(710px) translateY(180px) scale(0.75) rotateZ(20deg);
+        -o-transform: translateX(710px) translateY(180px) scale(0.75) rotateZ(20deg);
+    }
+
+    .newexpandleft01 .newexpandtop01 {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 85% 100%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 85% 100%, 0 100%);
+        border-radius: 15px 15px 80px 15px;
+        -webkit-border-radius: 15px 15px 80px 15px;
+        -moz-border-radius: 15px 15px 80px 15px;
+        -ms-border-radius: 15px 15px 80px 15px;
+        -o-border-radius: 15px 15px 80px 15px;
+    }
+
+    .expamdlogomain0 {
+        padding: 0 2.5vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 {
+        padding: 2rem 2rem 2rem;
+    }
+
+    .newexpandleft01 .newexpandmid01 h3 {
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+
+    .newexpandleft01 .newexpandmid01 p {
+        font-size: 1.2vw;
+        line-height: 1.8vw;
+    }
+
+    .newexpandright01 .accordion .accordion-item .accordion-button {
+        font-size: 1.4vw;
+        line-height: 1.8vw;
+    }
+
+    .newexpandright01 .accordion .accordion-body p {
+        font-size: 1.3vw;
+        line-height: 1.8vw;
+    }
+
+    .footerBG::before {
+        left: -28%;
+        bottom: -15%;
+        width: 418px;
+        height: 490px;
+    }
+
+    .intropara0.pe-5 {
+        padding-right: 3.625rem !important;
+    }
+
+    .intropara0.pe-5 .w-80 {
+        width: 85% !important;
+    }
+
+    .techmainbg0 .intropara0 p {
+        line-height: 2vw;
+    }
+
+    .techcarbox01 {
+        width: 51vw;
+        bottom: 2rem;
+    }
+
+    .sectorbox1 .sectorinner1 {
+        padding: 0.625rem 0.625rem 1.425rem;
+    }
+
+    .sectorbox1 .sectorinner1 h2 {
+        margin-bottom: 1.425rem;
+    }
+
+    .tideslftcontet01 {
+        padding-right: 3rem;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 {
+        padding: 2rem 2rem;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 h2 {
+        font-size: 1.8vw;
+        line-height: 2.8vw;
+    }
+
+    .tideslftcontet01 .tidestopcontent0 .redbutton01 span.demotext0 {
+        padding: 1rem 2rem 0.625rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 {
+        padding: 2rem 8rem 2rem 2rem;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 h2 {
+        font-size: 1.6vw;
+        line-height: 2vw;
+    }
+
+    .tideslftcontet01 .tidesbottomcontent0 p {
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+
+    .tidesrightcontet01 {
+        padding-left: 3rem;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .wavethumb0 {
+        width: 18vw;
+        padding: 0;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 {
+        padding: 5rem 2rem 8rem 0
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 h2 {
+        font-size: 2vw;
+        line-height: 2.8vw;
+    }
+
+    .tidesrightcontet01 .wavecontent0 .waverighttxt0 p {
+        font-size: 1.3vw;
+        line-height: 1.9vw;
+    }
+
+    .converbox0 .converCol0 {
+        width: 250px;
+        height: 365px;
+    }
+
+    .converbox0 .conleft1 {
+        transform: translateX(-450px) translateY(100px) rotateZ(-12deg);
+        -webkit-transform: translateX(-450px) translateY(100px) rotateZ(-12deg);
+        -moz-transform: translateX(-450px) translateY(100px) rotateZ(-12deg);
+        -ms-transform: translateX(-450px) translateY(100px) rotateZ(-12deg);
+        -o-transform: translateX(-450px) translateY(100px) rotateZ(-12deg);
+    }
+
+    .converbox0 .conleft2 {
+        transform: translateX(-150px) translateY(50px) rotateZ(-5deg);
+        -webkit-transform: translateX(-150px) translateY(50px) rotateZ(-5deg);
+        -moz-transform: translateX(-150px) translateY(50px) rotateZ(-5deg);
+        -ms-transform: translateX(-150px) translateY(50px) rotateZ(-5deg);
+        -o-transform: translateX(-150px) translateY(50px) rotateZ(-5deg);
+    }
+
+    .converbox0 .conleft3 {
+        transform: translateX(150px) translateY(50px) rotateZ(4deg);
+        -webkit-transform: translateX(150px) translateY(50px) rotateZ(4deg);
+        -moz-transform: translateX(150px) translateY(50px) rotateZ(4deg);
+        -ms-transform: translateX(150px) translateY(50px) rotateZ(4deg);
+        -o-transform: translateX(150px) translateY(50px) rotateZ(4deg);
+    }
+
+    .converbox0 .conleft4 {
+        transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -webkit-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -moz-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -ms-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+        -o-transform: translateX(450px) translateY(100px) rotateZ(12deg);
+    }
+
+    .concardinner0 .numbercard0 figure img {
+        width: 60%;
+    }
+
+    .concardinner0 .contentcard0 h2 {
+        font-size: 1.6vw;
+        line-height: 2vw;
+    }
+
+    .convercard0 .concardinner0 .cardtag0 h4 {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+    }
+
+    .concardinner0 .numbercard0 h5 {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    .concardinner0 .contentcard0 p {
+        font-size: 1.4vw;
+        line-height: 1.8vw;
+    }
+
+    .gspeakersbox01 .gspeakerpck01::before {
+        height: 80%;
+    }
+
+    .col-box-5 .gspeakersbox01 .gspeakerpck01::before {
+        height: 92%
+    }
+
+    .gspeakersbox01 .gspeakerstag h5 {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h2 {
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 p {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+
+    .gspeakersbox01 .gspeakerstext01 h4 {
+        font-size: 1.1vw;
+        line-height: 1.2vw;
+    }
+
+    .impactcard0 .impactinnerbg0 {
+        height: 14vw;
+        padding: 1.625rem;
+    }
+
+    .impactcard0 .topquote0 {
+        top: -3vw;
+    }
+
+    .impactcard0 .topquote0 img {
+        width: 35px;
+    }
+
+    .impactcard0 .impacttext0 p {
+        font-size: 1.1vw;
+        line-height: 1.6vw;
+    }
+
+    .impactcard0 .impactlogo0 .vw-5 {
+        width: 6vw !important;
+    }
+
+    .findgitexlogo0 .findlogoboxbg0 {
+        padding: 4rem 3rem 2rem;
+    }
+
+    .ShowLogoWrapper .InnerShowLogoBox1 figure.samesize01 {
+        width: 220px;
+    }
+
+    .ShowLogoWrapper h4 {
+        font-size: 1.1vw;
+        line-height: 1.4vw;
+        font-weight: 500;
+    }
+
+    .ShowLogoWrapper h4::before {
+        top: 0.8vw;
+    }
+
+    .ShowLogoWrapper .sponsorslinebox0 h4 {
+        font-size: 1.1vw;
+        line-height: 1.4vw;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1 {
+        width: 430px;
+    }
+
+    .gitexbannertext1 .gitexvenuedate1.w-100 {
+        width: 65% !important
+    }
+
+    .valleybox1.innerBanner.cyberbanner {
+        padding-top: 11vw;
+    }
+
+    .valleybox1 img.ggcyberLogosize-60 {
+        max-width: 520px;
+    }
+
+    .footerLogoOuter .redbutton01 {
+        font-size: 1vw;
+        line-height: 2vw;
+    }
+
+    .paidtxt1 {
+        padding-left: 0;
+    }
+
+    .gqexpomain1.innerBanner {
+        padding: 6rem 0 20rem;
+    }
+
+    .paidtxt1 .paidbox1 h4 {
+        font-size: 1.425rem;
+        line-height: 1.625rem;
+    }
+
+    .datacentresbox01 .fs-4 {
+        font-size: 1.425rem !important;
+    }
+
+    .gitexglobal26main.ggnew26 {
+        height: 100vh;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content {
+        padding-top: 2.125rem;
+        padding-bottom: 2.125rem;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 {
+        font-size: 2.3vw;
+        line-height: 2.8vw;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content h3 .number1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .whygtbox0.editionbuilt1 .hub-content p {
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+    }
+
+    .techexpandtxt1 .whitecirclebtn,
+    .whygtbox0 .whitecirclebtn {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        padding-right: 3rem !important;
+    }
+
+    .techexpandtxt1 .whitecirclebtn .iconcircle,
+    .whygtbox0 .whitecirclebtn .iconcircle {
+        width: 1.425rem;
+        height: 1.425rem;
+        top: 0.625rem;
+        right: 0.625rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .peng-img {
+        max-width: 400px !important;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-figure {
+        max-width: 400px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .event-info-box {
+        right: 215px;
+        width: 88%;
+    }
+
+    .kpxpcsmr.breakingsmsgs .person-name {
+        font-size: 2.225rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .openai-logo-text img {
+        max-width: 118px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .g42-logo img {
+        max-width: 90px;
+    }
+
+    .kpxpcsmr.breakingsmsgs .person-title {
+        font-size: 1.105rem;
+    }
+
+    .kpxpcsmr.breakingsmsgs .main-text-img.po-text {
+        margin-left: 30px;
+    }
+
+
+}
+
+@media only screen and (min-width:1900px) and (max-width:2560px) {
+    .auto-container {
+        width: 100%;
+        max-width: 1520px;
+    }
+
+    .statsroundmain0 .aidrivenslider0,
+    .largestmainbox0 .converbox0 {
+        width: 1520px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-bottom: 34vw;
+    }
+
+    .converbox0 .converCol0 {
+        height: 430px;
+    }
+
+    .securitythumb1.gdcmain01 .gqexpocontent1 {
+        left: 11.75rem;
+    }
+
+}
+
+
+
+
+/* end */

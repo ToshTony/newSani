@@ -1,0 +1,94 @@
+(function($) {
+    $(document).ready(function() {
+        "use strict";
+
+
+
+        // SWIPER SLIDER
+        var mySwiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 0,
+            loop: true,
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function(index, className) {
+                    return '<span class="' + className + '"><svg><circle r="18" cx="20" cy="20"></circle></svg></span>';
+                },
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+
+
+
+
+
+
+
+        // GO TO TOP
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('.gotop').fadeIn();
+            } else {
+                $('.gotop').fadeOut();
+            }
+        });
+
+        $('.gotop').on('click', function(e) {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+
+
+
+
+
+        // STICKY SIDE LOGO
+        $(window).on("scroll touchmove", function() {
+            $('.logo').toggleClass('sticky', $(document).scrollTop() > 300);
+        });
+
+
+
+
+        // HIDE NAVBAR
+        $(window).on("scroll touchmove", function() {
+            $('.navbar').toggleClass('hide', $(document).scrollTop() > 30);
+        });
+
+
+
+
+        // DATA BACKGROUND IMAGE
+        var pageSection = $(".swiper-slide");
+        pageSection.each(function(indx) {
+            if ($(this).attr("data-background")) {
+                $(this).css("background-image", "url(" + $(this).data("background") + ")");
+            }
+        });
+
+
+
+
+    });
+
+
+
+    // WOW ANIMATION 
+    //wow = new WOW({
+    //    animateClass: 'animated',
+    //    offset: 50
+    //});
+    //wow.init();
+
+
+})(jQuery);

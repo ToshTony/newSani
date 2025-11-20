@@ -1,0 +1,1528 @@
+@media only screen and (min-device-width:320px) and (max-device-width:767px) {
+    .new-detail figure {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .newsInnerWrap {
+        padding: 0px 30px;
+    }
+
+    .newsInnerWrap .owl-prev {
+        left: -39px;
+        filter: unset;
+        -webkit-filter: unset;
+    }
+
+    .slider .swiper-container .slide-inner h2.pt-0.ForSliderFontSize {
+        font-size: 24px !important;
+    }
+    .media_kit_box ul li {        
+        margin: 10px!important;
+    }
+    .slider .swiper-container .slide-inner img.Logo_Size {
+        width: 46% !important;
+    }
+
+    a.AppleStoreButton {
+        padding: 0 !important;
+        font-size: 12px !important;
+    }
+
+    .innwebannertagline.innwebannertagline_ForWidht.w-75 {
+        width: 92% !important;
+    }
+
+    .innwebannertagline.innwebannertagline_ForWidht figure img {
+        width: 70%;
+        border-bottom: 1px solid #dede;
+        padding-bottom: 8px;
+    }
+
+    .headerBtn .redBtn {
+        width: 100%;
+    }
+
+    .Slide_newbg {
+        background-repeat: no-repeat;
+        background-position: 10% 100% !important;
+        background-size: cover !important;
+    }
+
+    section.speakerinner.speakerinnerForMobileView_ .speakerItem01 {
+        padding: 0 !important;
+    }
+
+    section.speakerinner.speakerinnerForMobileView_ .speakerItem01 .claimtofameHover p {
+        display: none;
+    }
+
+    section.speakerinner.speakerinnerForMobileView_ .speakerItem01 h2 {
+        font-size: 14px !important;
+    }
+
+    section.speakerinner.speakerinnerForMobileView_ .speakerItem01 p {
+        line-height: 19px !important;
+    }
+
+    section.speakerinner.speakerinnerForMobileView_ .speakerItem01 p span {
+        font-size: 15px !important;
+        line-height: 21px !important;
+    }
+
+    a.AndroidStoreButton {
+        padding: 0 !important;
+        font-size: 9px !important;
+    }
+
+    .slider .swiper-container .slide-inner h2.Slider_TwoFont {
+        font-size: 24px !important;
+    }
+
+    .partnerLogoTop.partnerLogoTopxveres .slide-inner h2 {
+        font-size: 10px !important;
+    }
+
+    .partnerLogoTop.partnerLogoTopxveres .slide-inner h2 {
+        font-size: 10px !important;
+    }
+
+    .partnerLogoItemDXBLogo h2 {
+        margin-left: 20px !important;
+        font-size: 13px !important;
+    }
+
+    .partnerLogoItemDXBLogo img {
+        margin-left: 20px !important;
+    }
+
+    .partnerLogoTop.partnerLogoTopxveres {
+        display: flex !important;
+    }
+
+    .innwebannertagline.innwebannertaglineBlack .metaversetaglineImg {
+        display: block !important;
+    }
+
+    .innwebannertagline.innwebannertaglineBlack {
+        width: 100% !important;
+    }
+
+    p.metaversetaglineImg img {
+        width: 38% !important;
+    }
+
+    .menuNavigationWrap .nav li ul.dropdown-menu.AllShowsLogo_ li a img {
+        width: 34% !important;
+    }
+
+    ul.dropdown-menu.AllShowsLogo_ a.redBtn {
+        width: 95% !important;
+    }
+
+    .DxbLiveLogo_Home {
+        top: 82% !important;
+        left: 26% !important;
+        transform: translate(22%, -50%) !important;
+        -webkit-transform: translate(22%, -50%) !important;
+        -moz-transform: translate(22%, -50%) !important;
+        -ms-transform: translate(22%, -50%) !important;
+        -o-transform: translate(22%, -50%) !important;
+    }
+
+    .DxbLiveLogo_Home img {
+        width: 21% !important;
+    }
+
+    section.metaverseSec02 .col-sm-1 {
+        display: none;
+    }
+
+    .row.ForFlexDirection_ {
+        flex-direction: column-reverse;
+    }
+
+    .DxbLiveLogo_.DxbLiveLogo_InnerPage_Logo {
+        position: initial !important;
+        transform: translate(0%, 0%) !important;
+        width: 100%;
+        float: left;
+        -webkit-transform: translate(0%, 0%) !important;
+        -moz-transform: translate(0%, 0%) !important;
+        -ms-transform: translate(0%, 0%) !important;
+        -o-transform: translate(0%, 0%) !important;
+    }
+
+    .DxbLiveLogo_ img {
+        width: 36% !important;
+    }
+
+    .DxbLiveLogo_.DxbLiveLogo_InnerPage_Logo span {
+        font-size: 13px !important;
+    }
+
+    .GitexPromo_.NorthStarPromo_ img {
+        text-align: center;
+        margin: 0 auto !important;
+        margin-bottom: 17px !important;
+    }
+
+    .PromoCodeSection_ .GitexPromo_ {
+        width: 100% !important;
+    }
+
+    .PromoCodeSection_ .GitexPromo_ img {
+        width: 60% !important
+    }
+
+    .InnerPromoSection {
+        width: 100% !important;
+    }
+
+    .InnerPromoSection {
+        width: 100% !important;
+        margin-bottom: 38px !important;
+    }
+
+    .GitexPromo_.NorthStarPromo_ img.GitexPromo_Logo_1.NorthStarPromo_Logo_1 {
+        width: 90% !important;
+        margin-bottom: 8px !important;
+        margin-top: 50px !important;
+    }
+
+    aside.left-side {
+        display: none
+    }
+
+    .slider {
+        width: 100%;
+        height: 50vh;
+        min-height: unset;
+        margin-left: 0
+    }
+
+    .header-style-two {
+        width: 100%
+    }
+
+    .slider .swiper-container .swiper-slide {
+        width: 100%
+    }
+
+    .slider .swiper-button-next {
+        width: 2.125rem;
+        right: 0;
+        display: none
+    }
+
+    .slider:hover .swiper-button-next {
+        width: 2.125rem
+    }
+
+    .swiper-button-next b {
+        font-size: 12px
+    }
+
+    .slider .swiper-container .slide-inner h2 {
+        font-size: 24px !important;
+    }
+
+    .slider .swiper-container .slide-inner p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .slider .swiper-container .slide-inner {
+        padding: 0 40px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .circleBG {
+        min-height: 400px
+    }
+
+    .circleBG:before {
+        left: -29px;
+        width: 109%;
+        height: 95%
+    }
+
+    .othershowContent p {
+        padding-left: 0 !important
+    }
+
+    .othershowContent p.secondryP {
+        padding: 0 30px 0 40px !important;
+        padding-left: 20px !important
+    }
+
+    h5.high_new {
+        top: 10px;
+        left: 24px;
+    }
+
+    .redBtn,
+    .blackBtn {
+        font-size: 12px;
+        padding: 10px
+    }
+
+    .sevenTechItem,
+    .now8techShow .sevenTechItem {
+        width: 46.5%;
+        margin: 0 5px !important;
+        margin-bottom: 20px !important
+    }
+
+    .sevenTechInnerBox {
+        display: inline-block;
+        background: #000;
+        margin-bottom: 20px
+    }
+
+    .sevenTechItem h2 {
+        font-size: 12px
+    }
+
+    .section-title h2 {
+        font-size: 22px
+    }
+
+    .statsBox h2 {
+        line-height: 45px;
+        font-size: 40px;
+        padding-top: 30px
+    }
+
+    .header-style-two .header-upper {
+        width: 100%;
+        padding-top: 25px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .headerBtn {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: auto;
+        top:-20px;
+        text-align: center;
+    }
+
+    .topregisterBtn {
+        border: #df1e3b solid 3px;
+        background: #df1e3b;
+        color: #fff;
+        /* width: 100%; */
+        text-align: center;
+        display: inline-block;
+        height: 45px;
+    }
+
+    .logo-box .logo img {
+        width: 100%;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .fixed-header .logo-box .logo img {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #burger-wrap {
+        z-index: 9999
+    }
+
+    .menu-list.list-open {
+        overflow: scroll
+    }
+
+    .menuNavigationWrap h2 {
+        font-size: 22px;
+        text-align: left;
+        padding: 5px;
+        padding-top: 20px
+    }
+
+    .menuNavigationWrap .col-border-right {
+        border-right: none
+    }
+
+    .govtslide {
+        padding: 0 40px
+    }
+
+    .owl-next {
+        right: 37px;
+        width: 30px !important;
+        height: 30px !important
+    }
+
+    .owl-prev {
+        left: -40px;
+        width: 30px;
+        height: 30px
+    }
+
+    .logoBoxStylee {
+        padding: 3px;
+        margin: 20px;
+        height: 41%;
+        width: 79%
+    }
+
+    .govtslide.owl-carousel .owl-item .item {
+        justify-content: center;
+        margin: 5px 0;
+        text-align: center;
+        margin: 0 auto
+    }
+
+    .tabs03 .tab-content>.active {
+        display: block;
+        padding: 0 20px
+    }
+
+    .tabs03 .nav-tabs .nav-link {
+        width: 25%;
+        -ms-flex: 0 1 auto;
+        flex: unset;
+        font-size: 12px;
+        padding: 10px 0
+    }
+
+    .leftContentImage figure:before {
+        position: absolute;
+        top: -8px
+    }
+
+    .testimonialsbtn .testimonialContent::before {
+        background-size: cover;
+        height: 100%;
+        width: 100%
+    }
+
+    .testimonialsbtn .testimonialContent::after {
+        top: -2%;
+        left: 19px
+    }
+
+    .testimonials .owl-next {
+        right: 0
+    }
+
+    .testimonialItem .testiImage {
+        margin-bottom: -36px;
+        padding: 20px 60px 0 0
+    }
+
+    .testimonialContent {
+        padding-right: 6%;
+        padding-bottom: 30px;
+        padding-top: 22%
+    }
+
+    .medialogoslide .owl-next {
+        right: -34px
+    }
+
+    .owl-carousel.medialogoslide .owl-item figure img {
+        display: block;
+        width: unset;
+        width: auto
+    }
+
+    .newsstylebgSlide {
+        display: none
+    }
+
+    .newshoneStyle {
+        position: relative;
+        padding: 30px 0
+    }
+
+    .testimonialItem {
+        position: relative;
+        padding: 0;
+        margin-top: -30px
+    }
+
+    .innerasseenlogo figure {
+        padding: 0 5px
+    }
+
+    .tabs03 .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        font-size: 17px
+    }
+
+    .footerLogo {
+        padding: 0
+    }
+
+    .designedby {
+        padding-top: 0
+    }
+
+    .quiklinks {
+        text-align: center
+    }
+
+    .sponsorLogoBox h3 {
+        font-size: 14px;
+        padding-bottom: 30px
+    }
+
+    .sponsorLogoBox {
+        padding: 10px;
+        display: flex;
+        align-items: start
+    }
+
+    .footer-bottom {
+        padding-bottom: 5px
+    }
+
+    .innerHeader h1 {
+        color: #fff;
+        font-size: 29px;
+        padding: 5px 5px;
+    }
+
+    .shownooverlap .sevenTechItem h2 {
+        color: #fff;
+        min-height: 55px;
+    }
+
+    .shownooverlap .sevenTechItem h2 a {
+        color: #fff;
+    }
+
+    ul.accordion-list {
+        padding: 10px 0
+    }
+
+    ul.accordion-list li h3 {
+        padding: 0 20px 0 0
+    }
+
+    .footerBTNCol {
+        padding: 0
+    }
+
+    .newsletter {
+        padding: 20px 0 0
+    }
+
+    .LeftImage {
+        height: 50vh
+    }
+
+    .sevenTechItemHover p {
+        font-size: 13px;
+        color: #fff;
+        margin-bottom: 5px;
+        line-height: 17px
+    }
+
+    .menu-list.list-open .menulogo {
+        padding-bottom: 0;
+        width: 100%
+    }
+
+    .logo-box {
+        z-index: 9
+    }
+
+    .open {
+        z-index: 99
+    }
+
+    .tabsbox.tabs03 .nav-tabs .nav-link,
+    .tabsbox.tabs03 .nav-tabs .nav-link.active {
+        font-size: 13px;
+        padding: 10px 0
+    }
+
+    .speakersStyle.speakershalf::before {
+        top: 0;
+        height: 9%
+    }
+
+    .tracksStyle01 .services-item {
+        flex: 0 1 calc(45.2% - 1px);
+    }
+
+    #circleoutline {
+        margin: 5px;
+        width: 90%;
+    }
+
+    .sideanimateCircle {
+        margin-left: 0;
+        padding: 30px 0px 50px 0px;
+    }
+
+    .showblockouteer .service1,
+    .showblockouteer .service2,
+    .showblockouteer .service3,
+    .showblockouteer .service4,
+    .showblockouteer .service5,
+    .showblockouteer .service6,
+    .showblockouteer .service7,
+    .showblockouteer .service8 {
+        width: 78px;
+        height: 78px;
+    }
+
+    .showblockouteer .service1 {
+        top: 6%;
+        right: 10%;
+    }
+
+    .showblockouteer .service2 {
+        top: unset;
+        right: -4%;
+        bottom: 46%;
+    }
+
+    .showblockouteer .service3 {
+        bottom: 15%;
+        right: 4%;
+    }
+
+    .showblockouteer .service4 {
+        bottom: -1%;
+        right: -6%;
+    }
+
+    .showblockouteer .service5 {
+        left: 8%;
+        bottom: 10%;
+    }
+
+    .showblockouteer .service6 {
+        top: 10%;
+        left: 5%;
+    }
+
+    .showblockouteer .service7 {        
+        top: 40%;
+        left: -4%;
+    }
+
+    .showblockouteer .service8 {
+        top: -3%;
+        right: 8%;
+    }
+
+    .center-circle .centerLogoInner {
+        width: 130px;
+        height: 130px;
+    }
+
+    .slider .swiper-container .slide-inner.slideoneText h2 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left !important;
+    }
+
+    .slide3maxwidth {
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+    .slider .swiper-container .slide-inner.slideoneText p {
+        font-size: 21px;
+    }
+
+    .slidelogo {
+        font-size: 13px;
+    }
+
+    .tabsbox.tabs03 .nav-tabs {
+        border: none !important;
+        align-items: start;
+        display: flex;
+        /* border-top: 1px solid #df1e3b !important; */
+        border-bottom: 0 !important;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .tabsbox.tabs03 .nav-tabs .nav-link {
+        border-top: 1px solid #df1e3b !important;
+    }
+
+    #custCarousel .carousel-indicators>li.active {
+        font-size: 10px;
+    }
+
+    #custCarousel .carousel-indicators>li {
+        font-size: 10px;
+    }
+
+    .slidelogo2 img {
+        width: 37%;
+    }
+
+    .logo_items {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+
+    .partnerLogoTop {
+        width: 100%;
+    }
+
+    .partnerLogoItem figure {
+        width: 90px;
+        height: 100px;
+    }
+
+    .partnerLogoItem figure.slidecoderlogo {
+        width: 120px;
+        height: 80px;
+    }
+
+    .partnerLogoItem h2 {
+        font-size: 12px !important;
+    }
+
+    .partnerLogoItem {
+        flex: unset;
+        margin-right: 10px;
+    }
+
+    .slidecoderlogo {
+        width: 100px;
+    }
+
+    .slidepyconlogo {
+        width: 95%;
+        margin-left: 20px;
+    }
+
+    .partnerLogoItem .logo_items figure {
+        width: 140px;
+    }
+
+    .pytholo {
+        width: 340px;
+    }
+
+    .logo_items figure {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .slide2PR50 {
+        padding-right: 0;
+    }
+
+    .slideoneText {
+        margin-top: -34%;
+    }
+
+    .whatsNew2022style .col-sm-1 {
+        display: none;
+    }
+
+    .metaverseSec02 figure {
+        height: 400px;
+    }
+
+    .metaSideContent {
+        padding-top: 0;
+    }
+
+    .metaSideContent h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding: 20px 20px;
+        margin-bottom: 5px;
+    }
+
+    .metaverseSec02 {
+        padding: 0;
+    }
+
+    .logo-box {
+        width: 100%;
+    }
+
+    .burger {
+        margin: 20px 10px 0px 10px;
+    }
+
+    .fixed-header .stickylogo {
+        padding-top: 20px;
+    }
+
+    .bannerpageLogo {
+        left: 30%;
+    }
+
+    .metaverseRighto1Text {
+        padding: 0 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .metaverseRighto1Text ul li {
+        margin: 10px 20px;
+        font-size: 28px;
+        padding: 10px 10px;
+        line-height: 20px;
+    }
+
+    .metaverseRighto1Text ul li:before {
+        position: absolute;
+        top: -6px;
+    }
+
+    .innerHeader img.img-fluid.pb-4.w-25 {
+        width: 100% !important;
+    }
+
+    .metasideiconBx {
+
+        width: 40%;
+    }
+
+    .metasideiconBx h2 {
+        font-size: 13px;
+    }
+
+    .metarightLogo {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .metarightLogo img.img-fluid {
+        margin-bottom: 10px;
+    }
+
+    .slider:hover .swiper-container .swiper-slide {
+        margin-left: 0;
+    }
+
+    .taglineStyle01 .statsBoxWidth {
+        display: table-cell;
+        width: 50%;
+    }
+
+    .partnerLogoItemstyle03 h2 {
+        font-size: 12px !important;
+        padding-bottom: 10px;
+    }
+
+    .partnerLogoItemstyle03 figure {
+        padding: 0 5px;
+        width: 100px;
+        height: auto;
+    }
+
+    .planvisitSection {
+        padding: 30px 0px;
+        margin: 20px 0px;
+    }
+
+    .visitplanRTContent {
+        padding: 20px 0px;
+    }
+
+    p.metaversetaglineImg img {
+        width: 38% !important;
+        padding-top: 6px;
+        padding: 0;
+        padding-top: 6px;
+    }
+
+    .metaversetaglineImg {
+        display: block;
+    }
+
+    .governmentLogo.only-engagebox::before {
+        height: 50%;
+    }
+
+    .globalimpactslidetab img {
+        width: 60%;
+    }
+
+    .globalimpactslidetab .redBtn {
+        line-height: 25px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .backdrop-main h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .backdrop-main {
+        padding: 0 10px;
+    }
+
+    .backdrop-main p {
+
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .open #burger-wrap {
+        position: fixed;
+        display: unset;
+        height: auto;
+        top: 7%;
+    }
+
+    .metaverseSec01 figure {
+        width: 459px;
+        height: 566px;
+        margin-top: -105px;
+    }
+
+    .header-style-two .burger span {
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    .header-style-two.fixed-header .burger span {
+        font-size: 16px;
+    }
+
+    .midiLogotaglineImg {
+        justify-content: flex-start;
+    }
+
+    .midiLogotaglineImg img {
+        width: 67%;
+    }
+
+    .majlisstyle03 {
+        margin-top: 20px;
+    }
+
+    .majlisRghtText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .majlissponsor {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .visitplanLTImage h2 {
+        font-size: 34px;
+    }
+
+    .topregisterBtn.topbtn {
+        margin-left: 0;
+    }
+
+    .fixed-header .topregisterBtn {
+        display: inline-block;
+    }
+
+    .appresourceBtn {
+        background: #6b6b6b !important;
+        border: #6b6b6b solid 3px !important;
+    }
+
+    .appresourceBtn:hover {
+        border: #df1e3b solid 3px !important;
+        background: #df1e3b !important;
+    }
+
+    .metaverseTopWrap .innwebannertagline {
+        width: 100%;
+    }
+
+    .metaverseTopWrap {
+        width: 100%;
+    }
+
+    .metaverseTopWrap .fontsize40 {
+        font-size: 28px !important;
+    }
+
+    .metaverseTopWrap .innwebannertagline.innwebannertaglineBlack.innwebannertaglineBlackSponsorSection h4.sponsorslogoTitle {
+        color: #fff;
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    .MetaWrapborderBT figure img {
+        width: 100% !important;
+    }
+
+    .MetaWrapborderBT .innwebannertaglineBlackSponsorSection figure img {
+        width: 100% !important;
+    }
+
+    .metasideiconBx figure.meatsIconFig {
+        width: auto !important;
+    }
+
+    .notifyInner {
+        position: relative;
+        width: 100%;
+    }
+
+    .notificationhome {
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .notificationhome figure img.img-fluid {
+        width: 30%;
+    }
+
+    .slideoneText img {
+        width: 50%;
+        text-align: left !important;
+    }
+
+    .slideoneText {
+        text-align: left !important;
+        align-items: start;
+    }
+
+    .homegallerystyle img {
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .gitxafricaSlide {
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-device-width:767px) and (max-device-width:991px) {
+    .circleBG:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: -49px;
+        background: url(../images/circleimg02.png.html) no-repeat left;
+        width: 129%;
+        height: 68%
+    }
+
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+    .trackItemstyle h4 {
+        margin-top: 20px;
+        font-size: 13px
+    }
+
+    .tabs03 .tab-content>.active {
+        display: block;
+        padding: 0 20px
+    }
+
+    .testimonialContent p {
+        font-size: 16px;
+        color: #df1e3b;
+        line-height: 20px
+    }
+
+    .testimonialsbtn .testimonialContent {
+        height: 100%;
+        padding-left: 1.125rem
+    }
+
+    .testimonialContent {
+        padding-right: 11%;
+        padding-bottom: 69px;
+        padding-top: 5%
+    }
+
+    .testimonials .owl-next {
+        right: 9px;
+    }
+
+    .section-title h2 {
+        font-size: 27px
+    }
+
+    .timinglist li {
+        font-size: 13px
+    }
+
+    .redBtn,
+    .blackBtn {
+        font-size: 12px;
+        padding: 10px 5px
+    }
+
+    .footersocial li span {
+        font-size: 13px
+    }
+
+    .contactinfo li a {
+        font-size: 14px
+    }
+
+    .stayInBtn {
+        padding: 10px 5px;
+        font-size: 11px
+    }
+
+    .footer-top {
+        background: #000;
+        padding: 0;
+        padding: 40px 10px
+    }
+
+    .testimonialsbtn .testimonialContent::after {
+        top: 8%;
+        left: -5rem;
+        width: 15%;
+        height: 65px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .burger {
+        margin: 5px 10px;
+        padding-top: 20px;
+    }
+
+    .fixed-header .stickylogo {
+        padding-top: 0px;
+    }
+
+    .menuNavigationWrap li a {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1030px) {
+    aside.left-side ul {
+        top: 36%;
+    }
+
+    .redBtn,
+    .blackBtn {
+        font-size: 15px;
+    }
+
+    .countsText figure {
+        width: 25%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .bannerpageLogo img {
+        width: 30%;
+    }
+
+    .menuNavigationWrap h2 {
+        font-size: 21px;
+    }
+
+    .appresourceBtn {
+        background: #6b6b6b !important;
+        border: #6b6b6b solid 3px !important;
+    }
+
+    .appresourceBtn:hover {
+        border: #df1e3b solid 3px !important;
+        background: #df1e3b !important;
+    }
+
+    .topregisterBtn {
+        display: block;
+        border: #df1e3b solid 3px;
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+
+    .fixed-header .topregisterBtn {
+        display: block;
+        border: #df1e3b solid 3px;
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (min-width:1030px) and (max-width:1366px) {
+    .testimonialsbtn .testimonialContent::after {
+        content: "";
+        position: absolute;
+        top: 13%
+    }
+
+    .testimonialContent {
+        padding-top: 6%
+    }
+
+    .testimonialContent p {
+        font-size: 19px;
+        line-height: 23px
+    }
+
+    .speakerItem01 figure .claimtofameHover p {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    .innerasseenlogo figure {
+        padding: 0
+    }
+
+    .bannerpageLogo img {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:1605px) and (max-width:1920px) {
+    .sevenTechItemInner {
+        /*height: 310px*/
+        height: 450px !important;
+    }
+
+    .sevenTechItemHover p {
+        font-size: 20px
+    }
+
+    .testimonialContent {
+        padding-top: 6%
+    }
+
+    .redBtn.button_slider {
+        position: absolute;
+        bottom: 23%;
+        left: 7%;
+    }
+
+}
+
+@media only screen and (min-width:1920px) and (max-width:2560px) {
+    .slider .swiper-container .slide-inner.slideoneText h2 {
+        line-height: 100px;
+        font-size: 85px;
+        letter-spacing: 1.9px;
+    }
+
+    .slider .swiper-container .slide-inner.slideoneText .redBtn {
+        font-size: 24px;
+        padding: 20px 25px;
+    }
+
+    .burger {
+        width: 200px;
+        height: 95px;
+    }
+
+    .header-style-two .burger span {
+        font-size: 37px;
+        margin-right: 18px;
+    }
+
+    .burger-strip div:first-child {
+        width: 35px;
+    }
+
+    .burger-strip div:nth-child(2) {
+        margin-left: -3px;
+        width: 41px;
+    }
+
+    .burger-strip div:last-child {
+        width: 36px;
+    }
+
+    .strip div {
+        height: 4px;
+        margin: 10px;
+    }
+
+    .header-style-two.fixed-header .burger span {
+        color: #fff;
+        font-size: 37px;
+        margin-right: 20px;
+    }
+
+    .metaverseSec01 figure {
+        background-size: cover !important;
+        background-position: center;
+        width: 600px;
+        height: 849px;
+        position: relative;
+        /* display: block; */
+        background-repeat: no-repeat;
+        margin-top: -27px;
+        background-size: cover !important;
+    }
+
+    .mediabgslide .item figure {
+        background-position: top center;
+    }
+
+    .logoW30 {
+        width: 30%;
+    }
+
+    .logoL80 {
+        width: 80%;
+    }
+
+    .redBtn.button_slider {
+        position: absolute;
+        bottom: 22%;
+        left: 7%;
+    }
+}
+
+@media only screen and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1) and (min-device-width:600px) and (max-device-width:1007px) {}
+
+@media all and (device-width:1024px) and (device-height:768px) and (orientation:landscape) {}
+
+@media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1) and (min-device-width:600px) and (max-device-width:1024px) {
+    .slider {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        height: 30%
+    }
+
+    .header-style-two {
+        width: 100%
+    }
+
+    .slider .swiper-button-next {
+        right: 80px
+    }
+
+    aside.left-side {
+        height: auto
+    }
+
+    aside.left-side ul li a {
+        font-size: 21px
+    }
+
+    aside.left-side ul {
+        margin-top: 41vh
+    }
+
+    .othershowContent h3 {
+        font-size: 23px
+    }
+
+    .secondryP {
+        padding: 0 30px 0 40px !important;
+        padding-right: unset
+    }
+
+    .sevenTechItemHover p {
+        font-size: 14px
+    }
+
+    .newshoneStyle .newsstylebgSlide .newsbgslide.equalHeight figure {
+        background-position: center
+    }
+
+    .circleBG:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: -49px;
+        background: url(../images/circleimg02.png.html) no-repeat left;
+        width: 117%;
+        height: 100%
+    }
+
+    .logo-box {
+        width: 41%;
+    }
+
+    .logo-box .logo img {
+        width: 100%
+    }
+
+    .fixed-header .logo-box .logo img {
+        width: 100%;
+    }
+
+    .slider .swiper-container .slide-inner h2 {
+        font-size: 22px
+    }
+
+    .slider .swiper-container .slide-inner {
+        padding: 0 50px;
+        padding-right: 45%
+    }
+
+    .slider .swiper-container .swiper-slide {
+        width: 100%
+    }
+
+    .menuNavigationWrap li a {
+        font-size: 15px;
+    }
+
+    .menuNavigationWrap h2 {
+        font-size: 21px;
+    }
+
+    .navsocial li span {
+        font-size: 22px;
+    }
+
+    .menu-list.list-open .menulogo {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .innerHeader {
+        min-height: 250px;
+    }
+
+    .testimonialItem .testiImage {
+        padding: 20px 10px 0 10px;
+    }
+}
+
+.GitexPromo_.NorthStarPromo_ {
+    width: 50%;
+    float: left;
+}
+
+.InnerPromoSection img {
+    width: 100% !important;
+}
+
+img.GitexPromo_Logo_1 {
+    width: 35% !important;
+    padding-bottom: 21px;
+    margin-bottom: 1px !important;
+}
+
+.PromoCodeSection_ .GitexPromo_ h3 {
+    font-size: 14px;
+}
+
+.ForBottomMargin_ {
+    margin: 12px 0 43px 0 !important;
+}
+
+.GitexPromo_.NorthStarPromo_.PromoBottomSection .InnerPromoSection img {
+    margin: 0px 0 26px 0;
+}
+
+.PromoCodeSection_ .GitexPromo_ span a {
+    font-size: 15px;
+}
+
+.innwebannertagline.innwebannertaglineBlack {
+    width: 70.5%;
+}
+
+.innwebannertagline.innwebannertaglineBlack p {
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0 0px 0;
+    display: block
+}
+
+.innwebannertagline.innwebannertaglineBlack p img {
+    display: block;
+    margin: 0 auto;
+}
+
+.innwebannertagline.innwebannertaglineBlack .metaversetaglineImg {
+    display: table-cell;
+}
+
+p.metaversetaglineImg.metaversetaglineImg1 img {
+    width: 62% !important;
+    margin-top: 15px;
+}
+
+p.metaversetaglineImg img {
+    width: 30%;
+}
+
+.partnerLogoTop.partnerLogoTopxveres .slide-inner h2 {
+    font-size: 15px !important;
+}
+
+
+@media screen and (max-width:414px) {
+    .partnerLogoTop {
+        width: 100%;
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width:980px){
+    .header_buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search_bar {
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .media_kit_box ul li {
+        width: 41%!important;
+        padding: 10px 0;
+        margin:10px 0!important;
+    }
+    .media_kit_box ul {       
+        gap: 1rem;
+        justify-content:center;
+    }
+    .press-release-section {
+        padding: 50px 20px!important;
+    }
+    .press_release_section {
+        padding: 30px 15px !important;
+    }
+    .header_buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .dropdown {
+        margin: 0 0 10px 15px;
+    }
+    .search_bar {
+        margin-left: 15px!important;
+    }
+    .back_btn .view_btn {      
+        margin-left: 10px!important;
+    }
+    .header_buttons {
+        padding: 15px 0px 0 !important;
+    }
+    .homegallerystyle img {       
+        height: 160px!important;        
+    }
+}
+
+
+
+
+
+
