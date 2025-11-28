@@ -1,2 +1,18 @@
 git config --global user.name "Tony"
 git config --global user.email "jayton006@gmail.com"
+
+
+
+
+Join sanitationists page
+Form Fields:
+. Position in the sanitation value chain
+
+Key Perfomance Areas
+- Containment
+- emptying/collection
+- transporation
+- treatment
+- disposal
+- re-use
+- other
