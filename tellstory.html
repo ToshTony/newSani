@@ -5,15 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tell Your Story | SaniBook Initiative</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .pill-option {
-      @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-full text-sm cursor-pointer transition;
-    }
-  
-    .pill-option.selected {
-      @apply bg-blue-700 text-white shadow;
-    }
-  </style>
   
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased">
@@ -268,6 +259,83 @@
           </p>
         </div>
 
+        <!-- Page Count -->
+        <div class="md:col-span-2 mt-6">
+          <h4 class="text-lg font-semibold text-blue-800 mb-2">Page Count / Intervention Depth</h4>
+          <div class="grid md:grid-cols-3 gap-4">
+            <label class="flex items-center space-x-3">
+              <input type="radio" name="page_count" value="half-page">
+              <span>½ Page — Ksh. 80,000</span>
+            </label>
+            <label class="flex items-center space-x-3">
+              <input type="radio" name="page_count" value="one-page">
+              <span>1 Page — Ksh. 140,000</span>
+            </label>
+            <label class="flex items-center space-x-3">
+              <input type="radio" name="page_count" value="two-page">
+              <span>2 Pages — Ksh. 220,000</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Story -->
+        <div class="md:col-span-2">
+          <label class="block text-gray-700 mb-2 font-medium">Your Sanitation Story</label>
+          <textarea name="story" rows="6" required placeholder="Describe your experience, solutions, impact, and lessons..."
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
+        </div>
+
+        <!-- IMAGE UPLOAD SECTION -->
+        <div class="md:col-span-2 mt-6">
+          <h4 class="text-lg font-semibold text-blue-800 mb-3">Upload Image for Your Story</h4>
+
+          <label class="block text-gray-700 mb-2 font-medium">Upload Image (Optional)</label>
+          <input type="file" name="story_image" accept="image/*"
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-blue-700">
+
+          <p class="text-xs text-gray-500 mt-1">
+            Accepted: JPG, PNG, WEBP • Max size recommended: 5MB
+          </p>
+        </div>
+
+        <!-- IMAGE SIZE SELECTION (Dynamic Based on Page Count) -->
+        <div id="image-size-section" class="md:col-span-2 mt-6 hidden">
+          <h4 class="text-lg font-semibold text-blue-800 mb-3">Image Coverage on the Page</h4>
+
+          <p class="text-gray-600 text-sm mb-3">
+            Select how much of your chosen page space this image should cover.
+          </p>
+
+          <div class="grid md:grid-cols-4 gap-4">
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="radio" name="image_coverage" value="quarter"
+                    class="w-5 h-5 text-blue-700 focus:ring-blue-700">
+              <span>¼ Page</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="radio" name="image_coverage" value="half"
+                    class="w-5 h-5 text-blue-700 focus:ring-blue-700">
+              <span>½ Page</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="radio" name="image_coverage" value="three-quarter"
+                    class="w-5 h-5 text-blue-700 focus:ring-blue-700">
+              <span>¾ Page</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="radio" name="image_coverage" value="full"
+                    class="w-5 h-5 text-blue-700 focus:ring-blue-700">
+              <span>Full Page</span>
+            </label>
+
+          </div>
+        </div>
+
+
 
         <!-- Names -->
         <div>
@@ -310,12 +378,6 @@
           <input type="text" name="county" class="w-full border border-gray-300 rounded-lg px-4 py-3">
         </div>
 
-        <!-- Story -->
-        <div class="md:col-span-2">
-          <label class="block text-gray-700 mb-2 font-medium">Your Sanitation Story</label>
-          <textarea name="story" rows="6" required placeholder="Describe your experience, solutions, impact, and lessons..."
-            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
-        </div>
 
         <!-- Sponsorship -->
         <div class="md:col-span-2 mt-6">
@@ -336,24 +398,7 @@
           </div>
         </div>
 
-        <!-- Page Count -->
-        <div class="md:col-span-2 mt-6">
-          <h4 class="text-lg font-semibold text-blue-800 mb-2">Page Count / Intervention Depth</h4>
-          <div class="grid md:grid-cols-3 gap-4">
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="half-page">
-              <span>½ Page — Ksh. 80,000</span>
-            </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="one-page">
-              <span>1 Page — Ksh. 140,000</span>
-            </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="two-page">
-              <span>2 Pages — Ksh. 220,000</span>
-            </label>
-          </div>
-        </div>
+    
 
         <!-- Consent -->
         <div class="md:col-span-2 mt-8 bg-blue-50 border-l-4 border-blue-700 p-6 rounded-lg text-gray-700 space-y-3 text-sm">
@@ -413,27 +458,6 @@
   </script>
 
   <script>
-    /* --- Pill Multi Select Logic --- */
-    const pillButtons = document.querySelectorAll('.pill-option');
-    const interventionField = document.getElementById('intervention-field');
-    let selectedValues = [];
-
-    pillButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const value = button.getAttribute('data-value');
-
-        if (selectedValues.includes(value)) {
-          selectedValues = selectedValues.filter(v => v !== value);
-          button.classList.remove('selected');
-        } else {
-          selectedValues.push(value);
-          button.classList.add('selected');
-        }
-
-        interventionField.value = selectedValues.join(',');
-      });
-    });
-
     /* --- Word Count for Description --- */
     const textarea = document.getElementById('brief-description');
     const wordCountDisplay = document.getElementById('word-count');
@@ -446,6 +470,15 @@
         textarea.value = words.slice(0, 50).join(" ");
         wordCountDisplay.textContent = 50;
       }
+    });
+
+    const pageCountOptions = document.querySelectorAll('input[name="page_count"]');
+    const imageSection = document.getElementById('image-size-section');
+
+    pageCountOptions.forEach(option => {
+      option.addEventListener('change', () => {
+        imageSection.classList.remove('hidden');
+      });
     });
   </script>
 
