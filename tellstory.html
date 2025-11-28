@@ -335,6 +335,190 @@
           </div>
         </div>
 
+        <!-- IMPACT FIELD -->
+        <div class="md:col-span-2 mt-8">
+          <label class="block text-gray-700 mb-2 font-medium">Impact</label>
+
+          <textarea id="impact-field" name="impact" rows="4" required
+            placeholder="Describe the measurable or visible impact of your intervention..."
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
+
+          <p class="text-sm text-gray-500 mt-1">
+            <span id="impact-count">0</span> words
+          </p>
+        </div>
+
+        <!-- LESSONS & CHALLENGES FIELD -->
+        <div class="md:col-span-2 mt-6">
+          <label class="block text-gray-700 mb-2 font-medium">Lessons & Challenges</label>
+
+          <textarea id="lessons-field" name="lessons_challenges" rows="4" required
+            placeholder="Share insights, lessons learned, and challenges encountered during implementation..."
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
+
+          <p class="text-sm text-gray-500 mt-1">
+            <span id="lessons-count">0</span> words
+          </p>
+        </div>
+
+        <!-- STRATEGIC PARTNERSHIPS SECTION -->
+        <div class="md:col-span-2 mt-10">
+          <h4 class="text-lg font-semibold text-blue-800 mb-4">Strategic Partnerships (Optional)</h4>
+          <p class="text-gray-600 text-sm mb-4">Select all partnership types that apply, then choose relevant sub-areas.</p>
+
+          <div class="space-y-6">
+
+            <!-- GOVERNMENT -->
+            <div class="border rounded-lg p-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                      data-target="gov-options">
+                <span class="font-medium text-gray-800">Government & Public Sector</span>
+              </label>
+
+              <div id="gov-options" class="ml-7 mt-3 hidden space-y-2">
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_government[]" value="national-government"
+                        class="w-4 h-4 text-blue-700">
+                  <span>National Ministries</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_government[]" value="county-government"
+                        class="w-4 h-4 text-blue-700">
+                  <span>County Government</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_government[]" value="policy-support"
+                        class="w-4 h-4 text-blue-700">
+                  <span>Regulatory Bodies</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_government[]" value="ppp"
+                        class="w-4 h-4 text-blue-700">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- DONORS -->
+            <div class="border rounded-lg p-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                      data-target="donor-options">
+                <span class="font-medium text-gray-800">Civil Society & Communities</span>
+              </label>
+
+              <div id="donor-options" class="ml-7 mt-3 hidden space-y-2">
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_donors[]" value="funding-support" class="w-4 h-4">
+                  <span>NGO's</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_donors[]" value="co-implementation" class="w-4 h-4">
+                  <span>CBO's</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_donors[]" value="monitoring" class="w-4 h-4">
+                  <span>Community</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_donors[]" value="technical-assistance" class="w-4 h-4">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- PRIVATE SECTOR -->
+            <div class="border rounded-lg p-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                      data-target="private-options">
+                <span class="font-medium text-gray-800">Academic & Research Institutes</span>
+              </label>
+
+              <div id="private-options" class="ml-7 mt-3 hidden space-y-2">
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_private[]" value="technology-providers" class="w-4 h-4">
+                  <span>Universities</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_private[]" value="contractors" class="w-4 h-4">
+                  <span>Technical Institutes</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_private[]" value="manufacturers" class="w-4 h-4">
+                  <span>Research Institutes</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_private[]" value="innovation" class="w-4 h-4">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- RESEARCH -->
+            <div class="border rounded-lg p-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                      data-target="research-options">
+                <span class="font-medium text-gray-800">International and Financial Partners</span>
+              </label>
+
+              <div id="research-options" class="ml-7 mt-3 hidden space-y-2">
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_research[]" value="impact-evaluations" class="w-4 h-4">
+                  <span>Development Banks</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_research[]" value="joint-studies" class="w-4 h-4">
+                  <span>Foundations and Private Philanthropists</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_research[]" value="pilots" class="w-4 h-4">
+                  <span>Global Partnerships</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_research[]" value="capacity-building" class="w-4 h-4">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- CIVIL SOCIETY -->
+            <div class="border rounded-lg p-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                      data-target="civil-options">
+                <span class="font-medium text-gray-800">Private Sector</span>
+              </label>
+
+              <div id="civil-options" class="ml-7 mt-3 hidden space-y-2">
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_cso[]" value="community-mobilisation" class="w-4 h-4">
+                  <span>Local SME's</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_cso[]" value="advocacy" class="w-4 h-4">
+                  <span>Large Corporations</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_cso[]" value="local-implementation" class="w-4 h-4">
+                  <span>Financial Institutions</span>
+                </label>
+                <label class="flex items-center space-x-3">
+                  <input type="checkbox" name="partnership_cso[]" value="grassroots-networks" class="w-4 h-4">
+                  <span>Other</span>
+                </label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
 
 
         <!-- Names -->
@@ -480,7 +664,48 @@
         imageSection.classList.remove('hidden');
       });
     });
+
+    /* --- Word Counter Helper --- */
+    function countWords(str) {
+      return str.trim().split(/\s+/).filter(word => word.length > 0).length;
+    }
+
+    /* Impact Field Counter */
+    const impactField = document.getElementById('impact-field');
+    const impactCount = document.getElementById('impact-count');
+
+    impactField.addEventListener('input', () => {
+      impactCount.textContent = countWords(impactField.value);
+    });
+
+    /* Lessons & Challenges Field Counter */
+    const lessonsField = document.getElementById('lessons-field');
+    const lessonsCount = document.getElementById('lessons-count');
+
+    lessonsField.addEventListener('input', () => {
+      lessonsCount.textContent = countWords(lessonsField.value);
+    });
   </script>
+  <script>
+    const toggles = document.querySelectorAll('.partnership-toggle');
+  
+    toggles.forEach(toggle => {
+      toggle.addEventListener('change', () => {
+        const targetId = toggle.getAttribute('data-target');
+        const target = document.getElementById(targetId);
+  
+        if (toggle.checked) {
+          target.classList.remove('hidden');
+        } else {
+          target.classList.add('hidden');
+          // Uncheck all nested checkboxes when collapsing
+          target.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+        }
+      });
+    });
+  </script>
+  
+  
 
 
 </body>
