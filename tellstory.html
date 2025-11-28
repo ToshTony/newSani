@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tell Your Story | SaniBook Initiative</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .pill-option {
+      @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-full text-sm cursor-pointer transition;
+    }
+  
+    .pill-option.selected {
+      @apply bg-blue-700 text-white shadow;
+    }
+  </style>
+  
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased">
 
@@ -163,6 +173,102 @@
           </select>
         </div>
 
+        <!-- NEW: Area of Intervention (Modern Multi-Select Checkboxes) -->
+        <div class="md:col-span-2">
+          <label class="block text-gray-700 mb-3 font-medium">Area of Intervention</label>
+
+          <div class="grid md:grid-cols-2 gap-3">
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="policy"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Provision of Facilities</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="technology"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Consultancy</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="capacity"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Training</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="finance"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Policy and Regulations</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="community"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Hygiene Promotion</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="infrastructure"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Waste Management</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Financing</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Community Mobilization</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Institutional Capacity</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Vector Control</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Menstrual Hygiene Management</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+              <input type="checkbox" name="intervention_area[]" value="data"
+                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
+              <span class="text-gray-700">Other</span>
+            </label>
+
+          </div>
+        </div>
+
+
+        <!-- NEW: Brief Description with Character Counter -->
+        <div class="md:col-span-2">
+          <label class="block text-gray-700 mb-2 font-medium">Brief Description (Max 50 words)</label>
+
+          <textarea id="brief-description" name="brief_description" rows="3" 
+            placeholder="Summarize your intervention briefly (max 50 words)..."
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
+
+          <p class="text-sm text-gray-500 mt-1">
+            <span id="word-count">0</span> / 50 words
+          </p>
+        </div>
+
+
         <!-- Names -->
         <div>
           <label class="block text-gray-700 mb-2 font-medium">First Name</label>
@@ -305,6 +411,44 @@
       document.body.style.overflow = 'auto';
     });
   </script>
+
+  <script>
+    /* --- Pill Multi Select Logic --- */
+    const pillButtons = document.querySelectorAll('.pill-option');
+    const interventionField = document.getElementById('intervention-field');
+    let selectedValues = [];
+
+    pillButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const value = button.getAttribute('data-value');
+
+        if (selectedValues.includes(value)) {
+          selectedValues = selectedValues.filter(v => v !== value);
+          button.classList.remove('selected');
+        } else {
+          selectedValues.push(value);
+          button.classList.add('selected');
+        }
+
+        interventionField.value = selectedValues.join(',');
+      });
+    });
+
+    /* --- Word Count for Description --- */
+    const textarea = document.getElementById('brief-description');
+    const wordCountDisplay = document.getElementById('word-count');
+
+    textarea.addEventListener('input', () => {
+      const words = textarea.value.trim().split(/\s+/).filter(word => word.length > 0);
+      wordCountDisplay.textContent = words.length;
+
+      if (words.length > 50) {
+        textarea.value = words.slice(0, 50).join(" ");
+        wordCountDisplay.textContent = 50;
+      }
+    });
+  </script>
+
 
 </body>
 </html>
