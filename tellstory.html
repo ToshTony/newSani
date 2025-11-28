@@ -164,86 +164,73 @@
           </select>
         </div>
 
-        <!-- NEW: Area of Intervention (Modern Multi-Select Checkboxes) -->
+        <!-- Area of Intervention Dropdown with Checkboxes -->
         <div class="md:col-span-2">
           <label class="block text-gray-700 mb-3 font-medium">Area of Intervention</label>
 
-          <div class="grid md:grid-cols-2 gap-3">
+          <!-- Custom Multi-Select Dropdown -->
+          <div class="relative">
+            <button id="dropdownButton" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700 text-left">
+              Select Areas of Intervention
+            </button>
 
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="policy"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Provision of Facilities</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="technology"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Consultancy</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="capacity"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Training</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="finance"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Policy and Regulations</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="community"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Hygiene Promotion</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="infrastructure"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Waste Management</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Financing</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Community Mobilization</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Institutional Capacity</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Vector Control</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Menstrual Hygiene Management</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
-              <input type="checkbox" name="intervention_area[]" value="data"
-                    class="w-5 h-5 text-blue-700 rounded focus:ring-blue-700">
-              <span class="text-gray-700">Other</span>
-            </label>
-
+            <div id="dropdownMenu" class="hidden absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto">
+              <div class="p-3">
+                <!-- Checkboxes -->
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="policy" class="mr-2 text-blue-700">
+                  Provision of Facilities
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="technology" class="mr-2 text-blue-700">
+                  Consultancy
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="capacity" class="mr-2 text-blue-700">
+                  Training
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="finance" class="mr-2 text-blue-700">
+                  Policy and Regulations
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="community" class="mr-2 text-blue-700">
+                  Hygiene Promotion
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="infrastructure" class="mr-2 text-blue-700">
+                  Waste Management
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="data" class="mr-2 text-blue-700">
+                  Financing
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="community_mobilization" class="mr-2 text-blue-700">
+                  Community Mobilization
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="institutional_capacity" class="mr-2 text-blue-700">
+                  Institutional Capacity
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="vector_control" class="mr-2 text-blue-700">
+                  Vector Control
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="menstrual_hygiene" class="mr-2 text-blue-700">
+                  Menstrual Hygiene Management
+                </label>
+                <label class="block p-2 cursor-pointer">
+                  <input type="checkbox" name="intervention_area[]" value="other" class="mr-2 text-blue-700">
+                  Other
+                </label>
+              </div>
+            </div>
           </div>
         </div>
+
+
 
 
         <!-- NEW: Brief Description with Character Counter -->
@@ -686,6 +673,7 @@
       lessonsCount.textContent = countWords(lessonsField.value);
     });
   </script>
+
   <script>
     const toggles = document.querySelectorAll('.partnership-toggle');
   
@@ -704,6 +692,25 @@
       });
     });
   </script>
+
+<script>
+  // Get the button and the dropdown menu
+  const dropdownButton = document.getElementById('dropdownButton');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+
+  // Toggle the visibility of the dropdown when the button is clicked
+  dropdownButton.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('hidden');
+  });
+
+  // Close the dropdown if clicked outside of it
+  document.addEventListener('click', (e) => {
+    if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      dropdownMenu.classList.add('hidden');
+    }
+  });
+</script>
+
   
   
 
