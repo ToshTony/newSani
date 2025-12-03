@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanitation Reality in Kenya | SaniBook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the sanitation theme */
+        .sanitation-blue { background-color: #0A346C; }
+        .sanitation-teal { background-color: #00A79D; }
+        .text-sanitation-teal { color: #00A79D; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased pt-20 md:pt-24">
+
+    <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <a href="index.html" class="text-2xl font-bold text-blue-700">
+                <h1>SaniBook</h1>
+            </a>
+
+            <div class="md:hidden">
+                <button id="navbar-toggle" class="text-blue-700 p-2 rounded-md hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <ul id="navbar-links" class="hidden md:flex space-x-8 text-sm font-medium">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+                <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors">Why the SaniBook</a></li>
+                <li><a href="sanitationreality.html" class="text-blue-700 font-semibold border-b-2 border-blue-700">Sanitation Reality</a></li>
+                <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors">Tell Your Story</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Join Sanitationists</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a></li>
+                <li><a href="#login" class="text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-95 z-40 hidden transition-opacity duration-300 ease-in-out">
+        <div class="flex justify-end p-4">
+            <button id="close-mobile-menu" class="text-gray-800 text-3xl p-2 rounded-md hover:bg-gray-100">&times;</button>
+        </div>
+        <div class="flex flex-col justify-start items-center h-full pt-10">
+            <ul class="space-y-6 text-xl font-medium text-center">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Home</a></li>
+                <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Why the SaniBook</a></li>
+                <li><a href="sanitationreality.html" class="text-blue-700 font-semibold" onclick="closeMobileMenu()">Sanitation Reality</a></li>
+                <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Tell Your Story</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Join Sanitationists</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Contact Us</a></li>
+                <li><a href="#login" class="text-blue-700 mt-4 inline-block font-semibold bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors" onclick="closeMobileMenu()">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <section class="h-[60vh] flex items-center justify-center sanitation-blue text-white relative">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('assets/imgs/new/sanitatiion.jpg');"></div>
+        
+        <div class="z-10 text-center max-w-4xl px-4">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">The Sanitation Reality in Kenya</h1>
+            <p class="text-xl md:text-2xl font-light text-teal-300">
+                A preventable crisis: Only about 31% of Kenyans have access to safely managed sanitation services (JMP 2023).
+            </p>
+            <a href="#data" class="mt-8 inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 shadow-lg">
+                Explore the Data
+            </a>
+        </div>
+    </section>
+
+    <section id="data" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-12">The Core Challenge</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                
+                <div class="p-6 bg-white rounded-lg shadow-xl border-t-4 border-teal-500 transform hover:scale-105 transition duration-300">
+                    <div class="text-6xl font-extrabold text-teal-500">31%</div>
+                    <p class="text-gray-600 mt-2 font-semibold">Access to Safely Managed Sanitation</p>
+                    <p class="text-sm mt-4 italic text-gray-400">(JMP 2023)</p>
+                </div>
+                
+                <div class="p-6 bg-white rounded-lg shadow-xl border-t-4 border-red-500 transform hover:scale-105 transition duration-300">
+                    <div class="text-6xl font-extrabold text-red-500">11.5%</div>
+                    <p class="text-gray-600 mt-2 font-semibold">Rural Population Practices Open Defecation</p>
+                    <p class="text-sm mt-4 italic text-gray-400">Contaminating Land and Water Sources</p>
+                </div>
+                
+                <div class="p-6 bg-white rounded-lg shadow-xl border-t-4 border-orange-500 transform hover:scale-105 transition duration-300">
+                    <div class="text-6xl font-extrabold text-orange-500">48%</div>
+                    <p class="text-gray-600 mt-2 font-semibold">Urban Slum Residents Rely on Shared Latrines</p>
+                    <p class="text-sm mt-4 italic text-gray-400">The 'Limited Sanitation' Trap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-6">Kenya's Battle with Fecal Waste</h2>
+            <p class="text-center text-lg text-gray-700 mb-10">
+                The crisis is different depending on where you stand: the fight against disease is ultimately a fight against fecal waste.
+            </p>
+            
+            <div class="flex justify-center mb-10 shadow-lg rounded-full">
+                <button id="rural-btn" class="py-3 px-8 bg-teal-500 text-white rounded-l-full font-semibold transition duration-300">Rural Areas</button>
+                <button id="urban-btn" class="py-3 px-8 bg-gray-300 text-gray-800 rounded-r-full font-semibold transition duration-300">Urban Slums</button>
+            </div>
+
+            <div id="crisis-content" class="p-8 bg-white rounded-lg shadow-2xl transition duration-500 min-h-[200px] flex items-center flex-wrap">
+                <div id="rural-view" class="w-full md:flex">
+                    <div class="md:w-2/3 md:pr-6">
+                        <h3 class="text-3xl font-bold text-blue-800 mb-4">The Crisis of Absence: Open Defecation Challenge</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            In rural villages, the crisis is one of absence. 11.5% of the population (over 4 million people) practice open defecation, directly contaminating the land and water sources they rely on, fueling a preventable cycle of disease.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 mt-4 md:mt-0">
+                        <img src="assets/imgs/757-nairobi-slum.jpg" alt="Visual of open defecation in rural areas" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                </div>
+                
+                <div id="urban-view" class="hidden w-full md:flex">
+                    <div class="md:w-2/3 md:pr-6">
+                        <h3 class="text-3xl font-bold text-blue-800 mb-4">The Fecal Waste Management Crisis: Shared Toilets & Sludge</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            In urban slums, official data claims open defecation is under 1%, but this hides the limited sanitation trap. Nearly 48% rely on shared, often overflowing latrines where waste is neither contained nor treated. This leads to untreated fecal sludge being dumped.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 mt-4 md:mt-0">
+                        <img src="assets/imgs/a_girl_walks_towards_the_family_toilet_holding_soap_and_water.jpg" alt="Visual of shared toilets in urban slums" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="policy" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-teal-400">Investing in Dignity: Kenya's National Sanitation Management Policy</h2>
+            <p class="text-lg mb-12 max-w-3xl mx-auto">
+                Sessional Paper No. 7 of 2024 is the blueprint for achieving safely managed sanitation for all by 2030, a constitutional right and crucial step toward public health.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl border-t-4 border-blue-400">
+                    <div class="text-3xl text-blue-400 mb-3">🛠️</div>
+                    <h3 class="text-xl font-semibold">End-to-End Service Chain</h3>
+                    <p class="text-sm mt-2 text-gray-300">
+                        Shifts focus from basic access to managing the entire service chain—from safe containment to integrating non-sewered solutions.
+                    </p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl border-t-4 border-green-400">
+                    <div class="text-3xl text-green-400 mb-3">💰</div>
+                    <h3 class="text-xl font-semibold">Financing & Governance</h3>
+                    <p class="text-sm mt-2 text-gray-300">
+                        Addresses sanitation financing challenges, promoting Public-Private Partnerships (PPPs) and strengthening governance.
+                    </p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl border-t-4 border-yellow-400">
+                    <div class="text-3xl text-yellow-400 mb-3">♻️</div>
+                    <h3 class="text-xl font-semibold">Resilience & Inclusion</h3>
+                    <p class="text-sm mt-2 text-gray-300">
+                        Commits to leveraging climate-resilient technologies and promoting gender and disability-friendly facilities.
+                    </p>
+                </div>
+            </div>
+            <img src="images/policy_key_issues.png" alt="Key issues addressed by the National Sanitation Management Policy" class="mt-10 mx-auto max-w-xl"/>
+        </div>
+    </section>
+
+    <section id="upload-form" class="py-20 sanitation-teal text-white text-center">
+        <h2 class="text-4xl font-bold mb-4">Move Hearts and Minds: Upload a Compelling Photograph</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+            Join our revolutionary visual campaign today and let your single, powerful photo be the spark that ignites a global movement. Give a voice to the voiceless, turning visibility into action.
+        </p>
+        
+        <div class="max-w-xl mx-auto p-6 bg-white text-gray-800 rounded-lg shadow-2xl">
+            <p class="text-left font-semibold mb-4">Make the Invisible Visible: Contribute to the Campaign</p>
+            <form action="#" method="POST" class="space-y-4" enctype="multipart/form-data">
+                
+                <div class="border-2 border-dashed border-gray-400 p-4 rounded-md">
+                    <label for="photo-upload" class="block text-sm font-medium text-gray-700 mb-2">Upload a Compelling Photograph</label>
+                    <input type="file" id="photo-upload" name="photo-upload" accept="image/*" required class="w-full p-2 border border-gray-300 rounded-md" />
+                </div>
+
+                <input type="text" placeholder="Specific Location: County, Community/Village Name" required class="w-full p-3 border border-gray-300 rounded-md" aria-label="Specific Location" />
+                <textarea placeholder="Description/Caption (Concise summary of the sanitation context shown)" rows="3" required class="w-full p-3 border border-gray-300 rounded-md" aria-label="Description/Caption"></textarea>
+                
+                <button type="submit" class="w-full bg-blue-900 hover:bg-blue-800 text-white font-bold text-lg py-3 rounded-md transition duration-300 mt-4">
+                    Submit Contribution
+                </button>
+            </form>
+        </div>
+        <p class="mt-8 italic">Thank you for your valuable contribution!</p>
+    </section>
+
+    <footer class="sanitation-blue py-6 text-white text-center text-sm">
+        <div class="container mx-auto px-6">
+            &copy; 2025 SaniBook Initiative — Elevating Anecdote to Blueprint.
+        </div>
+    </footer>
+
+
+    <script>
+        // --- Navigation Script ---
+        const toggleButton = document.getElementById('navbar-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeButton = document.getElementById('close-mobile-menu');
+
+        function closeMobileMenu() {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        toggleButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            document.body.style.overflow = mobileMenu.classList.contains('hidden') ? 'auto' : 'hidden';
+        });
+
+        closeButton.addEventListener('click', closeMobileMenu);
+        
+        // --- Interactive Battleground Script ---
+        const ruralBtn = document.getElementById('rural-btn');
+        const urbanBtn = document.getElementById('urban-btn');
+        const ruralView = document.getElementById('rural-view');
+        const urbanView = document.getElementById('urban-view');
+
+        function setActiveView(view) {
+            // Update Content Visibility
+            if (view === 'rural') {
+                ruralView.classList.remove('hidden');
+                urbanView.classList.add('hidden');
+            } else if (view === 'urban') {
+                urbanView.classList.remove('hidden');
+                ruralView.classList.add('hidden');
+            }
+
+            // Update Button Styles
+            [ruralBtn, urbanBtn].forEach(btn => {
+                btn.classList.remove('bg-teal-500', 'text-white');
+                btn.classList.add('bg-gray-300', 'text-gray-800');
+            });
+            
+            const activeBtn = view === 'rural' ? ruralBtn : urbanBtn;
+            activeBtn.classList.add('bg-teal-500', 'text-white');
+            activeBtn.classList.remove('bg-gray-300', 'text-gray-800');
+        }
+
+        // Add event listeners
+        ruralBtn.addEventListener('click', () => setActiveView('rural'));
+        urbanBtn.addEventListener('click', () => setActiveView('urban'));
+
+        // Set initial state
+        setActiveView('rural');
+    </script>
+
+</body>
+</html>

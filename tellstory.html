@@ -7,19 +7,15 @@
   <script src="https://cdn.tailwindcss.com"></script>
   
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased">
-
-  <!-- Header -->
-  <nav class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+<body class="bg-gray-50 text-gray-800 antialiased pt-20 md:pt-24">
+  <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-      <!-- Logo -->
       <a href="index.html" class="text-2xl font-bold text-blue-700">
         <h1>SaniBook</h1>
       </a>
 
-      <!-- Hamburger Icon -->
       <div class="md:hidden">
-        <button id="navbar-toggle" class="text-blue-700">
+        <button id="navbar-toggle" class="text-blue-700 p-2 rounded-md hover:bg-gray-100 transition-colors">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
               d="M4 6h16M4 12h16M4 18h16" />
@@ -27,40 +23,37 @@
         </button>
       </div>
 
-      <!-- Navbar Links -->
       <ul id="navbar-links" class="hidden md:flex space-x-8 text-sm font-medium">
-        <li><a href="index.html" class="hover:text-blue-600">index</a></li>
-        <li><a href="whythesanibook.html" class="hover:text-blue-600">Why the SaniBook</a></li>
-        <li><a href="" class="hover:text-blue-600">Sanitation Reality</a></li>
-        <li><a href="tellstory.html" class="hover:text-blue-600">Tell Your Story</a></li>
-        <li><a href="" class="hover:text-blue-600">Join Sanitationists</a></li>
-        <li><a href="" class="hover:text-blue-600">Contact Us</a></li>
-        <li><a href="#login" class="hover:text-blue-600">Login</a></li>
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+        <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors">Why the SaniBook</a></li>
+        <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors">Sanitation Reality</a></li>
+        <li><a href="tellstory.html" class="text-blue-700 font-semibold border-b-2 border-blue-700">Tell Your Story</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Join Sanitationists</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a></li>
+        <li><a href="#login" class="text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">Login</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-90 z-40 hidden md:hidden">
+  <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-95 z-40 hidden transition-opacity duration-300 ease-in-out">
     <div class="flex justify-end p-4">
-      <button id="close-mobile-menu" class="text-dark text-3xl">&times;</button>
+      <button id="close-mobile-menu" class="text-gray-800 text-3xl p-2 rounded-md hover:bg-gray-100">&times;</button>
     </div>
-    <div class="flex justify-center items-center h-full">
-      <ul class="space-y-8 text-dark text-xl font-medium">
-        <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
-        <li><a href="whythesanibook.html" class="hover:text-black-300">Why the SaniBook</a></li>
-        <li><a href="" class="hover:text-blue-300">Sanitation Reality</a></li>
-        <li><a href="tellstory.html" class="hover:text-blue-300">Tell Your Story</a></li>
-        <li><a href="" class="hover:text-blue-300">Join Sanitationists</a></li>
-        <li><a href="" class="hover:text-blue-600">Contact Us</a></li>
-        <li><a href="#login" class="hover:text-blue-300">Login</a></li>
+    <div class="flex flex-col justify-start items-center h-full pt-10">
+      <ul class="space-y-6 text-xl font-medium text-center">
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Home</a></li>
+        <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Why the SaniBook</a></li>
+        <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Sanitation Reality</a></li>
+        <li><a href="tellstory.html" class="text-blue-700 font-semibold" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Tell Your Story</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Join Sanitationists</a></li>
+        <li><a href="#" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Contact Us</a></li>
+        <li><a href="#login" class="text-blue-700 mt-4 inline-block font-semibold bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors" onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.body.style.overflow = 'auto';">Login</a></li>
       </ul>
     </div>
   </div>
 
-  <!-- Hero Section -->
   <section class="relative bg-gradient-to-r from-blue-900 via-blue-800 to-blue-600 text-white py-20 overflow-hidden">
-    <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image: url('images/backg2.jpg');"></div>
+    <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image: url('images/hero_sanitation_blueprint.jpg');"></div>
     <div class="max-w-5xl mx-auto text-center px-6 relative z-10">
       <h2 class="text-3xl md:text-5xl font-extrabold mb-4">
         Elevate Anecdote to Blueprint
@@ -76,7 +69,6 @@
     <img src="assets/imgs/tellstroysani.jpg" alt="Kenya Sanitation Landscape" class="w-full h-full object-cover" />
   </div>
 
-  <!-- Intro -->
   <section class="py-16 px-6 md:px-16 bg-white">
     <div class="max-w-6xl mx-auto">
       <h3 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4">Transforming Local Success into Sectoral Blueprint</h3>
@@ -103,7 +95,6 @@
     <img src="assets/imgs/img3.jpg" alt="Kenya Sanitation Landscape" class="w-full h-full object-cover" />
   </div>
 
-  <!-- The SaniBook Proposition -->
   <section class="py-16 px-6 md:px-16 bg-gradient-to-b from-blue-50 to-white">
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
       <div>
@@ -127,7 +118,6 @@
     </div>
   </section>
 
-  <!-- Call to Action -->
   <section class="py-20 bg-blue-900 text-white text-center">
     <div class="max-w-5xl mx-auto px-6">
       <h3 class="text-2xl md:text-4xl font-bold mb-6">Transform Experience into National Impact</h3>
@@ -137,7 +127,6 @@
     </div>
   </section>
 
-  <!-- NEW Full Enhanced Tell Your Story Form (REPLACING OLD SECTION) -->
   <section class="py-16 px-6 md:px-16 bg-gray-50">
     <div class="max-w-5xl mx-auto bg-white p-10 rounded-2xl shadow-lg border border-gray-200">
 
@@ -148,10 +137,9 @@
 
       <form action="#" method="POST" class="grid md:grid-cols-2 gap-6">
 
-        <!-- Challenge Dropdown -->
         <div class="md:col-span-2">
-          <label class="block text-gray-700 mb-2 font-medium">Select Your Challenge Area</label>
-          <select name="challenge_area" required
+          <label for="challenge_area" class="block text-gray-700 mb-2 font-medium">Select Your Challenge Area</label>
+          <select id="challenge_area" name="challenge_area" required
             class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
             <option value="">Choose One</option>
             <option>Limited Sanitation Access and Coverage Gaps</option>
@@ -164,65 +152,62 @@
           </select>
         </div>
 
-        <!-- Area of Intervention Dropdown with Checkboxes -->
         <div class="md:col-span-2">
           <label class="block text-gray-700 mb-3 font-medium">Area of Intervention</label>
 
-          <!-- Custom Multi-Select Dropdown -->
           <div class="relative">
-            <button id="dropdownButton" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700 text-left">
+            <button type="button" id="dropdownButton" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700 text-left bg-white">
               Select Areas of Intervention
             </button>
 
             <div id="dropdownMenu" class="hidden absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto">
               <div class="p-3">
-                <!-- Checkboxes -->
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="policy" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="provision" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Provision of Facilities
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="technology" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="consultancy" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Consultancy
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="capacity" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="training" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Training
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="finance" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="policy" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Policy and Regulations
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="community" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="hygiene" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Hygiene Promotion
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="infrastructure" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="waste_management" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Waste Management
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="data" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="financing" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Financing
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="community_mobilization" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="community_mobilization" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Community Mobilization
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="institutional_capacity" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="institutional_capacity" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Institutional Capacity
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="vector_control" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="vector_control" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Vector Control
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="menstrual_hygiene" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="menstrual_hygiene" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Menstrual Hygiene Management
                 </label>
-                <label class="block p-2 cursor-pointer">
-                  <input type="checkbox" name="intervention_area[]" value="other" class="mr-2 text-blue-700">
+                <label class="block p-2 cursor-pointer hover:bg-blue-50 rounded-md">
+                  <input type="checkbox" name="intervention_area[]" value="other" class="mr-2 text-blue-700 focus:ring-blue-700">
                   Other
                 </label>
               </div>
@@ -230,12 +215,8 @@
           </div>
         </div>
 
-
-
-
-        <!-- NEW: Brief Description with Character Counter -->
         <div class="md:col-span-2">
-          <label class="block text-gray-700 mb-2 font-medium">Brief Description (Max 50 words)</label>
+          <label for="brief-description" class="block text-gray-700 mb-2 font-medium">Brief Description (Max 50 words)</label>
 
           <textarea id="brief-description" name="brief_description" rows="3" 
             placeholder="Summarize your intervention briefly (max 50 words)..."
@@ -246,38 +227,35 @@
           </p>
         </div>
 
-        <!-- Page Count -->
         <div class="md:col-span-2 mt-6">
           <h4 class="text-lg font-semibold text-blue-800 mb-2">Page Count / Intervention Depth</h4>
           <div class="grid md:grid-cols-3 gap-4">
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="half-page">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="page_count" value="half-page" class="text-blue-700 focus:ring-blue-700">
               <span>½ Page — Ksh. 80,000</span>
             </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="one-page">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="page_count" value="one-page" class="text-blue-700 focus:ring-blue-700">
               <span>1 Page — Ksh. 140,000</span>
             </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="page_count" value="two-page">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="page_count" value="two-page" class="text-blue-700 focus:ring-blue-700">
               <span>2 Pages — Ksh. 220,000</span>
             </label>
           </div>
         </div>
 
-        <!-- Story -->
         <div class="md:col-span-2">
-          <label class="block text-gray-700 mb-2 font-medium">Your Sanitation Story</label>
-          <textarea name="story" rows="6" required placeholder="Describe your experience, solutions, impact, and lessons..."
+          <label for="story" class="block text-gray-700 mb-2 font-medium">Your Sanitation Story</label>
+          <textarea id="story" name="story" rows="6" required placeholder="Describe your experience, solutions, impact, and lessons..."
             class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
         </div>
 
-        <!-- IMAGE UPLOAD SECTION -->
         <div class="md:col-span-2 mt-6">
           <h4 class="text-lg font-semibold text-blue-800 mb-3">Upload Image for Your Story</h4>
 
-          <label class="block text-gray-700 mb-2 font-medium">Upload Image (Optional)</label>
-          <input type="file" name="story_image" accept="image/*"
+          <label for="story_image" class="block text-gray-700 mb-2 font-medium">Upload Image (Optional)</label>
+          <input type="file" id="story_image" name="story_image" accept="image/*"
             class="w-full border border-gray-300 rounded-lg px-4 py-3 bg-white focus:ring-2 focus:ring-blue-700">
 
           <p class="text-xs text-gray-500 mt-1">
@@ -285,7 +263,6 @@
           </p>
         </div>
 
-        <!-- IMAGE SIZE SELECTION (Dynamic Based on Page Count) -->
         <div id="image-size-section" class="md:col-span-2 mt-6 hidden">
           <h4 class="text-lg font-semibold text-blue-800 mb-3">Image Coverage on the Page</h4>
 
@@ -295,36 +272,35 @@
 
           <div class="grid md:grid-cols-4 gap-4">
 
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+            <label class="flex flex-col items-center justify-center space-y-2 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
               <input type="radio" name="image_coverage" value="quarter"
                     class="w-5 h-5 text-blue-700 focus:ring-blue-700">
               <span>¼ Page</span>
             </label>
 
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+            <label class="flex flex-col items-center justify-center space-y-2 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
               <input type="radio" name="image_coverage" value="half"
                     class="w-5 h-5 text-blue-700 focus:ring-blue-700">
               <span>½ Page</span>
             </label>
 
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+            <label class="flex flex-col items-center justify-center space-y-2 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
               <input type="radio" name="image_coverage" value="three-quarter"
                     class="w-5 h-5 text-blue-700 focus:ring-blue-700">
               <span>¾ Page</span>
             </label>
 
-            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+            <label class="flex flex-col items-center justify-center space-y-2 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
               <input type="radio" name="image_coverage" value="full"
                     class="w-5 h-5 text-blue-700 focus:ring-blue-700">
-              <span>Full Page</span>
+              <span>Full Page (Only for 2-page slot)</span>
             </label>
 
           </div>
         </div>
 
-        <!-- IMPACT FIELD -->
         <div class="md:col-span-2 mt-8">
-          <label class="block text-gray-700 mb-2 font-medium">Impact</label>
+          <label for="impact-field" class="block text-gray-700 mb-2 font-medium">Impact</label>
 
           <textarea id="impact-field" name="impact" rows="4" required
             placeholder="Describe the measurable or visible impact of your intervention..."
@@ -335,9 +311,8 @@
           </p>
         </div>
 
-        <!-- LESSONS & CHALLENGES FIELD -->
         <div class="md:col-span-2 mt-6">
-          <label class="block text-gray-700 mb-2 font-medium">Lessons & Challenges</label>
+          <label for="lessons-field" class="block text-gray-700 mb-2 font-medium">Lessons & Challenges</label>
 
           <textarea id="lessons-field" name="lessons_challenges" rows="4" required
             placeholder="Share insights, lessons learned, and challenges encountered during implementation..."
@@ -348,152 +323,146 @@
           </p>
         </div>
 
-        <!-- STRATEGIC PARTNERSHIPS SECTION -->
         <div class="md:col-span-2 mt-10">
           <h4 class="text-lg font-semibold text-blue-800 mb-4">Strategic Partnerships (Optional)</h4>
           <p class="text-gray-600 text-sm mb-4">Select all partnership types that apply, then choose relevant sub-areas.</p>
 
           <div class="space-y-6">
 
-            <!-- GOVERNMENT -->
-            <div class="border rounded-lg p-4">
+            <div class="border rounded-lg p-4 bg-white shadow-sm">
               <label class="flex items-center space-x-3 cursor-pointer">
-                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
+                <input type="checkbox" class="w-5 h-5 text-blue-700 focus:ring-blue-700 partnership-toggle"
                       data-target="gov-options">
                 <span class="font-medium text-gray-800">Government & Public Sector</span>
               </label>
 
-              <div id="gov-options" class="ml-7 mt-3 hidden space-y-2">
+              <div id="gov-options" class="ml-7 mt-3 hidden space-y-2 border-t border-gray-200 pt-2">
                 <label class="flex items-center space-x-3">
                   <input type="checkbox" name="partnership_government[]" value="national-government"
-                        class="w-4 h-4 text-blue-700">
+                        class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>National Ministries</span>
                 </label>
                 <label class="flex items-center space-x-3">
                   <input type="checkbox" name="partnership_government[]" value="county-government"
-                        class="w-4 h-4 text-blue-700">
+                        class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>County Government</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_government[]" value="policy-support"
-                        class="w-4 h-4 text-blue-700">
+                  <input type="checkbox" name="partnership_government[]" value="regulatory-bodies"
+                        class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Regulatory Bodies</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_government[]" value="ppp"
-                        class="w-4 h-4 text-blue-700">
+                  <input type="checkbox" name="partnership_government[]" value="other-government"
+                        class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Other</span>
                 </label>
               </div>
             </div>
 
-            <!-- DONORS -->
-            <div class="border rounded-lg p-4">
+            <div class="border rounded-lg p-4 bg-white shadow-sm">
               <label class="flex items-center space-x-3 cursor-pointer">
-                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
-                      data-target="donor-options">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 focus:ring-blue-700 partnership-toggle"
+                      data-target="civil-options">
                 <span class="font-medium text-gray-800">Civil Society & Communities</span>
               </label>
 
-              <div id="donor-options" class="ml-7 mt-3 hidden space-y-2">
+              <div id="civil-options" class="ml-7 mt-3 hidden space-y-2 border-t border-gray-200 pt-2">
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_donors[]" value="funding-support" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_cso[]" value="ngos" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>NGO's</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_donors[]" value="co-implementation" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_cso[]" value="cbos" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>CBO's</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_donors[]" value="monitoring" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_cso[]" value="community" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Community</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_donors[]" value="technical-assistance" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_cso[]" value="other-cso" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Other</span>
                 </label>
               </div>
             </div>
 
-            <!-- PRIVATE SECTOR -->
-            <div class="border rounded-lg p-4">
+            <div class="border rounded-lg p-4 bg-white shadow-sm">
               <label class="flex items-center space-x-3 cursor-pointer">
-                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
-                      data-target="private-options">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 focus:ring-blue-700 partnership-toggle"
+                      data-target="research-options">
                 <span class="font-medium text-gray-800">Academic & Research Institutes</span>
               </label>
 
-              <div id="private-options" class="ml-7 mt-3 hidden space-y-2">
+              <div id="research-options" class="ml-7 mt-3 hidden space-y-2 border-t border-gray-200 pt-2">
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_private[]" value="technology-providers" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_research[]" value="universities" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Universities</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_private[]" value="contractors" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_research[]" value="technical-institutes" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Technical Institutes</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_private[]" value="manufacturers" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_research[]" value="research-institutes" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Research Institutes</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_private[]" value="innovation" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_research[]" value="other-academic" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Other</span>
                 </label>
               </div>
             </div>
 
-            <!-- RESEARCH -->
-            <div class="border rounded-lg p-4">
+            <div class="border rounded-lg p-4 bg-white shadow-sm">
               <label class="flex items-center space-x-3 cursor-pointer">
-                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
-                      data-target="research-options">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 focus:ring-blue-700 partnership-toggle"
+                      data-target="donor-options">
                 <span class="font-medium text-gray-800">International and Financial Partners</span>
               </label>
 
-              <div id="research-options" class="ml-7 mt-3 hidden space-y-2">
+              <div id="donor-options" class="ml-7 mt-3 hidden space-y-2 border-t border-gray-200 pt-2">
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_research[]" value="impact-evaluations" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_donors[]" value="development-banks" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Development Banks</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_research[]" value="joint-studies" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_donors[]" value="foundations" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Foundations and Private Philanthropists</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_research[]" value="pilots" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_donors[]" value="global-partnerships" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Global Partnerships</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_research[]" value="capacity-building" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_donors[]" value="other-intl" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Other</span>
                 </label>
               </div>
             </div>
 
-            <!-- CIVIL SOCIETY -->
-            <div class="border rounded-lg p-4">
+            <div class="border rounded-lg p-4 bg-white shadow-sm">
               <label class="flex items-center space-x-3 cursor-pointer">
-                <input type="checkbox" class="w-5 h-5 text-blue-700 partnership-toggle"
-                      data-target="civil-options">
+                <input type="checkbox" class="w-5 h-5 text-blue-700 focus:ring-blue-700 partnership-toggle"
+                      data-target="private-options">
                 <span class="font-medium text-gray-800">Private Sector</span>
               </label>
 
-              <div id="civil-options" class="ml-7 mt-3 hidden space-y-2">
+              <div id="private-options" class="ml-7 mt-3 hidden space-y-2 border-t border-gray-200 pt-2">
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_cso[]" value="community-mobilisation" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_private[]" value="local-smes" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Local SME's</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_cso[]" value="advocacy" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_private[]" value="large-corporations" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Large Corporations</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_cso[]" value="local-implementation" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_private[]" value="financial-institutions" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Financial Institutions</span>
                 </label>
                 <label class="flex items-center space-x-3">
-                  <input type="checkbox" name="partnership_cso[]" value="grassroots-networks" class="w-4 h-4">
+                  <input type="checkbox" name="partnership_private[]" value="other-private" class="w-4 h-4 text-blue-700 focus:ring-blue-700">
                   <span>Other</span>
                 </label>
               </div>
@@ -502,68 +471,60 @@
           </div>
         </div>
 
-
-
-
-
-
-
-        <!-- Names -->
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">First Name</label>
-          <input type="text" name="first_name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+          <label for="first_name" class="block text-gray-700 mb-2 font-medium">First Name</label>
+          <input type="text" id="first_name" name="first_name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Last Name</label>
-          <input type="text" name="last_name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+          <label for="last_name" class="block text-gray-700 mb-2 font-medium">Last Name</label>
+          <input type="text" id="last_name" name="last_name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Job Title</label>
-          <input type="text" name="job_title" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="job_title" class="block text-gray-700 mb-2 font-medium">Job Title</label>
+          <input type="text" id="job_title" name="job_title" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Organisation</label>
-          <input type="text" name="organisation" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="organisation" class="block text-gray-700 mb-2 font-medium">Organisation</label>
+          <input type="text" id="organisation" name="organisation" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Company Website</label>
-          <input type="url" name="website" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="website" class="block text-gray-700 mb-2 font-medium">Company Website</label>
+          <input type="url" id="website" name="website" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Email Address</label>
-          <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="email" class="block text-gray-700 mb-2 font-medium">Email Address</label>
+          <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Mobile Phone</label>
-          <input type="text" name="phone" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="phone" class="block text-gray-700 mb-2 font-medium">Mobile Phone</label>
+          <input type="text" id="phone" name="phone" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">County</label>
-          <input type="text" name="county" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="county" class="block text-gray-700 mb-2 font-medium">County</label>
+          <input type="text" id="county" name="county" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
 
-        <!-- Sponsorship -->
         <div class="md:col-span-2 mt-6">
           <h4 class="text-lg font-semibold text-blue-800 mb-2">Sponsorship Level (Optional)</h4>
           <div class="grid md:grid-cols-3 gap-4">
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="sponsorship" value="gold">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="sponsorship" value="gold" class="text-blue-700 focus:ring-blue-700">
               <span>Gold — Ksh. 1,000,000 (1 slot)</span>
             </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="sponsorship" value="silver">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="sponsorship" value="silver" class="text-blue-700 focus:ring-blue-700">
               <span>Silver — Ksh. 500,000 (2 slots)</span>
             </label>
-            <label class="flex items-center space-x-3">
-              <input type="radio" name="sponsorship" value="bronze">
+            <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-blue-50">
+              <input type="radio" name="sponsorship" value="bronze" class="text-blue-700 focus:ring-blue-700">
               <span>Bronze — Ksh. 250,000 (4 slots)</span>
             </label>
           </div>
@@ -571,7 +532,6 @@
 
     
 
-        <!-- Consent -->
         <div class="md:col-span-2 mt-8 bg-blue-50 border-l-4 border-blue-700 p-6 rounded-lg text-gray-700 space-y-3 text-sm">
           <h4 class="text-blue-900 font-semibold text-lg">Data Consent & Affirmation</h4>
           <p><strong>i. Public Visibility:</strong> Your data will be permanently visible to all users globally.</p>
@@ -581,21 +541,19 @@
           <p><strong>v. Rights:</strong> You possess full rights to share the data and materials.</p>
         </div>
 
-        <!-- Signature & Date -->
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Signature</label>
-          <input type="text" name="signature" required class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="signature" class="block text-gray-700 mb-2 font-medium">Signature</label>
+          <input type="text" id="signature" name="signature" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
         <div>
-          <label class="block text-gray-700 mb-2 font-medium">Date</label>
-          <input type="date" name="date" required class="w-full border border-gray-300 rounded-lg px-4 py-3">
+          <label for="date" class="block text-gray-700 mb-2 font-medium">Date</label>
+          <input type="date" id="date" name="date" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
         </div>
 
-        <!-- Submit -->
         <div class="md:col-span-2 text-center mt-8">
           <button type="submit"
-            class="bg-blue-900 text-white font-semibold px-10 py-3 rounded-full shadow hover:bg-blue-800 transition-all">
+            class="bg-blue-900 text-white font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-800 transition-all">
             Submit Story
           </button>
         </div>
@@ -604,14 +562,12 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-white border-t border-gray-200 mt-10">
     <div class="max-w-6xl mx-auto px-6 py-6 text-center text-gray-600 text-sm">
       © 2025 SaniBook Initiative — Elevating Anecdote to Blueprint.
     </div>
   </footer>
 
-  <!-- Script: Mobile Menu -->
   <script>
     const toggleButton = document.getElementById('navbar-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -630,15 +586,22 @@
 
   <script>
     /* --- Word Count for Description --- */
-    const textarea = document.getElementById('brief-description');
+    const briefDescription = document.getElementById('brief-description');
     const wordCountDisplay = document.getElementById('word-count');
 
-    textarea.addEventListener('input', () => {
-      const words = textarea.value.trim().split(/\s+/).filter(word => word.length > 0);
-      wordCountDisplay.textContent = words.length;
+    function countWords(str) {
+      // Improved word counting: filters out empty strings resulting from multiple spaces
+      return str.trim().split(/\s+/).filter(word => word.length > 0).length;
+    }
+    
+    briefDescription.addEventListener('input', () => {
+      const currentWords = countWords(briefDescription.value);
+      wordCountDisplay.textContent = currentWords;
 
-      if (words.length > 50) {
-        textarea.value = words.slice(0, 50).join(" ");
+      if (currentWords > 50) {
+        // Simple limitation by word count, may cut mid-word but ensures limit compliance
+        const words = briefDescription.value.trim().split(/\s+/).slice(0, 50);
+        briefDescription.value = words.join(" ");
         wordCountDisplay.textContent = 50;
       }
     });
@@ -651,11 +614,6 @@
         imageSection.classList.remove('hidden');
       });
     });
-
-    /* --- Word Counter Helper --- */
-    function countWords(str) {
-      return str.trim().split(/\s+/).filter(word => word.length > 0).length;
-    }
 
     /* Impact Field Counter */
     const impactField = document.getElementById('impact-field');
@@ -675,6 +633,7 @@
   </script>
 
   <script>
+    /* --- Partnership Checkbox Toggle --- */
     const toggles = document.querySelectorAll('.partnership-toggle');
   
     toggles.forEach(toggle => {
@@ -693,27 +652,43 @@
     });
   </script>
 
-<script>
-  // Get the button and the dropdown menu
-  const dropdownButton = document.getElementById('dropdownButton');
-  const dropdownMenu = document.getElementById('dropdownMenu');
+  <script>
+    /* --- Intervention Dropdown Toggle --- */
+    const dropdownButton = document.getElementById('dropdownButton');
+    const dropdownMenu = document.getElementById('dropdownMenu');
 
-  // Toggle the visibility of the dropdown when the button is clicked
-  dropdownButton.addEventListener('click', () => {
-    dropdownMenu.classList.toggle('hidden');
-  });
-
-  // Close the dropdown if clicked outside of it
-  document.addEventListener('click', (e) => {
-    if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
-      dropdownMenu.classList.add('hidden');
+    // Function to update the button text based on selected checkboxes
+    function updateDropdownButtonText() {
+        const checkboxes = dropdownMenu.querySelectorAll('input[type="checkbox"]:checked');
+        if (checkboxes.length === 0) {
+            dropdownButton.textContent = 'Select Areas of Intervention';
+        } else if (checkboxes.length === 1) {
+            // Display the label text of the single selected item
+            dropdownButton.textContent = checkboxes[0].parentNode.textContent.trim();
+        } else {
+            dropdownButton.textContent = `${checkboxes.length} Areas Selected`;
+        }
     }
-  });
-</script>
 
+    // Toggle the visibility of the dropdown when the button is clicked
+    dropdownButton.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevents document click from immediately closing it
+      dropdownMenu.classList.toggle('hidden');
+    });
+
+    // Event listener for changes inside the dropdown (checkboxes)
+    dropdownMenu.addEventListener('change', updateDropdownButtonText);
+
+    // Initial check (in case of cached selections)
+    updateDropdownButtonText();
+
+    // Close the dropdown if clicked outside of it
+    document.addEventListener('click', (e) => {
+      if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
+        dropdownMenu.classList.add('hidden');
+      }
+    });
+  </script>
   
-  
-
-
 </body>
 </html>
