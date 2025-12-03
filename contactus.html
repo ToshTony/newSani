@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | SaniBook Initiative</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Colors for Sanitation Theme */
+    .sani-navy { background-color: #0A346C; } /* Deep Navy/Blue */
+    .sani-teal { background-color: #00A79D; } /* Vibrant Teal */
+    .text-sani-teal { color: #00A79D; }
+    
+    /* Subtle Scroll Animation Styles for Engagement */
+    .scroll-reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .scroll-reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .hover-effect {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-effect:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased pt-20 md:pt-24">
+
+  <!-- 1. 🧭 Fixed Header/Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <!-- Logo -->
+      <a href="index.html" class="text-2xl font-bold text-blue-700">
+        <h1>SaniBook</h1>
+      </a>
+
+      <!-- Hamburger Icon -->
+      <div class="md:hidden">
+        <button id="navbar-toggle" class="text-blue-700 p-2 rounded-md hover:bg-gray-100 transition-colors">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navbar Links -->
+      <ul id="navbar-links" class="hidden md:flex space-x-8 text-sm font-medium">
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+        <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors">Why the SaniBook</a></li>
+        <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors">Sanitation Reality</a></li>
+        <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors">Tell Your Story</a></li>
+        <li><a href="joinsani.html" class="text-gray-700 hover:text-blue-600 transition-colors">Join Sanitationists</a></li>
+        <li><a href="contactus.html" class="text-blue-700 font-semibold border-b-2 border-blue-700">Contact Us</a></li>
+        <li><a href="#login" class="text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-95 z-40 hidden transition-opacity duration-300 ease-in-out">
+    <div class="flex justify-end p-4">
+      <button id="close-mobile-menu" class="text-gray-800 text-3xl p-2 rounded-md hover:bg-gray-100">&times;</button>
+    </div>
+    <div class="flex flex-col justify-start items-center h-full pt-10">
+      <ul class="space-y-6 text-xl font-medium text-center">
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Home</a></li>
+        <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Why the SaniBook</a></li>
+        <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Sanitation Reality</a></li>
+        <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Tell Your Story</a></li>
+        <li><a href="joinsani.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Join Sanitationists</a></li>
+        <li><a href="contactus.html" class="text-blue-700 font-semibold" onclick="closeMobileMenu()">Contact Us</a></li>
+        <li><a href="#login" class="text-blue-700 mt-4 inline-block font-semibold bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors" onclick="closeMobileMenu()">Login</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2. Hero Section: Contact Title -->
+  <section class="relative sani-navy text-white py-20 overflow-hidden shadow-xl">
+    <!-- Image Placeholder for Network/Global Reach -->
+    <div class="absolute inset-0 bg-cover bg-center opacity-50" style="background-image: url('assets/imgs/new/landing\ page.jpg');"></div>
+    <div class="max-w-5xl mx-auto text-center px-6 relative z-10 scroll-reveal">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
+        Connect & Collaborate
+      </h2>
+      <p class="text-lg md:text-xl text-teal-300 max-w-3xl mx-auto">
+        Your link to the SaniBook Initiative, key sector stakeholders, and investment opportunities.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Main Content: Contact Cards and Form -->
+  <section class="py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+
+        <!-- Left Column: Inquiry Points -->
+        <div class="md:col-span-1 space-y-6">
+            <h3 class="text-3xl font-bold text-blue-900 mb-6 scroll-reveal">Departmental Inquiries</h3>
+            
+            <!-- Sales Inquiry Card -->
+            <div class="bg-blue-50 p-6 rounded-xl hover-effect border-l-4 border-blue-700 scroll-reveal" data-delay="100">
+                <h4 class="text-xl font-semibold text-blue-800 mb-2">Sales & Exhibiting</h4>
+                <p class="text-sm text-gray-600 mb-2">Inquiries regarding sponsorship, booth reservation, or advertising within SaniBook.</p>
+                <a href="mailto:sales@sanibook.ke" class="text-sani-teal font-medium hover:underline">sales@sanibook.ke</a>
+            </div>
+
+            <!-- Marketing Inquiry Card -->
+            <div class="bg-blue-50 p-6 rounded-xl hover-effect border-l-4 border-blue-700 scroll-reveal" data-delay="200">
+                <h4 class="text-xl font-semibold text-blue-800 mb-2">Media & Marketing</h4>
+                <p class="text-sm text-gray-600 mb-2">For press releases, media partnerships, or communication support.</p>
+                <a href="mailto:marketing@sanibook.ke" class="text-sani-teal font-medium hover:underline">marketing@sanibook.ke</a>
+            </div>
+
+            <!-- Partnership Inquiry Card -->
+            <div class="bg-blue-50 p-6 rounded-xl hover-effect border-l-4 border-blue-700 scroll-reveal" data-delay="300">
+                <h4 class="text-xl font-semibold text-blue-800 mb-2">Partnership & Research</h4>
+                <p class="text-sm text-gray-600 mb-2">For collaboration, data sharing, or academic research proposals.</p>
+                <a href="mailto:partnership@sanibook.ke" class="text-sani-teal font-medium hover:underline">partnership@sanibook.ke</a>
+            </div>
+            
+            <!-- Image Placeholder: Collaboration Visual -->
+            <div class="mt-8 scroll-reveal" data-delay="400">
+                <img src="assets/imgs/photo-2.jpeg" alt="Visual representation of collaboration" class="w-full h-auto rounded-xl shadow-lg" loading="lazy">
+            </div>
+        </div>
+
+        <!-- Right Column: Contact Form (Spanning 2 columns on desktop) -->
+        <div class="md:col-span-2 scroll-reveal">
+            <div class="bg-gray-100 p-8 rounded-2xl shadow-xl border border-gray-200">
+                <h3 class="text-3xl font-bold text-sani-teal mb-6">Send Us a Message</h3>
+                
+                <form action="#" method="POST" class="grid md:grid-cols-2 gap-6">
+
+                    <!-- Personal Details -->
+                    <div>
+                        <label for="full_name" class="block text-gray-700 mb-2 font-medium">Full Name <span class="text-red-500">*</span></label>
+                        <input type="text" id="full_name" name="full_name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+                    </div>
+
+                    <div>
+                        <label for="organization" class="block text-gray-700 mb-2 font-medium">Organization / Company</label>
+                        <input type="text" id="organization" name="organization" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-gray-700 mb-2 font-medium">Email Address <span class="text-red-500">*</span></label>
+                        <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+                    </div>
+
+                    <div>
+                        <label for="phone" class="block text-gray-700 mb-2 font-medium">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+                    </div>
+
+                    <!-- Inquiry Type and Message -->
+                    <div class="md:col-span-2">
+                        <label for="inquiry_type" class="block text-gray-700 mb-2 font-medium">Topic of Inquiry <span class="text-red-500">*</span></label>
+                        <select id="inquiry_type" name="inquiry_type" required
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700">
+                            <option value="">Select a Topic</option>
+                            <option>Sponsorship/Sales</option>
+                            <option>Media/Press</option>
+                            <option>General Information</option>
+                            <option>Data Submission/Tell Your Story</option>
+                            <option>Technical Issue</option>
+                        </select>
+                    </div>
+
+                    <div class="md:col-span-2">
+                        <label for="message" class="block text-gray-700 mb-2 font-medium">Your Message <span class="text-red-500">*</span></label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Please provide details about your inquiry..."
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-700"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="md:col-span-2 text-center mt-4">
+                        <button type="submit"
+                            class="bg-blue-900 text-white font-semibold px-10 py-3 rounded-full shadow-lg hover:bg-blue-800 transition-all transform hover:scale-[1.02]">
+                            Send Message
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- 4. Location Section (Optional Placeholder) -->
+  <section class="py-16 sani-teal text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center scroll-reveal">
+        <h3 class="text-3xl font-bold mb-6">Our Location</h3>
+        <p class="text-lg mb-6">
+            While our work spans across Kenya, our strategic hub ensures centralized coordination and impact.
+        </p>
+        <!-- Placeholder for a map or detailed address/icon -->
+        <div class="bg-white p-8 rounded-xl shadow-2xl text-gray-800 inline-block w-full max-w-lg">
+             <div class="text-4xl text-sani-teal mb-4">📍</div>
+             <p class="font-semibold text-xl">SaniBook Initiative Headquarters</p>
+             <p>Nairobi, Kenya</p>
+             <p class="text-sm mt-2"></p>
+        </div>
+    </div>
+  </section>
+
+  <!-- 5. 🦶 Footer -->
+  <footer class="sani-navy py-6 text-white text-center text-sm">
+    <div class="max-w-7xl mx-auto px-6">
+      &copy; 2025 SaniBook Initiative — Elevating Anecdote to Blueprint.
+    </div>
+  </footer>
+
+  <!-- 6. Scripts for Functionality -->
+  <script>
+    // --- Navigation Script ---
+    const toggleButton = document.getElementById('navbar-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeButton = document.getElementById('close-mobile-menu');
+
+    function closeMobileMenu() {
+        mobileMenu.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+
+    toggleButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        document.body.style.overflow = mobileMenu.classList.contains('hidden') ? 'auto' : 'hidden';
+    });
+
+    closeButton.addEventListener('click', closeMobileMenu);
+    
+    // --- Scroll Reveal Animation Script ---
+    const scrollReveal = () => {
+        const elements = document.querySelectorAll('.scroll-reveal');
+        elements.forEach((el, index) => {
+            const delay = parseInt(el.getAttribute('data-delay')) || 0;
+            const rect = el.getBoundingClientRect();
+            const viewHeight = window.innerHeight;
+
+            if (rect.top <= viewHeight * 0.8) {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, delay);
+            }
+        });
+    };
+
+    // Run animation on load and scroll
+    window.addEventListener('scroll', scrollReveal);
+    window.addEventListener('load', scrollReveal);
+  </script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaniBook 2025 Synopsis | Breaking the Chain</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Colors for Sanitation Theme */
+        .sani-navy { background-color: #0A346C; } /* Deep Navy/Blue */
+        .sani-teal { background-color: #00A79D; } /* Vibrant Teal */
+        .text-sani-teal { color: #00A79D; }
+        
+        /* Subtle Scroll Animation Styles */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased pt-20 md:pt-24">
+
+    <!-- 1. 🧭 Fixed Header/Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <a href="index.html" class="text-2xl font-bold text-blue-700">
+                <h1>SaniBook</h1>
+            </a>
+
+            <!-- Hamburger Icon -->
+            <div class="md:hidden">
+                <button id="navbar-toggle" class="text-blue-700 p-2 rounded-md hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navbar Links -->
+            <ul id="navbar-links" class="hidden md:flex space-x-8 text-sm font-medium">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+                <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors">Why the SaniBook</a></li>
+                <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors">Sanitation Reality</a></li>
+                <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors">Tell Your Story</a></li>
+                <li><a href="joinsani.html" class="text-gray-700 hover:text-blue-600 transition-colors">Join Sanitationists</a></li>
+                <li><a href="contactus.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a></li>
+                <li><a href="#login" class="text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-95 z-40 hidden transition-opacity duration-300 ease-in-out">
+        <div class="flex justify-end p-4">
+            <button id="close-mobile-menu" class="text-gray-800 text-3xl p-2 rounded-md hover:bg-gray-100">&times;</button>
+        </div>
+        <div class="flex flex-col justify-start items-center h-full pt-10">
+            <ul class="space-y-6 text-xl font-medium text-center">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Home</a></li>
+                <li><a href="whythesanibook.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Why the SaniBook</a></li>
+                <li><a href="sanitationreality.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Sanitation Reality</a></li>
+                <li><a href="tellstory.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Tell Your Story</a></li>
+                <li><a href="joinsani.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Join Sanitationists</a></li>
+                <li><a href="contactus.html" class="text-gray-700 hover:text-blue-600 transition-colors" onclick="closeMobileMenu()">Contact Us</a></li>
+                <li><a href="#login" class="text-blue-700 mt-4 inline-block font-semibold bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors" onclick="closeMobileMenu()">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 2. 🌟 Hero Section: Synopsis Title -->
+    <section class="relative sani-teal text-white py-20 overflow-hidden shadow-xl">
+        <!-- Placeholder for a dynamic, interconnected network graphic -->
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('assets/imgs/new/ecosys.jpg');"></div>
+        <div class="max-w-7xl mx-auto text-center px-6 relative z-10 scroll-reveal">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-3 tracking-tight">
+                SaniBook 2025: Breaking the Chain
+            </h1>
+            <p class="text-lg md:text-xl text-white max-w-3xl mx-auto font-light">
+                Unlocking Kenya's Sanitation Future: The Definitive Nexus for Sector Strategy.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. 🎯 Core Mission and Synergizing Impact -->
+    <section class="py-16 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            
+            <div class="scroll-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold sani-teal mb-4">
+                    Synergizing for Maximum Impact
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    SaniBook is a crucial game-changer designed to synergize all stakeholders—government, NGOs, private sector, and academia—to finally break down paralyzing silos. 
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed border-l-4 border-blue-600 pl-4 py-2 bg-blue-50 rounded-r-lg">
+                    Its primary mission is to create unprecedented coordination, streamline efforts, and drive maximum impact toward achieving sustainable and safely managed sanitation for all Kenyans.
+                </p>
+            </div>
+            
+            <div class="scroll-reveal" data-delay="200">
+                <!-- Placeholder for the "Kenya Sanitation Data Hub" visual -->
+                <img src="assets/imgs/new/new image page.jpg" alt="Kenya Sanitation Data Hub Network" class="rounded-xl shadow-2xl w-full h-auto" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- 4. 🔗 Unpacking the Seven Critical Bottlenecks -->
+    <section class="py-20 px-6 sani-navy text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold mb-6 text-teal-400 scroll-reveal">
+                Unpacking the Seven Critical Bottlenecks
+            </h2>
+            <p class="text-lg text-blue-100 mb-12 max-w-4xl mx-auto scroll-reveal" data-delay="100">
+                The core of this inaugural edition is an evidence-based analysis of the seven key failures that continuously undermine national progress, spanning the entire service chain.
+            </p>
+            
+            <!-- Bottleneck Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="200">
+                    <div class="text-4xl text-red-500 mb-3">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Low Access & Capacity</h3>
+                    <p class="text-sm text-gray-300">Inadequate infrastructure and limited institutional capacity to scale solutions.</p>
+                </div>
+                
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="300">
+                    <div class="text-4xl text-red-500 mb-3">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Institutional Fragmentation</h3>
+                    <p class="text-sm text-gray-300">Silos between government, NGOs, and the private sector leading to duplicated effort.</p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="400">
+                    <div class="text-4xl text-red-500 mb-3">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Poor Technology Adoption</h3>
+                    <p class="text-sm text-gray-300">Systemic bottlenecks preventing the adoption of proven, resilient sanitation and hygiene innovations.</p>
+                </div>
+                
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="500">
+                    <div class="text-4xl text-red-500 mb-3">4</div>
+                    <h3 class="text-xl font-semibold mb-2">Chronic Underinvestment</h3>
+                    <p class="text-sm text-gray-300">The sector lacks sustained and prioritized financial capital to meet national goals.</p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="600">
+                    <div class="text-4xl text-red-500 mb-3">5</div>
+                    <h3 class="text-xl font-semibold mb-2">Policy & Regulatory Gaps</h3>
+                    <p class="text-sm text-gray-300">Specific challenges in non-sewered sanitation (on-site fecal management).</p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="700">
+                    <div class="text-4xl text-red-500 mb-3">6</div>
+                    <h3 class="text-xl font-semibold mb-2">Persistent Behavioral Barriers</h3>
+                    <p class="text-sm text-gray-300">Socio-cultural hurdles that undermine hygiene promotion and adoption efforts.</p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl shadow-xl hover:shadow-sani-teal/50 transition-shadow duration-300 scroll-reveal" data-delay="800">
+                    <div class="text-4xl text-red-500 mb-3">7</div>
+                    <h3 class="text-xl font-semibold mb-2">The Funding Roadmap</h3>
+                    <p class="text-sm text-gray-300">SaniBook provides a quantified roadmap for targeted, actionable intervention planning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 🗺️ National Sanitation Directory (NSD) -->
+    <section class="py-16 px-6 bg-blue-50">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <div class="scroll-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+                    The National Sanitation Directory (NSD)
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    The NSD is the **vital mechanism** integrated into SaniBook to transform knowledge into collective action and attract large-scale impact investment.
+                </p>
+                
+                <ul class="space-y-4 text-gray-700">
+                    <li class="flex items-start">
+                        <span class="text-sani-teal text-2xl mr-3 font-extrabold">✓</span>
+                        <p><strong>Eliminate Resource Duplication:</strong> Accurately map national coverage to redirect resources to neediest areas.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-sani-teal text-2xl mr-3 font-extrabold">✓</span>
+                        <p><strong>Benchmark Professional Standards:</strong> Clearly identify organizations with the necessary supplies, technical skills, and capacity.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-sani-teal text-2xl mr-3 font-extrabold">✓</span>
+                        <p><strong>Strategic Investment:</strong> Transforming a fragmented industry into a transparent, quantifiable ecosystem ready for investment.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="scroll-reveal" data-delay="200">
+                <!-- Placeholder for the "National Sanitation Directory" visual -->
+                <img src="assets/imgs/new/last.jpg" alt="National Sanitation Directory Visualization" class="rounded-xl shadow-2xl w-full h-auto" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. 📢 Call to Action: Secure Your Place -->
+    <section class="py-16 px-6 sani-teal text-white text-center">
+        <div class="max-w-4xl mx-auto scroll-reveal">
+            <h3 class="text-3xl md:text-4xl font-bold mb-4">
+                Call to Action: Secure Your Place in the Solution!
+            </h3>
+            <p class="text-xl text-white mb-8">
+                Submit your data today to build a truly coordinated, effective, and sustainable sanitation future for Kenya.
+            </p>
+            <a href="tellstory.html" class="inline-block px-8 py-3 sani-navy text-white font-semibold rounded-full shadow-lg hover:bg-blue-800 transition duration-300 transform hover:scale-105">
+                Submit Your Data / Tell Your Story
+            </a>
+        </div>
+    </section>
+
+    <!-- 7. 🦶 Footer -->
+    <footer class="sani-navy py-6 text-white text-center text-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            &copy; 2025 SaniBook Initiative — Elevating Anecdote to Blueprint.
+        </div>
+    </footer>
+
+
+    <!-- JavaScript for Mobile Menu and Scroll Animations -->
+    <script>
+        // --- Navigation Script ---
+        const toggleButton = document.getElementById('navbar-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeButton = document.getElementById('close-mobile-menu');
+
+        function closeMobileMenu() {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        toggleButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            document.body.style.overflow = mobileMenu.classList.contains('hidden') ? 'auto' : 'hidden';
+        });
+
+        closeButton.addEventListener('click', closeMobileMenu);
+        
+        // --- Scroll Reveal Animation Script ---
+        const scrollReveal = () => {
+            const elements = document.querySelectorAll('.scroll-reveal');
+            elements.forEach((el, index) => {
+                // Delay based on data-delay attribute
+                const delay = parseInt(el.getAttribute('data-delay')) || 0;
+                
+                // Get element position relative to the viewport
+                const rect = el.getBoundingClientRect();
+                const viewHeight = window.innerHeight;
+
+                // Check if the element is visible (starts animation when 80% of element is visible)
+                if (rect.top <= viewHeight * 0.8) {
+                    setTimeout(() => {
+                        el.classList.add('visible');
+                    }, delay);
+                }
+            });
+        };
+
+        // Run animation on load and scroll
+        window.addEventListener('scroll', scrollReveal);
+        window.addEventListener('load', scrollReveal);
+    </script>
+</body>
+</html>
